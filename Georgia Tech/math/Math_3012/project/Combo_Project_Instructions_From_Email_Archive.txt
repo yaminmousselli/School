@@ -1,0 +1,81 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Email Archive Initial Project Description
+
+Good morning all,
+
+As discussed in class and the course syllabus,  we will have an *optional* project in Math 3012.  First, let me explain what the descriptor "optional" means.  Any student who declines to carry out a project will have their final grade determined by the three tests and the final exam, with the three hour tests counting 20% each and the final exam counting 30%.  As these scores amount to 90%, the resulting total will be scaled by multiplying by  10/9.  Outstanding performance on the cumulative final exam may raise a grade which is *close* to the boundary.
+
+Any student who elects to do a project will be able to earn 10% on the basis of a grade on that project.  The project grade will be counted *only* when it improves the score based solely on the three tests and the final exam.  In particular, if a student attempts a project and is unsuccessful, the result will be disregarded.
+
+There are two project options.  Final day of class (December 5)  is the deadline for turning in a project.  Please send by email so both of us have a record.  Early submissions are most welcomed!
+
+Computing Project Option.  Find (or write your own) code for implementing one the following four algorithms:  Euler circuits, Kruskal, Prim or Dijkstra.  Your code must work on my data.   I will give graph data for three graphs, one for Euler, one for Prim and Kruskal and one for Dijkstra.  Here are the formats:
+
+a.  The first line of each file will be an integer which is the number of vertices in the graph.
+
+b.   In graph_data-1.txt (for Euler) all other lines in the file will contain two integers:   x_1   x_2.   This is to be interpreted that there is an edge with end points  x_1  and  x_2.
+
+c.  In graph_data-2.txt (for Prim and Kruskal), all other lines in the file will contain three integers:   x_1   x_2    x_3.   This is to be interpreted that there is an undirected edge in the graph with end points   x_1  and  x_2.     Furthermore, the weight of this edge is  x_3.
+
+d.  In graph_data-3.txt  (for Dijkstra),  all other lines in the file will contain three integers:   x_1   x_2    x_3.   This is to be interpreted that there is a directed edge from  x_1  to  x_2 in the graph. Furthermore, the weight of this edge is  x_3.
+
+Note that Euler circuit is the only one of the four algorithms already discussed in class.  The other three will be covered in the next couple of classes.
+
+I will send the three data files later this week.  Also, I will give detailed instructions as to what information you are asked to provide with your solution.
+
+Combinatorial Mathematics Theory Project.  Read one of the "accessible" research papers which has been posted on T-Square under the Resources tab.  Then write a 3-4 page (double spaced, typewritten) summary of its contents.  Your summary must convince the reader (that's me) that you have read and understand its contents.  However, you are welcome to come by during office hours to get some help if you get stuck.
+
+Some of the papers (especially the Interval Partitions paper) contain some discussion of motivating problems in other fields.  You can ignore these parts and just focus on the combinatorial parts.
+
+See you in a bit.
+
+Tom T.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Email Archive Project Follow-up
+
+
+Hello all,
+For the past two and half years, Fidel Barrera-Cruz has been on a postdoc position here at Georgia Tech and I have had the privilege of servings as his "mentor".  Fidel is an incredibly bright young math/cs person who received his Ph.D. from the University of Waterloo in 2015.  Just this last week, he was offered and accepted a position at Google and will join them early in 2018.
+
+Fidel is a very clever mathematician but as you might expect, he is *very* good at advanced computing techniques which surface right at the boundary of theory and applications.
+
+I asked for Fidel's  help in generating data files for the optional project which I emailed you about earlier today.  The resulting files, with Fidel's comments appended below, are attached as a tar gzipped file.
+
+You should know that there is a bit of an inside joke at work here.  I have lots of computers.  One desktop and one laptop use Ubuntu 17.10, but two other desktops and a laptop run the Windows Insider version of Windows 10.  Currently, they are OS Build 17025.1000.
+
+Fidel hates Windows ... but he is a gentle and polite soul ... so he doesn't overtly show total disdain for my long running comfort level with Windows.  Still, he always sends me files in the  foo.tar.gz format.  Of course, under both Windows and Linux, I can handle this format.   For the moment, the question is whether all of  you can do this also?
+
+Seriously, if you are unable to extract the relevant files, let me know and I'll give them to you in a more user friendly format.
+
+Tom T.
+------------------------------------
+***This is an email he attached.
+
+
+Hi Tom,
+
+Please find attached the text files you requested earlier today.
+
+All graphs were constructed from (IPR) Buckminsterfullerenes (aka
+buckyballs, 3-regular planar graphs with all faces of lengths 5 or 6).
+
+1.txt - an Eulerian graph on 77 vertices. It is a 6-regular graph
+obtained as the planar dual of a buckyball plus a matching of size 6
+(buckyballs have exactly 12 faces of size 5, matching is added to make
+the dual 6 regular, however no longer planar).
+
+2.txt - A buckyball. It has 150 vertices and integer edge weights taken
+uniformly random from [1,100]. MST has weight 5214.
+
+3.txt - Another buckyball. It has 150 vertices and edges were
+duplicated to get a digraph. Integer weights on edges of digraph were
+chosen at random from [1,100]. The maximum distance between any two
+vertices is 218 and it is achieved for vertices 128 and 109.
+
+Not sure how to go about (at least partially) verifying the output for
+1.txt, but let me know if you have any suggestions.
+
+Best,
+Fidel
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***End of Project Instructions

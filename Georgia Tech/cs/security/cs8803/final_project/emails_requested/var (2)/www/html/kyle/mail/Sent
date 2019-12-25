@@ -1,0 +1,24 @@
+From kyle@ip-10-0-0-41  Wed Oct 25 00:44:58 2017
+Received: from 174.49.73.207
+        (SquirrelMail authenticated user kyle)
+        by mail.northamericanlumbercoalition.com with HTTP;
+        Wed, 25 Oct 2017 00:44:58 -0000
+Message-ID: <9a83ca372e4642c944bf6390a84b204c.squirrel@mail.northamericanlumbercoalition.com>
+Date: Wed, 25 Oct 2017 00:44:58 -0000
+Subject: test
+From: kyle@northamericanlumbercoalition.com
+To: kyle@northamericanlumbercoalition.com
+User-Agent: SquirrelMail/1.4.22-5.el6
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IMAPbase: 1508892231 0000000001
+X-UID: 1
+Status: RO
+X-Keywords:                                                                        
+Content-Length: 5
+
+test
+

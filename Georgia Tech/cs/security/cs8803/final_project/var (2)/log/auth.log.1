@@ -1,0 +1,1491 @@
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: new group: name=ubuntu, GID=1000
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'adm'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'dialout'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'cdrom'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'floppy'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'sudo'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'audio'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'dip'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'video'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'plugdev'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'netdev'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to group 'lxd'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'adm'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'dialout'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'cdrom'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'floppy'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'sudo'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'audio'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'dip'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'video'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'plugdev'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'netdev'
+Oct  9 22:48:23 ip-10-0-0-14 useradd[1032]: add 'ubuntu' to shadow group 'lxd'
+Oct  9 22:48:23 ip-10-0-0-14 passwd[1037]: password for 'ubuntu' changed by 'root'
+Oct  9 22:48:24 ip-10-0-0-14 systemd-logind[1065]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  9 22:48:24 ip-10-0-0-14 systemd-logind[1065]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct  9 22:48:24 ip-10-0-0-14 systemd-logind[1065]: New seat seat0.
+Oct  9 22:48:25 ip-10-0-0-14 sshd[1299]: Server listening on 0.0.0.0 port 22.
+Oct  9 22:48:25 ip-10-0-0-14 sshd[1299]: Server listening on :: port 22.
+Oct  9 22:50:20 ip-10-0-0-14 sshd[1344]: Accepted publickey for ubuntu from 143.215.32.94 port 54308 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct  9 22:50:20 ip-10-0-0-14 sshd[1344]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct  9 22:50:20 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Oct  9 22:50:20 ip-10-0-0-14 systemd-logind[1065]: New session 1 of user ubuntu.
+Oct  9 22:50:26 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct  9 22:50:26 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct  9 22:50:26 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct  9 22:50:31 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct  9 22:50:35 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct  9 22:50:35 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt full-upgrade
+Oct  9 22:50:35 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct  9 22:51:51 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct  9 22:59:14 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct  9 22:59:14 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/shutdown -h now
+Oct  9 22:59:14 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct  9 22:59:14 ip-10-0-0-14 sshd[1344]: pam_unix(sshd:session): session closed for user ubuntu
+Oct  9 22:59:14 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct  9 22:59:14 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Oct  9 22:59:14 ip-10-0-0-14 sshd[1299]: Received signal 15; terminating.
+Oct 16 16:24:23 ip-10-0-0-14 sshd[1154]: Server listening on 0.0.0.0 port 22.
+Oct 16 16:24:23 ip-10-0-0-14 sshd[1154]: Server listening on :: port 22.
+Oct 16 16:24:23 ip-10-0-0-14 systemd-logind[1140]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 16 16:24:23 ip-10-0-0-14 systemd-logind[1140]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 16 16:24:23 ip-10-0-0-14 systemd-logind[1140]: New seat seat0.
+Oct 16 17:17:01 ip-10-0-0-14 CRON[6333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 16 17:17:01 ip-10-0-0-14 CRON[6333]: pam_unix(cron:session): session closed for user root
+Oct 16 18:17:01 ip-10-0-0-14 CRON[6367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 16 18:17:01 ip-10-0-0-14 CRON[6367]: pam_unix(cron:session): session closed for user root
+Oct 22 17:52:33 ip-10-0-0-14 sshd[1136]: Server listening on 0.0.0.0 port 22.
+Oct 22 17:52:33 ip-10-0-0-14 sshd[1136]: Server listening on :: port 22.
+Oct 22 17:52:33 ip-10-0-0-14 systemd-logind[1133]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 22 17:52:33 ip-10-0-0-14 systemd-logind[1133]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 22 17:52:33 ip-10-0-0-14 systemd-logind[1133]: New seat seat0.
+Oct 22 18:17:01 ip-10-0-0-14 CRON[1631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 18:17:01 ip-10-0-0-14 CRON[1631]: pam_unix(cron:session): session closed for user root
+Oct 22 19:11:42 ip-10-0-0-14 sshd[1677]: Connection closed by 174.49.73.207 port 48120 [preauth]
+Oct 22 19:11:45 ip-10-0-0-14 sshd[1679]: Accepted publickey for ubuntu from 174.49.73.207 port 34378 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 22 19:11:45 ip-10-0-0-14 sshd[1679]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct 22 19:11:45 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Oct 22 19:11:45 ip-10-0-0-14 systemd-logind[1133]: New session 2 of user ubuntu.
+Oct 22 19:11:48 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:11:48 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 22 19:11:48 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:11:49 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:11:52 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:11:52 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt full-upgrade
+Oct 22 19:11:52 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:11:59 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:12:07 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:12:07 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service httpd status
+Oct 22 19:12:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:12:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:13:26 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:13:26 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install apache2
+Oct 22 19:13:26 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:13:33 ip-10-0-0-14 groupadd[7033]: group added to /etc/group: name=ssl-cert, GID=116
+Oct 22 19:13:33 ip-10-0-0-14 groupadd[7033]: group added to /etc/gshadow: name=ssl-cert
+Oct 22 19:13:33 ip-10-0-0-14 groupadd[7033]: new group: name=ssl-cert, GID=116
+Oct 22 19:13:34 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:13:58 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:13:58 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install mysql-server
+Oct 22 19:13:58 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:14:17 ip-10-0-0-14 groupadd[7697]: group added to /etc/group: name=mysql, GID=117
+Oct 22 19:14:17 ip-10-0-0-14 groupadd[7697]: group added to /etc/gshadow: name=mysql
+Oct 22 19:14:17 ip-10-0-0-14 groupadd[7697]: new group: name=mysql, GID=117
+Oct 22 19:14:17 ip-10-0-0-14 useradd[7703]: new user: name=mysql, UID=112, GID=117, home=/nonexistent, shell=/bin/false
+Oct 22 19:14:17 ip-10-0-0-14 chage[7708]: changed password expiry for mysql
+Oct 22 19:14:17 ip-10-0-0-14 chfn[7711]: changed user 'mysql' information
+Oct 22 19:14:28 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:15:12 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:15:12 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/mysql_secure_installation
+Oct 22 19:15:12 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:15:25 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:16:02 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:16:02 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install php libapache2-mod-php php-mcrypt php-mysql
+Oct 22 19:16:02 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:16:18 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:17:01 ip-10-0-0-14 CRON[15961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 19:17:01 ip-10-0-0-14 CRON[15961]: pam_unix(cron:session): session closed for user root
+Oct 22 19:19:26 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:19:26 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
+Oct 22 19:19:26 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:19:34 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:19:37 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:19:37 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 22 19:19:37 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:19:38 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:19:45 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:19:45 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/apache2/apache2.conf
+Oct 22 19:19:45 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:20:19 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:20:23 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:20:23 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Oct 22 19:20:23 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:20:23 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:20:31 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:20:31 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/apache2ctl configtest
+Oct 22 19:20:31 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:20:31 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:20:43 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:20:43 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 22 19:20:43 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:20:45 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:21:53 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:21:53 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/cp -a /tmp/wordpress/. /var/www/html
+Oct 22 19:21:53 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:21:54 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:22:56 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:22:56 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chown -R :www-data /var/www/html
+Oct 22 19:22:56 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:22:56 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:23:21 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:23:21 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/find /var/www/html -type d -exec chmod g+s {} ;
+Oct 22 19:23:21 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:23:21 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:23:34 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:23:34 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod g+w /var/www/html/wp-content
+Oct 22 19:23:34 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:23:34 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:23:44 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:23:44 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod -R g+w /var/www/html/wp-content/themes
+Oct 22 19:23:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:23:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:23:48 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:23:48 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod -R g+w /var/www/html/wp-content/plugins
+Oct 22 19:23:48 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:23:48 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:32:06 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:32:06 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Oct 22 19:32:06 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:32:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:32:39 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:32:39 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Oct 22 19:32:39 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:32:39 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:32:42 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:32:42 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Oct 22 19:32:42 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:32:42 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:32:47 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:32:47 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Oct 22 19:32:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:32:49 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:32:53 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:32:53 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Oct 22 19:32:53 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:32:53 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:34:38 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:34:38 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw allow proto tcp from 130.207.170.192/26 to any port 80,443
+Oct 22 19:34:38 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:34:38 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:34:47 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:34:47 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Oct 22 19:34:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:34:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:35:05 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:35:05 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw allow proto tcp from 174.49.73.207 to any port 80,443
+Oct 22 19:35:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:35:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:35:15 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 22 19:35:15 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/ufw allow proto tcp from 143.215.32.80/28 to any port 80,443
+Oct 22 19:35:15 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 22 19:35:15 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 22 19:39:01 ip-10-0-0-14 CRON[19857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 19:39:01 ip-10-0-0-14 CRON[19857]: pam_unix(cron:session): session closed for user root
+Oct 22 20:06:02 ip-10-0-0-14 sshd[1737]: Received disconnect from 174.49.73.207 port 34378:11: disconnected by user
+Oct 22 20:06:02 ip-10-0-0-14 sshd[1737]: Disconnected from 174.49.73.207 port 34378
+Oct 22 20:06:02 ip-10-0-0-14 sshd[1679]: pam_unix(sshd:session): session closed for user ubuntu
+Oct 22 20:06:02 ip-10-0-0-14 systemd-logind[1133]: Removed session 2.
+Oct 22 20:09:01 ip-10-0-0-14 CRON[19921]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 20:09:01 ip-10-0-0-14 CRON[19921]: pam_unix(cron:session): session closed for user root
+Oct 22 20:17:01 ip-10-0-0-14 CRON[19963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 20:17:01 ip-10-0-0-14 CRON[19963]: pam_unix(cron:session): session closed for user root
+Oct 22 20:39:01 ip-10-0-0-14 CRON[19978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 20:39:01 ip-10-0-0-14 CRON[19978]: pam_unix(cron:session): session closed for user root
+Oct 22 21:09:01 ip-10-0-0-14 CRON[20032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 21:09:01 ip-10-0-0-14 CRON[20032]: pam_unix(cron:session): session closed for user root
+Oct 22 21:17:01 ip-10-0-0-14 CRON[20074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 21:17:01 ip-10-0-0-14 CRON[20074]: pam_unix(cron:session): session closed for user root
+Oct 22 21:39:01 ip-10-0-0-14 CRON[20089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 21:39:01 ip-10-0-0-14 CRON[20089]: pam_unix(cron:session): session closed for user root
+Oct 22 22:09:01 ip-10-0-0-14 CRON[20143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 22:09:01 ip-10-0-0-14 CRON[20143]: pam_unix(cron:session): session closed for user root
+Oct 22 22:17:01 ip-10-0-0-14 CRON[20197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 22:17:01 ip-10-0-0-14 CRON[20197]: pam_unix(cron:session): session closed for user root
+Oct 22 22:39:01 ip-10-0-0-14 CRON[20212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 22:39:01 ip-10-0-0-14 CRON[20212]: pam_unix(cron:session): session closed for user root
+Oct 22 23:09:01 ip-10-0-0-14 CRON[20266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 23:09:01 ip-10-0-0-14 CRON[20266]: pam_unix(cron:session): session closed for user root
+Oct 22 23:17:01 ip-10-0-0-14 CRON[20315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 23:17:01 ip-10-0-0-14 CRON[20315]: pam_unix(cron:session): session closed for user root
+Oct 22 23:39:01 ip-10-0-0-14 CRON[20330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 22 23:39:02 ip-10-0-0-14 CRON[20330]: pam_unix(cron:session): session closed for user root
+Oct 23 00:09:01 ip-10-0-0-14 CRON[20384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 00:09:01 ip-10-0-0-14 CRON[20384]: pam_unix(cron:session): session closed for user root
+Oct 23 00:17:01 ip-10-0-0-14 CRON[20426]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 00:17:01 ip-10-0-0-14 CRON[20426]: pam_unix(cron:session): session closed for user root
+Oct 23 00:39:01 ip-10-0-0-14 CRON[20441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 00:39:01 ip-10-0-0-14 CRON[20441]: pam_unix(cron:session): session closed for user root
+Oct 23 01:09:01 ip-10-0-0-14 CRON[20495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 01:09:01 ip-10-0-0-14 CRON[20495]: pam_unix(cron:session): session closed for user root
+Oct 23 01:17:01 ip-10-0-0-14 CRON[20549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 01:17:01 ip-10-0-0-14 CRON[20549]: pam_unix(cron:session): session closed for user root
+Oct 23 01:39:01 ip-10-0-0-14 CRON[20552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 01:39:01 ip-10-0-0-14 CRON[20552]: pam_unix(cron:session): session closed for user root
+Oct 23 02:09:01 ip-10-0-0-14 CRON[20606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 02:09:01 ip-10-0-0-14 CRON[20606]: pam_unix(cron:session): session closed for user root
+Oct 23 02:17:01 ip-10-0-0-14 CRON[20660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 02:17:01 ip-10-0-0-14 CRON[20660]: pam_unix(cron:session): session closed for user root
+Oct 23 02:39:01 ip-10-0-0-14 CRON[20675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 02:39:01 ip-10-0-0-14 CRON[20675]: pam_unix(cron:session): session closed for user root
+Oct 23 03:09:01 ip-10-0-0-14 CRON[20729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 03:09:01 ip-10-0-0-14 CRON[20729]: pam_unix(cron:session): session closed for user root
+Oct 23 03:17:01 ip-10-0-0-14 CRON[20771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 03:17:01 ip-10-0-0-14 CRON[20771]: pam_unix(cron:session): session closed for user root
+Oct 23 03:39:01 ip-10-0-0-14 CRON[20786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 03:39:01 ip-10-0-0-14 CRON[20786]: pam_unix(cron:session): session closed for user root
+Oct 23 04:09:01 ip-10-0-0-14 CRON[20840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 04:09:01 ip-10-0-0-14 CRON[20840]: pam_unix(cron:session): session closed for user root
+Oct 23 04:17:01 ip-10-0-0-14 CRON[20882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 04:17:01 ip-10-0-0-14 CRON[20882]: pam_unix(cron:session): session closed for user root
+Oct 23 04:39:01 ip-10-0-0-14 CRON[20898]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 04:39:01 ip-10-0-0-14 CRON[20898]: pam_unix(cron:session): session closed for user root
+Oct 23 05:09:01 ip-10-0-0-14 CRON[20952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 05:09:01 ip-10-0-0-14 CRON[20952]: pam_unix(cron:session): session closed for user root
+Oct 23 05:17:01 ip-10-0-0-14 CRON[20994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 05:17:01 ip-10-0-0-14 CRON[20994]: pam_unix(cron:session): session closed for user root
+Oct 23 05:39:01 ip-10-0-0-14 CRON[21016]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 05:39:01 ip-10-0-0-14 CRON[21016]: pam_unix(cron:session): session closed for user root
+Oct 23 06:09:01 ip-10-0-0-14 CRON[21082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 06:09:01 ip-10-0-0-14 CRON[21082]: pam_unix(cron:session): session closed for user root
+Oct 23 06:17:01 ip-10-0-0-14 CRON[21124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 06:17:01 ip-10-0-0-14 CRON[21124]: pam_unix(cron:session): session closed for user root
+Oct 23 06:25:01 ip-10-0-0-14 CRON[21127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 06:25:10 ip-10-0-0-14 CRON[21127]: pam_unix(cron:session): session closed for user root
+Oct 23 06:39:01 ip-10-0-0-14 CRON[21252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 06:39:02 ip-10-0-0-14 CRON[21252]: pam_unix(cron:session): session closed for user root
+Oct 23 07:09:01 ip-10-0-0-14 CRON[21385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 07:09:01 ip-10-0-0-14 CRON[21385]: pam_unix(cron:session): session closed for user root
+Oct 23 07:17:01 ip-10-0-0-14 CRON[21427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 07:17:01 ip-10-0-0-14 CRON[21427]: pam_unix(cron:session): session closed for user root
+Oct 23 07:39:01 ip-10-0-0-14 CRON[21442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 07:39:01 ip-10-0-0-14 CRON[21442]: pam_unix(cron:session): session closed for user root
+Oct 23 08:09:01 ip-10-0-0-14 CRON[21496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 08:09:01 ip-10-0-0-14 CRON[21496]: pam_unix(cron:session): session closed for user root
+Oct 23 08:17:01 ip-10-0-0-14 CRON[21538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 08:17:01 ip-10-0-0-14 CRON[21538]: pam_unix(cron:session): session closed for user root
+Oct 23 08:39:01 ip-10-0-0-14 CRON[21553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 08:39:01 ip-10-0-0-14 CRON[21553]: pam_unix(cron:session): session closed for user root
+Oct 23 09:09:01 ip-10-0-0-14 CRON[21607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 09:09:01 ip-10-0-0-14 CRON[21607]: pam_unix(cron:session): session closed for user root
+Oct 23 09:17:01 ip-10-0-0-14 CRON[21649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 09:17:01 ip-10-0-0-14 CRON[21649]: pam_unix(cron:session): session closed for user root
+Oct 23 09:39:01 ip-10-0-0-14 CRON[21664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 09:39:01 ip-10-0-0-14 CRON[21664]: pam_unix(cron:session): session closed for user root
+Oct 23 10:09:01 ip-10-0-0-14 CRON[21730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 10:09:01 ip-10-0-0-14 CRON[21730]: pam_unix(cron:session): session closed for user root
+Oct 23 10:17:01 ip-10-0-0-14 CRON[21772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 10:17:01 ip-10-0-0-14 CRON[21772]: pam_unix(cron:session): session closed for user root
+Oct 23 10:39:01 ip-10-0-0-14 CRON[21787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 10:39:01 ip-10-0-0-14 CRON[21787]: pam_unix(cron:session): session closed for user root
+Oct 23 11:09:01 ip-10-0-0-14 CRON[21841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 11:09:01 ip-10-0-0-14 CRON[21841]: pam_unix(cron:session): session closed for user root
+Oct 23 11:17:01 ip-10-0-0-14 CRON[21883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 11:17:01 ip-10-0-0-14 CRON[21883]: pam_unix(cron:session): session closed for user root
+Oct 23 11:39:01 ip-10-0-0-14 CRON[21905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 11:39:01 ip-10-0-0-14 CRON[21905]: pam_unix(cron:session): session closed for user root
+Oct 23 12:09:01 ip-10-0-0-14 CRON[21959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 12:09:01 ip-10-0-0-14 CRON[21959]: pam_unix(cron:session): session closed for user root
+Oct 23 12:17:01 ip-10-0-0-14 CRON[22013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 12:17:01 ip-10-0-0-14 CRON[22013]: pam_unix(cron:session): session closed for user root
+Oct 23 12:39:01 ip-10-0-0-14 CRON[22016]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 12:39:01 ip-10-0-0-14 CRON[22016]: pam_unix(cron:session): session closed for user root
+Oct 23 13:09:01 ip-10-0-0-14 CRON[22082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 13:09:01 ip-10-0-0-14 CRON[22082]: pam_unix(cron:session): session closed for user root
+Oct 23 13:17:02 ip-10-0-0-14 CRON[22124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 13:17:02 ip-10-0-0-14 CRON[22124]: pam_unix(cron:session): session closed for user root
+Oct 23 13:39:01 ip-10-0-0-14 CRON[22139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 13:39:01 ip-10-0-0-14 CRON[22139]: pam_unix(cron:session): session closed for user root
+Oct 23 13:48:01 ip-10-0-0-14 CRON[22181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 13:48:01 ip-10-0-0-14 CRON[22181]: pam_unix(cron:session): session closed for user root
+Oct 23 14:09:01 ip-10-0-0-14 CRON[22196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 14:09:01 ip-10-0-0-14 CRON[22196]: pam_unix(cron:session): session closed for user root
+Oct 23 14:17:01 ip-10-0-0-14 CRON[22238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 14:17:01 ip-10-0-0-14 CRON[22238]: pam_unix(cron:session): session closed for user root
+Oct 23 14:39:01 ip-10-0-0-14 CRON[22253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 14:39:01 ip-10-0-0-14 CRON[22253]: pam_unix(cron:session): session closed for user root
+Oct 23 15:09:01 ip-10-0-0-14 CRON[22307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 15:09:01 ip-10-0-0-14 CRON[22307]: pam_unix(cron:session): session closed for user root
+Oct 23 15:17:01 ip-10-0-0-14 CRON[22349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 15:17:01 ip-10-0-0-14 CRON[22349]: pam_unix(cron:session): session closed for user root
+Oct 23 15:39:01 ip-10-0-0-14 CRON[22364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 15:39:01 ip-10-0-0-14 CRON[22364]: pam_unix(cron:session): session closed for user root
+Oct 23 16:09:01 ip-10-0-0-14 CRON[22430]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 16:09:01 ip-10-0-0-14 CRON[22430]: pam_unix(cron:session): session closed for user root
+Oct 23 16:17:01 ip-10-0-0-14 CRON[22472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 16:17:01 ip-10-0-0-14 CRON[22472]: pam_unix(cron:session): session closed for user root
+Oct 23 16:39:01 ip-10-0-0-14 CRON[22757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 16:39:01 ip-10-0-0-14 CRON[22757]: pam_unix(cron:session): session closed for user root
+Oct 23 17:09:01 ip-10-0-0-14 CRON[22818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 17:09:01 ip-10-0-0-14 CRON[22818]: pam_unix(cron:session): session closed for user root
+Oct 23 17:17:01 ip-10-0-0-14 CRON[22860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 17:17:01 ip-10-0-0-14 CRON[22860]: pam_unix(cron:session): session closed for user root
+Oct 23 17:39:01 ip-10-0-0-14 CRON[22875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 17:39:01 ip-10-0-0-14 CRON[22875]: pam_unix(cron:session): session closed for user root
+Oct 23 18:09:01 ip-10-0-0-14 CRON[22934]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 18:09:01 ip-10-0-0-14 CRON[22934]: pam_unix(cron:session): session closed for user root
+Oct 23 18:17:01 ip-10-0-0-14 CRON[22988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 18:17:01 ip-10-0-0-14 CRON[22988]: pam_unix(cron:session): session closed for user root
+Oct 23 18:39:01 ip-10-0-0-14 CRON[23038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 18:39:01 ip-10-0-0-14 CRON[23038]: pam_unix(cron:session): session closed for user root
+Oct 23 19:09:01 ip-10-0-0-14 CRON[23092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 19:09:01 ip-10-0-0-14 CRON[23092]: pam_unix(cron:session): session closed for user root
+Oct 23 19:17:01 ip-10-0-0-14 CRON[23146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 19:17:01 ip-10-0-0-14 CRON[23146]: pam_unix(cron:session): session closed for user root
+Oct 23 19:39:01 ip-10-0-0-14 CRON[23149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 19:39:02 ip-10-0-0-14 CRON[23149]: pam_unix(cron:session): session closed for user root
+Oct 23 20:09:01 ip-10-0-0-14 CRON[23215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 20:09:01 ip-10-0-0-14 CRON[23215]: pam_unix(cron:session): session closed for user root
+Oct 23 20:17:01 ip-10-0-0-14 CRON[23257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 20:17:01 ip-10-0-0-14 CRON[23257]: pam_unix(cron:session): session closed for user root
+Oct 23 20:39:01 ip-10-0-0-14 CRON[23272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 20:39:01 ip-10-0-0-14 CRON[23272]: pam_unix(cron:session): session closed for user root
+Oct 23 21:09:01 ip-10-0-0-14 CRON[23326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 21:09:01 ip-10-0-0-14 CRON[23326]: pam_unix(cron:session): session closed for user root
+Oct 23 21:17:01 ip-10-0-0-14 CRON[23368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 21:17:01 ip-10-0-0-14 CRON[23368]: pam_unix(cron:session): session closed for user root
+Oct 23 21:39:01 ip-10-0-0-14 CRON[23383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 21:39:01 ip-10-0-0-14 CRON[23383]: pam_unix(cron:session): session closed for user root
+Oct 23 22:09:01 ip-10-0-0-14 CRON[23437]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 22:09:01 ip-10-0-0-14 CRON[23437]: pam_unix(cron:session): session closed for user root
+Oct 23 22:17:01 ip-10-0-0-14 CRON[23491]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 22:17:01 ip-10-0-0-14 CRON[23491]: pam_unix(cron:session): session closed for user root
+Oct 23 22:39:01 ip-10-0-0-14 CRON[23506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 22:39:01 ip-10-0-0-14 CRON[23506]: pam_unix(cron:session): session closed for user root
+Oct 23 23:09:01 ip-10-0-0-14 CRON[23567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 23:09:01 ip-10-0-0-14 CRON[23567]: pam_unix(cron:session): session closed for user root
+Oct 23 23:17:01 ip-10-0-0-14 CRON[23609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 23:17:01 ip-10-0-0-14 CRON[23609]: pam_unix(cron:session): session closed for user root
+Oct 23 23:39:01 ip-10-0-0-14 CRON[23624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 23 23:39:01 ip-10-0-0-14 CRON[23624]: pam_unix(cron:session): session closed for user root
+Oct 24 00:09:01 ip-10-0-0-14 CRON[23678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 00:09:01 ip-10-0-0-14 CRON[23678]: pam_unix(cron:session): session closed for user root
+Oct 24 00:17:01 ip-10-0-0-14 CRON[23732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 00:17:01 ip-10-0-0-14 CRON[23732]: pam_unix(cron:session): session closed for user root
+Oct 24 00:39:01 ip-10-0-0-14 CRON[23735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 00:39:01 ip-10-0-0-14 CRON[23735]: pam_unix(cron:session): session closed for user root
+Oct 24 01:09:01 ip-10-0-0-14 CRON[23801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 01:09:01 ip-10-0-0-14 CRON[23801]: pam_unix(cron:session): session closed for user root
+Oct 24 01:17:01 ip-10-0-0-14 CRON[23843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 01:17:01 ip-10-0-0-14 CRON[23843]: pam_unix(cron:session): session closed for user root
+Oct 24 01:39:01 ip-10-0-0-14 CRON[23858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 01:39:01 ip-10-0-0-14 CRON[23858]: pam_unix(cron:session): session closed for user root
+Oct 24 02:09:01 ip-10-0-0-14 CRON[23912]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 02:09:01 ip-10-0-0-14 CRON[23912]: pam_unix(cron:session): session closed for user root
+Oct 24 02:17:01 ip-10-0-0-14 CRON[23954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 02:17:01 ip-10-0-0-14 CRON[23954]: pam_unix(cron:session): session closed for user root
+Oct 24 02:39:01 ip-10-0-0-14 CRON[23969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 02:39:01 ip-10-0-0-14 CRON[23969]: pam_unix(cron:session): session closed for user root
+Oct 24 03:09:01 ip-10-0-0-14 CRON[24023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 03:09:02 ip-10-0-0-14 CRON[24023]: pam_unix(cron:session): session closed for user root
+Oct 24 03:17:01 ip-10-0-0-14 CRON[24065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 03:17:01 ip-10-0-0-14 CRON[24065]: pam_unix(cron:session): session closed for user root
+Oct 24 03:39:01 ip-10-0-0-14 CRON[24080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 03:39:01 ip-10-0-0-14 CRON[24080]: pam_unix(cron:session): session closed for user root
+Oct 24 04:09:01 ip-10-0-0-14 CRON[24134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 04:09:01 ip-10-0-0-14 CRON[24134]: pam_unix(cron:session): session closed for user root
+Oct 24 04:17:01 ip-10-0-0-14 CRON[24188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 04:17:01 ip-10-0-0-14 CRON[24188]: pam_unix(cron:session): session closed for user root
+Oct 24 04:39:01 ip-10-0-0-14 CRON[24191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 04:39:01 ip-10-0-0-14 CRON[24191]: pam_unix(cron:session): session closed for user root
+Oct 24 05:09:01 ip-10-0-0-14 CRON[24257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 05:09:01 ip-10-0-0-14 CRON[24257]: pam_unix(cron:session): session closed for user root
+Oct 24 05:17:01 ip-10-0-0-14 CRON[24299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 05:17:01 ip-10-0-0-14 CRON[24299]: pam_unix(cron:session): session closed for user root
+Oct 24 05:39:01 ip-10-0-0-14 CRON[24314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 05:39:01 ip-10-0-0-14 CRON[24314]: pam_unix(cron:session): session closed for user root
+Oct 24 06:09:01 ip-10-0-0-14 CRON[24368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 06:09:01 ip-10-0-0-14 CRON[24368]: pam_unix(cron:session): session closed for user root
+Oct 24 06:17:01 ip-10-0-0-14 CRON[24410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 06:17:01 ip-10-0-0-14 CRON[24410]: pam_unix(cron:session): session closed for user root
+Oct 24 06:25:01 ip-10-0-0-14 CRON[24413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 06:25:02 ip-10-0-0-14 CRON[24413]: pam_unix(cron:session): session closed for user root
+Oct 24 06:39:01 ip-10-0-0-14 CRON[24603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 06:39:01 ip-10-0-0-14 CRON[24603]: pam_unix(cron:session): session closed for user root
+Oct 24 07:09:01 ip-10-0-0-14 CRON[26298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 07:09:01 ip-10-0-0-14 CRON[26298]: pam_unix(cron:session): session closed for user root
+Oct 24 07:17:01 ip-10-0-0-14 CRON[26340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 07:17:01 ip-10-0-0-14 CRON[26340]: pam_unix(cron:session): session closed for user root
+Oct 24 07:39:01 ip-10-0-0-14 CRON[26355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 07:39:01 ip-10-0-0-14 CRON[26355]: pam_unix(cron:session): session closed for user root
+Oct 24 08:09:01 ip-10-0-0-14 CRON[26409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 08:09:01 ip-10-0-0-14 CRON[26409]: pam_unix(cron:session): session closed for user root
+Oct 24 08:17:01 ip-10-0-0-14 CRON[26463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 08:17:01 ip-10-0-0-14 CRON[26463]: pam_unix(cron:session): session closed for user root
+Oct 24 08:39:01 ip-10-0-0-14 CRON[26466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 08:39:01 ip-10-0-0-14 CRON[26466]: pam_unix(cron:session): session closed for user root
+Oct 24 09:09:01 ip-10-0-0-14 CRON[26532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 09:09:01 ip-10-0-0-14 CRON[26532]: pam_unix(cron:session): session closed for user root
+Oct 24 09:17:01 ip-10-0-0-14 CRON[26574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 09:17:01 ip-10-0-0-14 CRON[26574]: pam_unix(cron:session): session closed for user root
+Oct 24 09:39:01 ip-10-0-0-14 CRON[26589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 09:39:01 ip-10-0-0-14 CRON[26589]: pam_unix(cron:session): session closed for user root
+Oct 24 10:09:01 ip-10-0-0-14 CRON[26643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 10:09:01 ip-10-0-0-14 CRON[26643]: pam_unix(cron:session): session closed for user root
+Oct 24 10:17:01 ip-10-0-0-14 CRON[26685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 10:17:01 ip-10-0-0-14 CRON[26685]: pam_unix(cron:session): session closed for user root
+Oct 24 10:39:01 ip-10-0-0-14 CRON[26700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 10:39:01 ip-10-0-0-14 CRON[26700]: pam_unix(cron:session): session closed for user root
+Oct 24 11:09:01 ip-10-0-0-14 CRON[26754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 11:09:01 ip-10-0-0-14 CRON[26754]: pam_unix(cron:session): session closed for user root
+Oct 24 11:17:01 ip-10-0-0-14 CRON[26808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 11:17:01 ip-10-0-0-14 CRON[26808]: pam_unix(cron:session): session closed for user root
+Oct 24 11:39:01 ip-10-0-0-14 CRON[26811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 11:39:02 ip-10-0-0-14 CRON[26811]: pam_unix(cron:session): session closed for user root
+Oct 24 12:09:01 ip-10-0-0-14 CRON[26884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 12:09:01 ip-10-0-0-14 CRON[26884]: pam_unix(cron:session): session closed for user root
+Oct 24 12:17:01 ip-10-0-0-14 CRON[26926]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 12:17:01 ip-10-0-0-14 CRON[26926]: pam_unix(cron:session): session closed for user root
+Oct 24 12:39:01 ip-10-0-0-14 CRON[26941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 12:39:01 ip-10-0-0-14 CRON[26941]: pam_unix(cron:session): session closed for user root
+Oct 24 13:09:01 ip-10-0-0-14 CRON[26995]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 13:09:01 ip-10-0-0-14 CRON[26995]: pam_unix(cron:session): session closed for user root
+Oct 24 13:17:01 ip-10-0-0-14 CRON[27037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 13:17:01 ip-10-0-0-14 CRON[27037]: pam_unix(cron:session): session closed for user root
+Oct 24 13:39:01 ip-10-0-0-14 CRON[27052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 13:39:01 ip-10-0-0-14 CRON[27052]: pam_unix(cron:session): session closed for user root
+Oct 24 13:48:01 ip-10-0-0-14 CRON[27106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 13:48:01 ip-10-0-0-14 CRON[27106]: pam_unix(cron:session): session closed for user root
+Oct 24 14:09:01 ip-10-0-0-14 CRON[27109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 14:09:01 ip-10-0-0-14 CRON[27109]: pam_unix(cron:session): session closed for user root
+Oct 24 14:17:01 ip-10-0-0-14 CRON[27163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 14:17:01 ip-10-0-0-14 CRON[27163]: pam_unix(cron:session): session closed for user root
+Oct 24 14:39:01 ip-10-0-0-14 CRON[27178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 14:39:01 ip-10-0-0-14 CRON[27178]: pam_unix(cron:session): session closed for user root
+Oct 24 15:09:01 ip-10-0-0-14 CRON[27232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 15:09:01 ip-10-0-0-14 CRON[27232]: pam_unix(cron:session): session closed for user root
+Oct 24 15:17:01 ip-10-0-0-14 CRON[27274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 15:17:01 ip-10-0-0-14 CRON[27274]: pam_unix(cron:session): session closed for user root
+Oct 24 15:39:01 ip-10-0-0-14 CRON[27289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 15:39:01 ip-10-0-0-14 CRON[27289]: pam_unix(cron:session): session closed for user root
+Oct 24 16:09:01 ip-10-0-0-14 CRON[27343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 16:09:01 ip-10-0-0-14 CRON[27343]: pam_unix(cron:session): session closed for user root
+Oct 24 16:17:01 ip-10-0-0-14 CRON[27385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 16:17:01 ip-10-0-0-14 CRON[27385]: pam_unix(cron:session): session closed for user root
+Oct 24 16:39:01 ip-10-0-0-14 CRON[27400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 16:39:01 ip-10-0-0-14 CRON[27400]: pam_unix(cron:session): session closed for user root
+Oct 24 17:09:01 ip-10-0-0-14 CRON[27454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 17:09:01 ip-10-0-0-14 CRON[27454]: pam_unix(cron:session): session closed for user root
+Oct 24 17:17:01 ip-10-0-0-14 CRON[27496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 17:17:01 ip-10-0-0-14 CRON[27496]: pam_unix(cron:session): session closed for user root
+Oct 24 17:39:01 ip-10-0-0-14 CRON[27511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 17:39:01 ip-10-0-0-14 CRON[27511]: pam_unix(cron:session): session closed for user root
+Oct 24 18:09:01 ip-10-0-0-14 CRON[27565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 18:09:01 ip-10-0-0-14 CRON[27565]: pam_unix(cron:session): session closed for user root
+Oct 24 18:17:01 ip-10-0-0-14 CRON[27612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 18:17:01 ip-10-0-0-14 CRON[27612]: pam_unix(cron:session): session closed for user root
+Oct 24 18:39:01 ip-10-0-0-14 CRON[27674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 18:39:02 ip-10-0-0-14 CRON[27674]: pam_unix(cron:session): session closed for user root
+Oct 24 19:09:01 ip-10-0-0-14 CRON[27747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 19:09:01 ip-10-0-0-14 CRON[27747]: pam_unix(cron:session): session closed for user root
+Oct 24 19:17:01 ip-10-0-0-14 CRON[27789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 19:17:01 ip-10-0-0-14 CRON[27789]: pam_unix(cron:session): session closed for user root
+Oct 24 19:39:01 ip-10-0-0-14 CRON[27804]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 19:39:01 ip-10-0-0-14 CRON[27804]: pam_unix(cron:session): session closed for user root
+Oct 24 20:09:01 ip-10-0-0-14 CRON[27858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 20:09:01 ip-10-0-0-14 CRON[27858]: pam_unix(cron:session): session closed for user root
+Oct 24 20:17:01 ip-10-0-0-14 CRON[27900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 20:17:01 ip-10-0-0-14 CRON[27900]: pam_unix(cron:session): session closed for user root
+Oct 24 20:39:01 ip-10-0-0-14 CRON[27915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 20:39:01 ip-10-0-0-14 CRON[27915]: pam_unix(cron:session): session closed for user root
+Oct 24 21:09:01 ip-10-0-0-14 CRON[27969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 21:09:01 ip-10-0-0-14 CRON[27969]: pam_unix(cron:session): session closed for user root
+Oct 24 21:17:01 ip-10-0-0-14 CRON[28023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 21:17:01 ip-10-0-0-14 CRON[28023]: pam_unix(cron:session): session closed for user root
+Oct 24 21:39:01 ip-10-0-0-14 CRON[28026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 21:39:01 ip-10-0-0-14 CRON[28026]: pam_unix(cron:session): session closed for user root
+Oct 24 22:09:01 ip-10-0-0-14 CRON[28080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 22:09:01 ip-10-0-0-14 CRON[28080]: pam_unix(cron:session): session closed for user root
+Oct 24 22:17:01 ip-10-0-0-14 CRON[28134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 22:17:01 ip-10-0-0-14 CRON[28134]: pam_unix(cron:session): session closed for user root
+Oct 24 22:39:01 ip-10-0-0-14 CRON[28155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 22:39:01 ip-10-0-0-14 CRON[28155]: pam_unix(cron:session): session closed for user root
+Oct 24 23:09:01 ip-10-0-0-14 CRON[28209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 23:09:01 ip-10-0-0-14 CRON[28209]: pam_unix(cron:session): session closed for user root
+Oct 24 23:17:01 ip-10-0-0-14 CRON[28251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 23:17:01 ip-10-0-0-14 CRON[28251]: pam_unix(cron:session): session closed for user root
+Oct 24 23:39:01 ip-10-0-0-14 CRON[28273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 24 23:39:01 ip-10-0-0-14 CRON[28273]: pam_unix(cron:session): session closed for user root
+Oct 25 00:09:01 ip-10-0-0-14 CRON[28327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 00:09:01 ip-10-0-0-14 CRON[28327]: pam_unix(cron:session): session closed for user root
+Oct 25 00:17:01 ip-10-0-0-14 CRON[28369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 00:17:01 ip-10-0-0-14 CRON[28369]: pam_unix(cron:session): session closed for user root
+Oct 25 00:39:01 ip-10-0-0-14 CRON[28384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 00:39:01 ip-10-0-0-14 CRON[28384]: pam_unix(cron:session): session closed for user root
+Oct 25 01:09:01 ip-10-0-0-14 CRON[28438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 01:09:01 ip-10-0-0-14 CRON[28438]: pam_unix(cron:session): session closed for user root
+Oct 25 01:17:01 ip-10-0-0-14 CRON[28481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 01:17:01 ip-10-0-0-14 CRON[28481]: pam_unix(cron:session): session closed for user root
+Oct 25 01:33:07 ip-10-0-0-14 sshd[28514]: Accepted publickey for ubuntu from 174.49.73.207 port 36515 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 25 01:33:07 ip-10-0-0-14 sshd[28514]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct 25 01:33:07 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Oct 25 01:33:07 ip-10-0-0-14 systemd-logind[1133]: New session 170 of user ubuntu.
+Oct 25 01:33:20 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:33:20 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/dpkg -i splunkforwarder-7.0.0-c8a78efdd40f-linux-2.6-amd64.deb
+Oct 25 01:33:20 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:33:20 ip-10-0-0-14 groupadd[28613]: group added to /etc/group: name=splunk, GID=1001
+Oct 25 01:33:20 ip-10-0-0-14 groupadd[28613]: group added to /etc/gshadow: name=splunk
+Oct 25 01:33:20 ip-10-0-0-14 groupadd[28613]: new group: name=splunk, GID=1001
+Oct 25 01:33:20 ip-10-0-0-14 useradd[28618]: new user: name=splunk, UID=1001, GID=1001, home=/opt/splunkforwarder, shell=/bin/bash
+Oct 25 01:33:21 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:33:34 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:33:34 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk enable boot-start
+Oct 25 01:33:34 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:33:36 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:33:42 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:33:42 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su - splunk
+Oct 25 01:33:42 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:33:42 ip-10-0-0-14 su[28677]: Successful su for splunk by root
+Oct 25 01:33:42 ip-10-0-0-14 su[28677]: + /dev/pts/0 root:splunk
+Oct 25 01:33:42 ip-10-0-0-14 su[28677]: pam_unix(su:session): session opened for user splunk by ubuntu(uid=0)
+Oct 25 01:33:42 ip-10-0-0-14 su[28677]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 25 01:34:00 ip-10-0-0-14 su[28677]: pam_unix(su:session): session closed for user splunk
+Oct 25 01:34:00 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:34:02 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:34:02 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/service splunk start
+Oct 25 01:34:02 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:34:04 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:36:15 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:36:15 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/service splunk status
+Oct 25 01:36:15 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:36:25 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:39:01 ip-10-0-0-14 CRON[28847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 01:39:01 ip-10-0-0-14 CRON[28847]: pam_unix(cron:session): session closed for user root
+Oct 25 01:41:05 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:41:05 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su - splunk
+Oct 25 01:41:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:41:05 ip-10-0-0-14 su[28891]: Successful su for splunk by root
+Oct 25 01:41:05 ip-10-0-0-14 su[28891]: + /dev/pts/0 root:splunk
+Oct 25 01:41:05 ip-10-0-0-14 su[28891]: pam_unix(su:session): session opened for user splunk by ubuntu(uid=0)
+Oct 25 01:41:05 ip-10-0-0-14 su[28891]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 25 01:41:11 ip-10-0-0-14 su[28891]: pam_unix(su:session): session closed for user splunk
+Oct 25 01:41:11 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:41:13 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:41:13 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su -
+Oct 25 01:41:13 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:41:13 ip-10-0-0-14 su[28903]: Successful su for root by root
+Oct 25 01:41:13 ip-10-0-0-14 su[28903]: + /dev/pts/0 root:root
+Oct 25 01:41:13 ip-10-0-0-14 su[28903]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:41:13 ip-10-0-0-14 su[28903]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 25 01:56:10 ip-10-0-0-14 sudo:     root : unable to resolve host ip-10-0-0-14
+Oct 25 01:56:10 ip-10-0-0-14 sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder ; USER=root ; COMMAND=/sbin/route add -net 10.0.2.0/24 10.0.2.10 dev eth0
+Oct 25 01:56:10 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:56:10 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:56:42 ip-10-0-0-14 sudo:     root : unable to resolve host ip-10-0-0-14
+Oct 25 01:56:42 ip-10-0-0-14 sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder ; USER=root ; COMMAND=/sbin/route add -net 10.0.2.0/24 gw 10.0.2.10 dev eth0
+Oct 25 01:56:42 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:56:42 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:57:10 ip-10-0-0-14 sudo:     root : unable to resolve host ip-10-0-0-14
+Oct 25 01:57:10 ip-10-0-0-14 sudo:     root : TTY=pts/0 ; PWD=/opt/splunkforwarder ; USER=root ; COMMAND=/sbin/route add -net 10.0.2.0/24 gw 10.0.0.231 dev eth0
+Oct 25 01:57:10 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:57:10 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:57:29 ip-10-0-0-14 su[28903]: pam_unix(su:session): session closed for user root
+Oct 25 01:57:29 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:57:34 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:57:34 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/service splunk restart
+Oct 25 01:57:34 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 01:57:39 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 01:59:02 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 01:59:02 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xnn host 10.0.2.188
+Oct 25 01:59:02 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 02:03:52 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 02:08:53 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 02:08:53 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su -
+Oct 25 02:08:53 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 02:08:53 ip-10-0-0-14 su[29265]: Successful su for root by root
+Oct 25 02:08:53 ip-10-0-0-14 su[29265]: + /dev/pts/0 root:root
+Oct 25 02:08:53 ip-10-0-0-14 su[29265]: pam_unix(su:session): session opened for user root by ubuntu(uid=0)
+Oct 25 02:08:53 ip-10-0-0-14 su[29265]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 25 02:09:01 ip-10-0-0-14 CRON[29283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:09:02 ip-10-0-0-14 CRON[29283]: pam_unix(cron:session): session closed for user root
+Oct 25 02:09:11 ip-10-0-0-14 su[29265]: pam_unix(su:session): session closed for user root
+Oct 25 02:09:11 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 02:10:44 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 25 02:10:44 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service splunk restart
+Oct 25 02:10:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 25 02:10:49 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 25 02:17:01 ip-10-0-0-14 CRON[29512]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:17:01 ip-10-0-0-14 CRON[29512]: pam_unix(cron:session): session closed for user root
+Oct 25 02:39:01 ip-10-0-0-14 CRON[29515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 02:39:01 ip-10-0-0-14 CRON[29515]: pam_unix(cron:session): session closed for user root
+Oct 25 02:40:50 ip-10-0-0-14 sshd[28577]: Received disconnect from 174.49.73.207 port 36515:11: disconnected by user
+Oct 25 02:40:50 ip-10-0-0-14 sshd[28577]: Disconnected from 174.49.73.207 port 36515
+Oct 25 02:40:50 ip-10-0-0-14 sshd[28514]: pam_unix(sshd:session): session closed for user ubuntu
+Oct 25 02:40:50 ip-10-0-0-14 systemd-logind[1133]: Removed session 170.
+Oct 25 03:09:01 ip-10-0-0-14 CRON[29593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:09:01 ip-10-0-0-14 CRON[29593]: pam_unix(cron:session): session closed for user root
+Oct 25 03:17:01 ip-10-0-0-14 CRON[29635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:17:01 ip-10-0-0-14 CRON[29635]: pam_unix(cron:session): session closed for user root
+Oct 25 03:39:01 ip-10-0-0-14 CRON[29650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 03:39:01 ip-10-0-0-14 CRON[29650]: pam_unix(cron:session): session closed for user root
+Oct 25 04:09:01 ip-10-0-0-14 CRON[29704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:09:01 ip-10-0-0-14 CRON[29704]: pam_unix(cron:session): session closed for user root
+Oct 25 04:17:01 ip-10-0-0-14 CRON[29746]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:17:01 ip-10-0-0-14 CRON[29746]: pam_unix(cron:session): session closed for user root
+Oct 25 04:39:01 ip-10-0-0-14 CRON[29761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 04:39:01 ip-10-0-0-14 CRON[29761]: pam_unix(cron:session): session closed for user root
+Oct 25 05:09:01 ip-10-0-0-14 CRON[29815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 05:09:01 ip-10-0-0-14 CRON[29815]: pam_unix(cron:session): session closed for user root
+Oct 25 05:17:01 ip-10-0-0-14 CRON[29857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 05:17:01 ip-10-0-0-14 CRON[29857]: pam_unix(cron:session): session closed for user root
+Oct 25 05:39:01 ip-10-0-0-14 CRON[29872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 05:39:01 ip-10-0-0-14 CRON[29872]: pam_unix(cron:session): session closed for user root
+Oct 25 06:09:01 ip-10-0-0-14 CRON[29938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 06:09:01 ip-10-0-0-14 CRON[29938]: pam_unix(cron:session): session closed for user root
+Oct 25 06:17:01 ip-10-0-0-14 CRON[29980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 06:17:01 ip-10-0-0-14 CRON[29980]: pam_unix(cron:session): session closed for user root
+Oct 25 06:25:01 ip-10-0-0-14 CRON[29990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 06:25:03 ip-10-0-0-14 CRON[29990]: pam_unix(cron:session): session closed for user root
+Oct 25 06:39:01 ip-10-0-0-14 CRON[30342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 06:39:01 ip-10-0-0-14 CRON[30342]: pam_unix(cron:session): session closed for user root
+Oct 25 07:09:01 ip-10-0-0-14 CRON[30396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 07:09:02 ip-10-0-0-14 CRON[30396]: pam_unix(cron:session): session closed for user root
+Oct 25 07:17:01 ip-10-0-0-14 CRON[30438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 07:17:01 ip-10-0-0-14 CRON[30438]: pam_unix(cron:session): session closed for user root
+Oct 25 07:39:01 ip-10-0-0-14 CRON[30453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 07:39:01 ip-10-0-0-14 CRON[30453]: pam_unix(cron:session): session closed for user root
+Oct 25 08:09:01 ip-10-0-0-14 CRON[30507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 08:09:01 ip-10-0-0-14 CRON[30507]: pam_unix(cron:session): session closed for user root
+Oct 25 08:17:01 ip-10-0-0-14 CRON[30549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 08:17:01 ip-10-0-0-14 CRON[30549]: pam_unix(cron:session): session closed for user root
+Oct 25 08:39:01 ip-10-0-0-14 CRON[30564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 08:39:01 ip-10-0-0-14 CRON[30564]: pam_unix(cron:session): session closed for user root
+Oct 25 09:09:01 ip-10-0-0-14 CRON[30618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 09:09:01 ip-10-0-0-14 CRON[30618]: pam_unix(cron:session): session closed for user root
+Oct 25 09:17:01 ip-10-0-0-14 CRON[30660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 09:17:01 ip-10-0-0-14 CRON[30660]: pam_unix(cron:session): session closed for user root
+Oct 25 09:39:01 ip-10-0-0-14 CRON[30675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 09:39:01 ip-10-0-0-14 CRON[30675]: pam_unix(cron:session): session closed for user root
+Oct 25 10:09:01 ip-10-0-0-14 CRON[30729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 10:09:01 ip-10-0-0-14 CRON[30729]: pam_unix(cron:session): session closed for user root
+Oct 25 10:17:01 ip-10-0-0-14 CRON[30783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 10:17:01 ip-10-0-0-14 CRON[30783]: pam_unix(cron:session): session closed for user root
+Oct 25 10:39:01 ip-10-0-0-14 CRON[30798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 10:39:01 ip-10-0-0-14 CRON[30798]: pam_unix(cron:session): session closed for user root
+Oct 25 11:09:01 ip-10-0-0-14 CRON[30852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 11:09:01 ip-10-0-0-14 CRON[30852]: pam_unix(cron:session): session closed for user root
+Oct 25 11:17:01 ip-10-0-0-14 CRON[30894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 11:17:01 ip-10-0-0-14 CRON[30894]: pam_unix(cron:session): session closed for user root
+Oct 25 11:39:01 ip-10-0-0-14 CRON[30916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 11:39:01 ip-10-0-0-14 CRON[30916]: pam_unix(cron:session): session closed for user root
+Oct 25 12:09:01 ip-10-0-0-14 CRON[30970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 12:09:01 ip-10-0-0-14 CRON[30970]: pam_unix(cron:session): session closed for user root
+Oct 25 12:17:01 ip-10-0-0-14 CRON[31012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 12:17:01 ip-10-0-0-14 CRON[31012]: pam_unix(cron:session): session closed for user root
+Oct 25 12:39:01 ip-10-0-0-14 CRON[31027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 12:39:01 ip-10-0-0-14 CRON[31027]: pam_unix(cron:session): session closed for user root
+Oct 25 13:09:01 ip-10-0-0-14 CRON[31081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 13:09:01 ip-10-0-0-14 CRON[31081]: pam_unix(cron:session): session closed for user root
+Oct 25 13:17:01 ip-10-0-0-14 CRON[31135]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 13:17:01 ip-10-0-0-14 CRON[31135]: pam_unix(cron:session): session closed for user root
+Oct 25 13:39:01 ip-10-0-0-14 CRON[31159]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 13:39:02 ip-10-0-0-14 CRON[31159]: pam_unix(cron:session): session closed for user root
+Oct 25 13:48:01 ip-10-0-0-14 CRON[31213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 13:48:01 ip-10-0-0-14 CRON[31213]: pam_unix(cron:session): session closed for user root
+Oct 25 14:09:01 ip-10-0-0-14 CRON[31228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 14:09:01 ip-10-0-0-14 CRON[31228]: pam_unix(cron:session): session closed for user root
+Oct 25 14:17:01 ip-10-0-0-14 CRON[31270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 14:17:01 ip-10-0-0-14 CRON[31270]: pam_unix(cron:session): session closed for user root
+Oct 25 14:39:01 ip-10-0-0-14 CRON[31285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 14:39:01 ip-10-0-0-14 CRON[31285]: pam_unix(cron:session): session closed for user root
+Oct 25 15:09:01 ip-10-0-0-14 CRON[31340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 15:09:01 ip-10-0-0-14 CRON[31340]: pam_unix(cron:session): session closed for user root
+Oct 25 15:17:01 ip-10-0-0-14 CRON[31382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 15:17:01 ip-10-0-0-14 CRON[31382]: pam_unix(cron:session): session closed for user root
+Oct 25 15:39:01 ip-10-0-0-14 CRON[31397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 15:39:01 ip-10-0-0-14 CRON[31397]: pam_unix(cron:session): session closed for user root
+Oct 25 16:09:01 ip-10-0-0-14 CRON[31451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 16:09:01 ip-10-0-0-14 CRON[31451]: pam_unix(cron:session): session closed for user root
+Oct 25 16:17:01 ip-10-0-0-14 CRON[31505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 16:17:01 ip-10-0-0-14 CRON[31505]: pam_unix(cron:session): session closed for user root
+Oct 25 16:39:01 ip-10-0-0-14 CRON[31508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 16:39:01 ip-10-0-0-14 CRON[31508]: pam_unix(cron:session): session closed for user root
+Oct 25 17:09:01 ip-10-0-0-14 CRON[31574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 17:09:01 ip-10-0-0-14 CRON[31574]: pam_unix(cron:session): session closed for user root
+Oct 25 17:17:01 ip-10-0-0-14 CRON[31616]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 17:17:01 ip-10-0-0-14 CRON[31616]: pam_unix(cron:session): session closed for user root
+Oct 25 17:39:01 ip-10-0-0-14 CRON[31631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 17:39:01 ip-10-0-0-14 CRON[31631]: pam_unix(cron:session): session closed for user root
+Oct 25 18:09:01 ip-10-0-0-14 CRON[31953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 18:09:01 ip-10-0-0-14 CRON[31953]: pam_unix(cron:session): session closed for user root
+Oct 25 18:17:01 ip-10-0-0-14 CRON[32000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 18:17:01 ip-10-0-0-14 CRON[32000]: pam_unix(cron:session): session closed for user root
+Oct 25 18:39:01 ip-10-0-0-14 CRON[32022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 18:39:01 ip-10-0-0-14 CRON[32022]: pam_unix(cron:session): session closed for user root
+Oct 25 19:09:01 ip-10-0-0-14 CRON[32076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 19:09:01 ip-10-0-0-14 CRON[32076]: pam_unix(cron:session): session closed for user root
+Oct 25 19:17:01 ip-10-0-0-14 CRON[32130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 19:17:01 ip-10-0-0-14 CRON[32130]: pam_unix(cron:session): session closed for user root
+Oct 25 19:39:01 ip-10-0-0-14 CRON[32145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 19:39:01 ip-10-0-0-14 CRON[32145]: pam_unix(cron:session): session closed for user root
+Oct 25 20:09:01 ip-10-0-0-14 CRON[32199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 20:09:01 ip-10-0-0-14 CRON[32199]: pam_unix(cron:session): session closed for user root
+Oct 25 20:17:01 ip-10-0-0-14 CRON[32241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 20:17:01 ip-10-0-0-14 CRON[32241]: pam_unix(cron:session): session closed for user root
+Oct 25 20:39:01 ip-10-0-0-14 CRON[32256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 20:39:02 ip-10-0-0-14 CRON[32256]: pam_unix(cron:session): session closed for user root
+Oct 25 21:09:01 ip-10-0-0-14 CRON[32310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 21:09:01 ip-10-0-0-14 CRON[32310]: pam_unix(cron:session): session closed for user root
+Oct 25 21:17:01 ip-10-0-0-14 CRON[32352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 21:17:01 ip-10-0-0-14 CRON[32352]: pam_unix(cron:session): session closed for user root
+Oct 25 21:39:01 ip-10-0-0-14 CRON[32367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 21:39:01 ip-10-0-0-14 CRON[32367]: pam_unix(cron:session): session closed for user root
+Oct 25 22:09:01 ip-10-0-0-14 CRON[32421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 22:09:01 ip-10-0-0-14 CRON[32421]: pam_unix(cron:session): session closed for user root
+Oct 25 22:17:01 ip-10-0-0-14 CRON[32463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 22:17:01 ip-10-0-0-14 CRON[32463]: pam_unix(cron:session): session closed for user root
+Oct 25 22:39:01 ip-10-0-0-14 CRON[32478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 22:39:01 ip-10-0-0-14 CRON[32478]: pam_unix(cron:session): session closed for user root
+Oct 25 23:09:01 ip-10-0-0-14 CRON[32532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 23:09:01 ip-10-0-0-14 CRON[32532]: pam_unix(cron:session): session closed for user root
+Oct 25 23:17:01 ip-10-0-0-14 CRON[32586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 23:17:01 ip-10-0-0-14 CRON[32586]: pam_unix(cron:session): session closed for user root
+Oct 25 23:39:01 ip-10-0-0-14 CRON[32601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 25 23:39:01 ip-10-0-0-14 CRON[32601]: pam_unix(cron:session): session closed for user root
+Oct 26 00:09:01 ip-10-0-0-14 CRON[32655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 00:09:01 ip-10-0-0-14 CRON[32655]: pam_unix(cron:session): session closed for user root
+Oct 26 00:17:01 ip-10-0-0-14 CRON[32697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 00:17:01 ip-10-0-0-14 CRON[32697]: pam_unix(cron:session): session closed for user root
+Oct 26 00:39:01 ip-10-0-0-14 CRON[32719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 00:39:01 ip-10-0-0-14 CRON[32719]: pam_unix(cron:session): session closed for user root
+Oct 26 01:09:01 ip-10-0-0-14 CRON[307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 01:09:01 ip-10-0-0-14 CRON[307]: pam_unix(cron:session): session closed for user root
+Oct 26 01:17:01 ip-10-0-0-14 CRON[349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 01:17:01 ip-10-0-0-14 CRON[349]: pam_unix(cron:session): session closed for user root
+Oct 26 01:39:01 ip-10-0-0-14 CRON[367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 01:39:01 ip-10-0-0-14 CRON[367]: pam_unix(cron:session): session closed for user root
+Oct 26 02:09:01 ip-10-0-0-14 CRON[429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 02:09:01 ip-10-0-0-14 CRON[429]: pam_unix(cron:session): session closed for user root
+Oct 26 02:17:01 ip-10-0-0-14 CRON[472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 02:17:01 ip-10-0-0-14 CRON[472]: pam_unix(cron:session): session closed for user root
+Oct 26 02:39:01 ip-10-0-0-14 CRON[487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 02:39:01 ip-10-0-0-14 CRON[487]: pam_unix(cron:session): session closed for user root
+Oct 26 03:09:01 ip-10-0-0-14 CRON[555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 03:09:01 ip-10-0-0-14 CRON[555]: pam_unix(cron:session): session closed for user root
+Oct 26 03:17:01 ip-10-0-0-14 CRON[597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 03:17:01 ip-10-0-0-14 CRON[597]: pam_unix(cron:session): session closed for user root
+Oct 26 03:39:01 ip-10-0-0-14 CRON[612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 03:39:01 ip-10-0-0-14 CRON[612]: pam_unix(cron:session): session closed for user root
+Oct 26 04:09:01 ip-10-0-0-14 CRON[666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 04:09:02 ip-10-0-0-14 CRON[666]: pam_unix(cron:session): session closed for user root
+Oct 26 04:17:01 ip-10-0-0-14 CRON[708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 04:17:01 ip-10-0-0-14 CRON[708]: pam_unix(cron:session): session closed for user root
+Oct 26 04:39:01 ip-10-0-0-14 CRON[723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 04:39:01 ip-10-0-0-14 CRON[723]: pam_unix(cron:session): session closed for user root
+Oct 26 05:09:01 ip-10-0-0-14 CRON[777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:09:01 ip-10-0-0-14 CRON[777]: pam_unix(cron:session): session closed for user root
+Oct 26 05:17:01 ip-10-0-0-14 CRON[819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:17:01 ip-10-0-0-14 CRON[819]: pam_unix(cron:session): session closed for user root
+Oct 26 05:39:01 ip-10-0-0-14 CRON[841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 05:39:01 ip-10-0-0-14 CRON[841]: pam_unix(cron:session): session closed for user root
+Oct 26 06:09:01 ip-10-0-0-14 CRON[1184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:09:01 ip-10-0-0-14 CRON[1184]: pam_unix(cron:session): session closed for user root
+Oct 26 06:17:01 ip-10-0-0-14 CRON[1243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:17:01 ip-10-0-0-14 CRON[1243]: pam_unix(cron:session): session closed for user root
+Oct 26 06:25:01 ip-10-0-0-14 CRON[1246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:25:03 ip-10-0-0-14 CRON[1246]: pam_unix(cron:session): session closed for user root
+Oct 26 06:39:01 ip-10-0-0-14 CRON[1467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 06:39:01 ip-10-0-0-14 CRON[1467]: pam_unix(cron:session): session closed for user root
+Oct 26 07:09:01 ip-10-0-0-14 CRON[1586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:09:01 ip-10-0-0-14 CRON[1586]: pam_unix(cron:session): session closed for user root
+Oct 26 07:17:01 ip-10-0-0-14 CRON[1629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:17:01 ip-10-0-0-14 CRON[1629]: pam_unix(cron:session): session closed for user root
+Oct 26 07:39:01 ip-10-0-0-14 CRON[1644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 07:39:01 ip-10-0-0-14 CRON[1644]: pam_unix(cron:session): session closed for user root
+Oct 26 08:09:01 ip-10-0-0-14 CRON[1698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:09:01 ip-10-0-0-14 CRON[1698]: pam_unix(cron:session): session closed for user root
+Oct 26 08:17:01 ip-10-0-0-14 CRON[1740]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:17:01 ip-10-0-0-14 CRON[1740]: pam_unix(cron:session): session closed for user root
+Oct 26 08:39:01 ip-10-0-0-14 CRON[1755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 08:39:02 ip-10-0-0-14 CRON[1755]: pam_unix(cron:session): session closed for user root
+Oct 26 09:09:01 ip-10-0-0-14 CRON[1809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:09:01 ip-10-0-0-14 CRON[1809]: pam_unix(cron:session): session closed for user root
+Oct 26 09:17:01 ip-10-0-0-14 CRON[1851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:17:01 ip-10-0-0-14 CRON[1851]: pam_unix(cron:session): session closed for user root
+Oct 26 09:39:01 ip-10-0-0-14 CRON[1866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 09:39:01 ip-10-0-0-14 CRON[1866]: pam_unix(cron:session): session closed for user root
+Oct 26 10:09:01 ip-10-0-0-14 CRON[1920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:09:01 ip-10-0-0-14 CRON[1920]: pam_unix(cron:session): session closed for user root
+Oct 26 10:17:01 ip-10-0-0-14 CRON[1974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:17:01 ip-10-0-0-14 CRON[1974]: pam_unix(cron:session): session closed for user root
+Oct 26 10:39:01 ip-10-0-0-14 CRON[1977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 10:39:01 ip-10-0-0-14 CRON[1977]: pam_unix(cron:session): session closed for user root
+Oct 26 11:09:01 ip-10-0-0-14 CRON[2043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 11:09:01 ip-10-0-0-14 CRON[2043]: pam_unix(cron:session): session closed for user root
+Oct 26 11:17:01 ip-10-0-0-14 CRON[2085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 11:17:01 ip-10-0-0-14 CRON[2085]: pam_unix(cron:session): session closed for user root
+Oct 26 11:39:01 ip-10-0-0-14 CRON[2100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 11:39:01 ip-10-0-0-14 CRON[2100]: pam_unix(cron:session): session closed for user root
+Oct 26 12:09:01 ip-10-0-0-14 CRON[2162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 12:09:01 ip-10-0-0-14 CRON[2162]: pam_unix(cron:session): session closed for user root
+Oct 26 12:17:01 ip-10-0-0-14 CRON[2204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 12:17:01 ip-10-0-0-14 CRON[2204]: pam_unix(cron:session): session closed for user root
+Oct 26 12:39:01 ip-10-0-0-14 CRON[2219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 12:39:01 ip-10-0-0-14 CRON[2219]: pam_unix(cron:session): session closed for user root
+Oct 26 13:09:01 ip-10-0-0-14 CRON[2280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 13:09:01 ip-10-0-0-14 CRON[2280]: pam_unix(cron:session): session closed for user root
+Oct 26 13:17:01 ip-10-0-0-14 CRON[2322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 13:17:01 ip-10-0-0-14 CRON[2322]: pam_unix(cron:session): session closed for user root
+Oct 26 13:39:01 ip-10-0-0-14 CRON[2337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 13:39:01 ip-10-0-0-14 CRON[2337]: pam_unix(cron:session): session closed for user root
+Oct 26 13:48:01 ip-10-0-0-14 CRON[2379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 13:48:01 ip-10-0-0-14 CRON[2379]: pam_unix(cron:session): session closed for user root
+Oct 26 14:09:01 ip-10-0-0-14 CRON[2394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 14:09:01 ip-10-0-0-14 CRON[2394]: pam_unix(cron:session): session closed for user root
+Oct 26 14:17:01 ip-10-0-0-14 CRON[2448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 14:17:01 ip-10-0-0-14 CRON[2448]: pam_unix(cron:session): session closed for user root
+Oct 26 14:39:01 ip-10-0-0-14 CRON[2451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 14:39:01 ip-10-0-0-14 CRON[2451]: pam_unix(cron:session): session closed for user root
+Oct 26 15:09:01 ip-10-0-0-14 CRON[2505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 15:09:01 ip-10-0-0-14 CRON[2505]: pam_unix(cron:session): session closed for user root
+Oct 26 15:17:01 ip-10-0-0-14 CRON[2559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 15:17:01 ip-10-0-0-14 CRON[2559]: pam_unix(cron:session): session closed for user root
+Oct 26 15:39:01 ip-10-0-0-14 CRON[2621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 15:39:01 ip-10-0-0-14 CRON[2621]: pam_unix(cron:session): session closed for user root
+Oct 26 16:09:01 ip-10-0-0-14 CRON[2675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 16:09:02 ip-10-0-0-14 CRON[2675]: pam_unix(cron:session): session closed for user root
+Oct 26 16:17:01 ip-10-0-0-14 CRON[2717]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 16:17:01 ip-10-0-0-14 CRON[2717]: pam_unix(cron:session): session closed for user root
+Oct 26 16:39:01 ip-10-0-0-14 CRON[2732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 16:39:01 ip-10-0-0-14 CRON[2732]: pam_unix(cron:session): session closed for user root
+Oct 26 17:09:01 ip-10-0-0-14 CRON[2786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 17:09:01 ip-10-0-0-14 CRON[2786]: pam_unix(cron:session): session closed for user root
+Oct 26 17:17:01 ip-10-0-0-14 CRON[2828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 17:17:01 ip-10-0-0-14 CRON[2828]: pam_unix(cron:session): session closed for user root
+Oct 26 17:39:01 ip-10-0-0-14 CRON[2843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 17:39:01 ip-10-0-0-14 CRON[2843]: pam_unix(cron:session): session closed for user root
+Oct 26 18:09:01 ip-10-0-0-14 CRON[2897]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 18:09:01 ip-10-0-0-14 CRON[2897]: pam_unix(cron:session): session closed for user root
+Oct 26 18:17:01 ip-10-0-0-14 CRON[2950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 18:17:01 ip-10-0-0-14 CRON[2950]: pam_unix(cron:session): session closed for user root
+Oct 26 18:39:01 ip-10-0-0-14 CRON[2965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 18:39:01 ip-10-0-0-14 CRON[2965]: pam_unix(cron:session): session closed for user root
+Oct 26 19:09:01 ip-10-0-0-14 CRON[3019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 19:09:01 ip-10-0-0-14 CRON[3019]: pam_unix(cron:session): session closed for user root
+Oct 26 19:17:01 ip-10-0-0-14 CRON[3073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 19:17:01 ip-10-0-0-14 CRON[3073]: pam_unix(cron:session): session closed for user root
+Oct 26 19:39:01 ip-10-0-0-14 CRON[3088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 19:39:01 ip-10-0-0-14 CRON[3088]: pam_unix(cron:session): session closed for user root
+Oct 26 20:09:01 ip-10-0-0-14 CRON[3142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 20:09:01 ip-10-0-0-14 CRON[3142]: pam_unix(cron:session): session closed for user root
+Oct 26 20:17:01 ip-10-0-0-14 CRON[3184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 20:17:01 ip-10-0-0-14 CRON[3184]: pam_unix(cron:session): session closed for user root
+Oct 26 20:39:01 ip-10-0-0-14 CRON[3199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 20:39:01 ip-10-0-0-14 CRON[3199]: pam_unix(cron:session): session closed for user root
+Oct 26 21:09:01 ip-10-0-0-14 CRON[3301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 21:09:01 ip-10-0-0-14 CRON[3301]: pam_unix(cron:session): session closed for user root
+Oct 26 21:17:01 ip-10-0-0-14 CRON[3343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 21:17:01 ip-10-0-0-14 CRON[3343]: pam_unix(cron:session): session closed for user root
+Oct 26 21:39:01 ip-10-0-0-14 CRON[3358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 21:39:01 ip-10-0-0-14 CRON[3358]: pam_unix(cron:session): session closed for user root
+Oct 26 22:09:01 ip-10-0-0-14 CRON[3412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 22:09:01 ip-10-0-0-14 CRON[3412]: pam_unix(cron:session): session closed for user root
+Oct 26 22:17:01 ip-10-0-0-14 CRON[3466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 22:17:01 ip-10-0-0-14 CRON[3466]: pam_unix(cron:session): session closed for user root
+Oct 26 22:39:01 ip-10-0-0-14 CRON[3469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 22:39:01 ip-10-0-0-14 CRON[3469]: pam_unix(cron:session): session closed for user root
+Oct 26 23:09:01 ip-10-0-0-14 CRON[3542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 23:09:01 ip-10-0-0-14 CRON[3542]: pam_unix(cron:session): session closed for user root
+Oct 26 23:17:01 ip-10-0-0-14 CRON[3584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 23:17:01 ip-10-0-0-14 CRON[3584]: pam_unix(cron:session): session closed for user root
+Oct 26 23:39:01 ip-10-0-0-14 CRON[3599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 26 23:39:02 ip-10-0-0-14 CRON[3599]: pam_unix(cron:session): session closed for user root
+Oct 27 00:09:01 ip-10-0-0-14 CRON[3653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 00:09:01 ip-10-0-0-14 CRON[3653]: pam_unix(cron:session): session closed for user root
+Oct 27 00:17:01 ip-10-0-0-14 CRON[3695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 00:17:01 ip-10-0-0-14 CRON[3695]: pam_unix(cron:session): session closed for user root
+Oct 27 00:39:01 ip-10-0-0-14 CRON[3710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 00:39:01 ip-10-0-0-14 CRON[3710]: pam_unix(cron:session): session closed for user root
+Oct 27 01:09:01 ip-10-0-0-14 CRON[3764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 01:09:01 ip-10-0-0-14 CRON[3764]: pam_unix(cron:session): session closed for user root
+Oct 27 01:17:01 ip-10-0-0-14 CRON[3806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 01:17:01 ip-10-0-0-14 CRON[3806]: pam_unix(cron:session): session closed for user root
+Oct 27 01:39:01 ip-10-0-0-14 CRON[3821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 01:39:01 ip-10-0-0-14 CRON[3821]: pam_unix(cron:session): session closed for user root
+Oct 27 02:09:01 ip-10-0-0-14 CRON[3875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 02:09:01 ip-10-0-0-14 CRON[3875]: pam_unix(cron:session): session closed for user root
+Oct 27 02:17:01 ip-10-0-0-14 CRON[3929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 02:17:01 ip-10-0-0-14 CRON[3929]: pam_unix(cron:session): session closed for user root
+Oct 27 02:39:01 ip-10-0-0-14 CRON[3944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 02:39:01 ip-10-0-0-14 CRON[3944]: pam_unix(cron:session): session closed for user root
+Oct 27 03:09:01 ip-10-0-0-14 CRON[3998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 03:09:01 ip-10-0-0-14 CRON[3998]: pam_unix(cron:session): session closed for user root
+Oct 27 03:17:01 ip-10-0-0-14 CRON[4040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 03:17:01 ip-10-0-0-14 CRON[4040]: pam_unix(cron:session): session closed for user root
+Oct 27 03:39:01 ip-10-0-0-14 CRON[4055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 03:39:01 ip-10-0-0-14 CRON[4055]: pam_unix(cron:session): session closed for user root
+Oct 27 04:09:01 ip-10-0-0-14 CRON[4109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 04:09:01 ip-10-0-0-14 CRON[4109]: pam_unix(cron:session): session closed for user root
+Oct 27 04:17:01 ip-10-0-0-14 CRON[4151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 04:17:01 ip-10-0-0-14 CRON[4151]: pam_unix(cron:session): session closed for user root
+Oct 27 04:39:01 ip-10-0-0-14 CRON[4166]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 04:39:01 ip-10-0-0-14 CRON[4166]: pam_unix(cron:session): session closed for user root
+Oct 27 05:09:01 ip-10-0-0-14 CRON[4220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 05:09:01 ip-10-0-0-14 CRON[4220]: pam_unix(cron:session): session closed for user root
+Oct 27 05:17:01 ip-10-0-0-14 CRON[4274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 05:17:01 ip-10-0-0-14 CRON[4274]: pam_unix(cron:session): session closed for user root
+Oct 27 05:39:01 ip-10-0-0-14 CRON[4296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 05:39:01 ip-10-0-0-14 CRON[4296]: pam_unix(cron:session): session closed for user root
+Oct 27 06:09:01 ip-10-0-0-14 CRON[4415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 06:09:01 ip-10-0-0-14 CRON[4415]: pam_unix(cron:session): session closed for user root
+Oct 27 06:17:01 ip-10-0-0-14 CRON[4457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 06:17:01 ip-10-0-0-14 CRON[4457]: pam_unix(cron:session): session closed for user root
+Oct 27 06:25:01 ip-10-0-0-14 CRON[4460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 06:25:02 ip-10-0-0-14 CRON[4460]: pam_unix(cron:session): session closed for user root
+Oct 27 06:39:01 ip-10-0-0-14 CRON[4680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 06:39:01 ip-10-0-0-14 CRON[4680]: pam_unix(cron:session): session closed for user root
+Oct 27 07:09:01 ip-10-0-0-14 CRON[4734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 07:09:01 ip-10-0-0-14 CRON[4734]: pam_unix(cron:session): session closed for user root
+Oct 27 07:17:01 ip-10-0-0-14 CRON[4776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 07:17:01 ip-10-0-0-14 CRON[4776]: pam_unix(cron:session): session closed for user root
+Oct 27 07:39:01 ip-10-0-0-14 CRON[4791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 07:39:01 ip-10-0-0-14 CRON[4791]: pam_unix(cron:session): session closed for user root
+Oct 27 08:09:01 ip-10-0-0-14 CRON[4845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 08:09:02 ip-10-0-0-14 CRON[4845]: pam_unix(cron:session): session closed for user root
+Oct 27 08:17:01 ip-10-0-0-14 CRON[4887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 08:17:01 ip-10-0-0-14 CRON[4887]: pam_unix(cron:session): session closed for user root
+Oct 27 08:39:01 ip-10-0-0-14 CRON[4902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 08:39:01 ip-10-0-0-14 CRON[4902]: pam_unix(cron:session): session closed for user root
+Oct 27 09:09:01 ip-10-0-0-14 CRON[4956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 09:09:01 ip-10-0-0-14 CRON[4956]: pam_unix(cron:session): session closed for user root
+Oct 27 09:17:01 ip-10-0-0-14 CRON[5010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 09:17:01 ip-10-0-0-14 CRON[5010]: pam_unix(cron:session): session closed for user root
+Oct 27 09:39:01 ip-10-0-0-14 CRON[5025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 09:39:01 ip-10-0-0-14 CRON[5025]: pam_unix(cron:session): session closed for user root
+Oct 27 10:09:01 ip-10-0-0-14 CRON[5079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 10:09:01 ip-10-0-0-14 CRON[5079]: pam_unix(cron:session): session closed for user root
+Oct 27 10:17:01 ip-10-0-0-14 CRON[5121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 10:17:01 ip-10-0-0-14 CRON[5121]: pam_unix(cron:session): session closed for user root
+Oct 27 10:39:01 ip-10-0-0-14 CRON[5406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 10:39:01 ip-10-0-0-14 CRON[5406]: pam_unix(cron:session): session closed for user root
+Oct 27 11:09:01 ip-10-0-0-14 CRON[5460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 11:09:01 ip-10-0-0-14 CRON[5460]: pam_unix(cron:session): session closed for user root
+Oct 27 11:17:01 ip-10-0-0-14 CRON[5502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 11:17:01 ip-10-0-0-14 CRON[5502]: pam_unix(cron:session): session closed for user root
+Oct 27 11:39:01 ip-10-0-0-14 CRON[5524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 11:39:01 ip-10-0-0-14 CRON[5524]: pam_unix(cron:session): session closed for user root
+Oct 27 12:09:01 ip-10-0-0-14 CRON[5579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 12:09:01 ip-10-0-0-14 CRON[5579]: pam_unix(cron:session): session closed for user root
+Oct 27 12:17:01 ip-10-0-0-14 CRON[5633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 12:17:01 ip-10-0-0-14 CRON[5633]: pam_unix(cron:session): session closed for user root
+Oct 27 12:39:01 ip-10-0-0-14 CRON[5636]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 12:39:01 ip-10-0-0-14 CRON[5636]: pam_unix(cron:session): session closed for user root
+Oct 27 13:09:01 ip-10-0-0-14 CRON[5702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 13:09:01 ip-10-0-0-14 CRON[5702]: pam_unix(cron:session): session closed for user root
+Oct 27 13:17:01 ip-10-0-0-14 CRON[5744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 13:17:01 ip-10-0-0-14 CRON[5744]: pam_unix(cron:session): session closed for user root
+Oct 27 13:39:01 ip-10-0-0-14 CRON[5759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 13:39:01 ip-10-0-0-14 CRON[5759]: pam_unix(cron:session): session closed for user root
+Oct 27 13:48:01 ip-10-0-0-14 CRON[5801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 13:48:01 ip-10-0-0-14 CRON[5801]: pam_unix(cron:session): session closed for user root
+Oct 27 14:09:01 ip-10-0-0-14 CRON[5816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 14:09:01 ip-10-0-0-14 CRON[5816]: pam_unix(cron:session): session closed for user root
+Oct 27 14:17:01 ip-10-0-0-14 CRON[5858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 14:17:01 ip-10-0-0-14 CRON[5858]: pam_unix(cron:session): session closed for user root
+Oct 27 14:39:01 ip-10-0-0-14 CRON[5873]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 14:39:01 ip-10-0-0-14 CRON[5873]: pam_unix(cron:session): session closed for user root
+Oct 27 15:09:01 ip-10-0-0-14 CRON[5927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 15:09:02 ip-10-0-0-14 CRON[5927]: pam_unix(cron:session): session closed for user root
+Oct 27 15:17:01 ip-10-0-0-14 CRON[5981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 15:17:01 ip-10-0-0-14 CRON[5981]: pam_unix(cron:session): session closed for user root
+Oct 27 15:39:01 ip-10-0-0-14 CRON[5984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 15:39:01 ip-10-0-0-14 CRON[5984]: pam_unix(cron:session): session closed for user root
+Oct 27 16:09:01 ip-10-0-0-14 CRON[6050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 16:09:01 ip-10-0-0-14 CRON[6050]: pam_unix(cron:session): session closed for user root
+Oct 27 16:17:01 ip-10-0-0-14 CRON[6092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 16:17:01 ip-10-0-0-14 CRON[6092]: pam_unix(cron:session): session closed for user root
+Oct 27 16:39:01 ip-10-0-0-14 CRON[6107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 16:39:01 ip-10-0-0-14 CRON[6107]: pam_unix(cron:session): session closed for user root
+Oct 27 17:09:01 ip-10-0-0-14 CRON[6161]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 17:09:01 ip-10-0-0-14 CRON[6161]: pam_unix(cron:session): session closed for user root
+Oct 27 17:17:01 ip-10-0-0-14 CRON[6203]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 17:17:01 ip-10-0-0-14 CRON[6203]: pam_unix(cron:session): session closed for user root
+Oct 27 17:37:09 ip-10-0-0-14 sshd[6218]: Accepted publickey for ubuntu from 130.207.170.237 port 50533 ssh2: RSA SHA256:TOVzuQO1Yunizb3CdxxkfemNdd2f8Nn55UjkLqp7/9Y
+Oct 27 17:37:09 ip-10-0-0-14 sshd[6218]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct 27 17:37:09 ip-10-0-0-14 systemd-logind[1133]: New session 369 of user ubuntu.
+Oct 27 17:37:09 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Oct 27 17:38:05 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 17:38:05 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route add 10.0.3.0/24 via 10.0.0.231
+Oct 27 17:38:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 17:38:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 17:38:21 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 17:38:21 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/useradd bob
+Oct 27 17:38:21 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 17:38:21 ip-10-0-0-14 useradd[6306]: new group: name=bob, GID=1002
+Oct 27 17:38:21 ip-10-0-0-14 useradd[6306]: new user: name=bob, UID=1002, GID=1002, home=/home/bob, shell=
+Oct 27 17:38:21 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 17:38:26 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 17:38:26 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/passwd bob
+Oct 27 17:38:26 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 17:38:32 ip-10-0-0-14 passwd[6312]: pam_unix(passwd:chauthtok): password changed for bob
+Oct 27 17:38:32 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 17:38:37 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 17:38:37 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/visudo
+Oct 27 17:38:37 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 17:38:53 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 17:39:01 ip-10-0-0-14 CRON[6316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 17:39:01 ip-10-0-0-14 CRON[6316]: pam_unix(cron:session): session closed for user root
+Oct 27 18:09:01 ip-10-0-0-14 CRON[6377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 18:09:01 ip-10-0-0-14 CRON[6377]: pam_unix(cron:session): session closed for user root
+Oct 27 18:13:03 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 18:13:03 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump
+Oct 27 18:13:03 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 18:13:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 18:13:19 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 18:13:19 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 27 18:13:19 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 18:14:17 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 18:17:01 ip-10-0-0-14 CRON[6450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 18:17:01 ip-10-0-0-14 CRON[6450]: pam_unix(cron:session): session closed for user root
+Oct 27 18:21:14 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 18:21:14 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 27 18:21:14 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 18:21:53 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 18:22:18 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 18:22:18 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 27 18:22:18 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 18:22:38 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 18:22:58 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 18:22:58 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install traceroute
+Oct 27 18:22:58 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 18:22:59 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 18:23:43 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 27 18:23:43 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 27 18:23:43 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 27 18:26:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 18:39:01 ip-10-0-0-14 CRON[7005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 18:39:01 ip-10-0-0-14 CRON[7005]: pam_unix(cron:session): session closed for user root
+Oct 27 19:09:01 ip-10-0-0-14 CRON[7059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 19:09:01 ip-10-0-0-14 CRON[7059]: pam_unix(cron:session): session closed for user root
+Oct 27 19:17:01 ip-10-0-0-14 CRON[7101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 19:17:01 ip-10-0-0-14 CRON[7101]: pam_unix(cron:session): session closed for user root
+Oct 27 19:39:01 ip-10-0-0-14 CRON[7116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 19:39:01 ip-10-0-0-14 CRON[7116]: pam_unix(cron:session): session closed for user root
+Oct 27 20:09:01 ip-10-0-0-14 CRON[7170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 20:09:01 ip-10-0-0-14 CRON[7170]: pam_unix(cron:session): session closed for user root
+Oct 27 20:17:01 ip-10-0-0-14 CRON[7224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 20:17:01 ip-10-0-0-14 CRON[7224]: pam_unix(cron:session): session closed for user root
+Oct 27 20:39:01 ip-10-0-0-14 CRON[7227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 20:39:01 ip-10-0-0-14 CRON[7227]: pam_unix(cron:session): session closed for user root
+Oct 27 21:09:01 ip-10-0-0-14 CRON[7293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 21:09:01 ip-10-0-0-14 CRON[7293]: pam_unix(cron:session): session closed for user root
+Oct 27 21:17:01 ip-10-0-0-14 CRON[7335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 21:17:01 ip-10-0-0-14 CRON[7335]: pam_unix(cron:session): session closed for user root
+Oct 27 21:39:01 ip-10-0-0-14 CRON[7350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 21:39:01 ip-10-0-0-14 CRON[7350]: pam_unix(cron:session): session closed for user root
+Oct 27 22:09:01 ip-10-0-0-14 CRON[7404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 22:09:01 ip-10-0-0-14 CRON[7404]: pam_unix(cron:session): session closed for user root
+Oct 27 22:17:01 ip-10-0-0-14 CRON[7446]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 22:17:01 ip-10-0-0-14 CRON[7446]: pam_unix(cron:session): session closed for user root
+Oct 27 22:39:01 ip-10-0-0-14 CRON[7461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 22:39:02 ip-10-0-0-14 CRON[7461]: pam_unix(cron:session): session closed for user root
+Oct 27 23:09:01 ip-10-0-0-14 CRON[7515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 23:09:01 ip-10-0-0-14 CRON[7515]: pam_unix(cron:session): session closed for user root
+Oct 27 23:17:01 ip-10-0-0-14 CRON[7569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 23:17:01 ip-10-0-0-14 CRON[7569]: pam_unix(cron:session): session closed for user root
+Oct 27 23:39:01 ip-10-0-0-14 CRON[7584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 23:39:01 ip-10-0-0-14 CRON[7584]: pam_unix(cron:session): session closed for user root
+Oct 28 00:09:01 ip-10-0-0-14 CRON[7638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 00:09:01 ip-10-0-0-14 CRON[7638]: pam_unix(cron:session): session closed for user root
+Oct 28 00:17:01 ip-10-0-0-14 CRON[7680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 00:17:01 ip-10-0-0-14 CRON[7680]: pam_unix(cron:session): session closed for user root
+Oct 28 00:39:01 ip-10-0-0-14 CRON[7695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 00:39:01 ip-10-0-0-14 CRON[7695]: pam_unix(cron:session): session closed for user root
+Oct 28 01:09:01 ip-10-0-0-14 CRON[7756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 01:09:01 ip-10-0-0-14 CRON[7756]: pam_unix(cron:session): session closed for user root
+Oct 28 01:17:01 ip-10-0-0-14 CRON[7798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 01:17:01 ip-10-0-0-14 CRON[7798]: pam_unix(cron:session): session closed for user root
+Oct 28 01:39:01 ip-10-0-0-14 CRON[7813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 01:39:01 ip-10-0-0-14 CRON[7813]: pam_unix(cron:session): session closed for user root
+Oct 28 02:09:01 ip-10-0-0-14 CRON[7867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 02:09:01 ip-10-0-0-14 CRON[7867]: pam_unix(cron:session): session closed for user root
+Oct 28 02:17:01 ip-10-0-0-14 CRON[7921]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 02:17:01 ip-10-0-0-14 CRON[7921]: pam_unix(cron:session): session closed for user root
+Oct 28 02:39:01 ip-10-0-0-14 CRON[7924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 02:39:01 ip-10-0-0-14 CRON[7924]: pam_unix(cron:session): session closed for user root
+Oct 28 03:09:01 ip-10-0-0-14 CRON[7990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 03:09:01 ip-10-0-0-14 CRON[7990]: pam_unix(cron:session): session closed for user root
+Oct 28 03:17:01 ip-10-0-0-14 CRON[8032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 03:17:01 ip-10-0-0-14 CRON[8032]: pam_unix(cron:session): session closed for user root
+Oct 28 03:39:01 ip-10-0-0-14 CRON[8047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 03:39:01 ip-10-0-0-14 CRON[8047]: pam_unix(cron:session): session closed for user root
+Oct 28 04:09:01 ip-10-0-0-14 CRON[8101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 04:09:01 ip-10-0-0-14 CRON[8101]: pam_unix(cron:session): session closed for user root
+Oct 28 04:17:01 ip-10-0-0-14 CRON[8143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 04:17:01 ip-10-0-0-14 CRON[8143]: pam_unix(cron:session): session closed for user root
+Oct 28 04:39:01 ip-10-0-0-14 CRON[8158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 04:39:01 ip-10-0-0-14 CRON[8158]: pam_unix(cron:session): session closed for user root
+Oct 28 05:09:01 ip-10-0-0-14 CRON[8212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 05:09:01 ip-10-0-0-14 CRON[8212]: pam_unix(cron:session): session closed for user root
+Oct 28 05:17:01 ip-10-0-0-14 CRON[8254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 05:17:01 ip-10-0-0-14 CRON[8254]: pam_unix(cron:session): session closed for user root
+Oct 28 05:39:01 ip-10-0-0-14 CRON[8269]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 05:39:01 ip-10-0-0-14 CRON[8269]: pam_unix(cron:session): session closed for user root
+Oct 28 06:09:01 ip-10-0-0-14 CRON[8323]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 06:09:02 ip-10-0-0-14 CRON[8323]: pam_unix(cron:session): session closed for user root
+Oct 28 06:17:01 ip-10-0-0-14 CRON[8957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 06:17:01 ip-10-0-0-14 CRON[8957]: pam_unix(cron:session): session closed for user root
+Oct 28 06:25:01 ip-10-0-0-14 CRON[8960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 06:25:01 ip-10-0-0-14 CRON[8960]: pam_unix(cron:session): session closed for user root
+Oct 28 06:39:01 ip-10-0-0-14 CRON[9206]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 06:39:01 ip-10-0-0-14 CRON[9206]: pam_unix(cron:session): session closed for user root
+Oct 28 07:09:01 ip-10-0-0-14 CRON[9267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 07:09:02 ip-10-0-0-14 CRON[9267]: pam_unix(cron:session): session closed for user root
+Oct 28 07:17:01 ip-10-0-0-14 CRON[9309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 07:17:01 ip-10-0-0-14 CRON[9309]: pam_unix(cron:session): session closed for user root
+Oct 28 07:39:01 ip-10-0-0-14 CRON[9324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 07:39:01 ip-10-0-0-14 CRON[9324]: pam_unix(cron:session): session closed for user root
+Oct 28 08:09:01 ip-10-0-0-14 CRON[9379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 08:09:01 ip-10-0-0-14 CRON[9379]: pam_unix(cron:session): session closed for user root
+Oct 28 08:17:01 ip-10-0-0-14 CRON[9421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 08:17:01 ip-10-0-0-14 CRON[9421]: pam_unix(cron:session): session closed for user root
+Oct 28 08:39:01 ip-10-0-0-14 CRON[9436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 08:39:01 ip-10-0-0-14 CRON[9436]: pam_unix(cron:session): session closed for user root
+Oct 28 09:09:01 ip-10-0-0-14 CRON[9490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 09:09:01 ip-10-0-0-14 CRON[9490]: pam_unix(cron:session): session closed for user root
+Oct 28 09:17:01 ip-10-0-0-14 CRON[9544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 09:17:01 ip-10-0-0-14 CRON[9544]: pam_unix(cron:session): session closed for user root
+Oct 28 09:39:01 ip-10-0-0-14 CRON[9547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 09:39:01 ip-10-0-0-14 CRON[9547]: pam_unix(cron:session): session closed for user root
+Oct 28 10:09:01 ip-10-0-0-14 CRON[9613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:09:01 ip-10-0-0-14 CRON[9613]: pam_unix(cron:session): session closed for user root
+Oct 28 10:17:01 ip-10-0-0-14 CRON[9655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:17:01 ip-10-0-0-14 CRON[9655]: pam_unix(cron:session): session closed for user root
+Oct 28 10:39:01 ip-10-0-0-14 CRON[9670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 10:39:01 ip-10-0-0-14 CRON[9670]: pam_unix(cron:session): session closed for user root
+Oct 28 11:09:01 ip-10-0-0-14 CRON[9724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 11:09:01 ip-10-0-0-14 CRON[9724]: pam_unix(cron:session): session closed for user root
+Oct 28 11:17:01 ip-10-0-0-14 CRON[9766]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 11:17:01 ip-10-0-0-14 CRON[9766]: pam_unix(cron:session): session closed for user root
+Oct 28 11:39:01 ip-10-0-0-14 CRON[9788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 11:39:01 ip-10-0-0-14 CRON[9788]: pam_unix(cron:session): session closed for user root
+Oct 28 12:09:01 ip-10-0-0-14 CRON[9842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 12:09:01 ip-10-0-0-14 CRON[9842]: pam_unix(cron:session): session closed for user root
+Oct 28 12:17:01 ip-10-0-0-14 CRON[9884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 12:17:01 ip-10-0-0-14 CRON[9884]: pam_unix(cron:session): session closed for user root
+Oct 28 12:39:01 ip-10-0-0-14 CRON[9899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 12:39:01 ip-10-0-0-14 CRON[9899]: pam_unix(cron:session): session closed for user root
+Oct 28 13:09:01 ip-10-0-0-14 CRON[9953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 13:09:01 ip-10-0-0-14 CRON[9953]: pam_unix(cron:session): session closed for user root
+Oct 28 13:17:01 ip-10-0-0-14 CRON[10007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 13:17:01 ip-10-0-0-14 CRON[10007]: pam_unix(cron:session): session closed for user root
+Oct 28 13:39:01 ip-10-0-0-14 CRON[10022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 13:39:01 ip-10-0-0-14 CRON[10022]: pam_unix(cron:session): session closed for user root
+Oct 28 13:48:01 ip-10-0-0-14 CRON[10064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 13:48:01 ip-10-0-0-14 CRON[10064]: pam_unix(cron:session): session closed for user root
+Oct 28 14:09:01 ip-10-0-0-14 CRON[10079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 14:09:01 ip-10-0-0-14 CRON[10079]: pam_unix(cron:session): session closed for user root
+Oct 28 14:17:01 ip-10-0-0-14 CRON[10121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 14:17:01 ip-10-0-0-14 CRON[10121]: pam_unix(cron:session): session closed for user root
+Oct 28 14:39:01 ip-10-0-0-14 CRON[10136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 14:39:02 ip-10-0-0-14 CRON[10136]: pam_unix(cron:session): session closed for user root
+Oct 28 15:09:01 ip-10-0-0-14 CRON[10190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 15:09:01 ip-10-0-0-14 CRON[10190]: pam_unix(cron:session): session closed for user root
+Oct 28 15:17:01 ip-10-0-0-14 CRON[10232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 15:17:01 ip-10-0-0-14 CRON[10232]: pam_unix(cron:session): session closed for user root
+Oct 28 15:39:01 ip-10-0-0-14 CRON[10248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 15:39:01 ip-10-0-0-14 CRON[10248]: pam_unix(cron:session): session closed for user root
+Oct 28 16:09:01 ip-10-0-0-14 CRON[10302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 16:09:01 ip-10-0-0-14 CRON[10302]: pam_unix(cron:session): session closed for user root
+Oct 28 16:17:01 ip-10-0-0-14 CRON[10344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 16:17:01 ip-10-0-0-14 CRON[10344]: pam_unix(cron:session): session closed for user root
+Oct 28 16:39:01 ip-10-0-0-14 CRON[10359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 16:39:01 ip-10-0-0-14 CRON[10359]: pam_unix(cron:session): session closed for user root
+Oct 28 17:09:01 ip-10-0-0-14 CRON[10413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 17:09:01 ip-10-0-0-14 CRON[10413]: pam_unix(cron:session): session closed for user root
+Oct 28 17:17:01 ip-10-0-0-14 CRON[10467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 17:17:01 ip-10-0-0-14 CRON[10467]: pam_unix(cron:session): session closed for user root
+Oct 28 17:39:01 ip-10-0-0-14 CRON[10492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 17:39:01 ip-10-0-0-14 CRON[10492]: pam_unix(cron:session): session closed for user root
+Oct 28 17:50:20 ip-10-0-0-14 sshd[10814]: Accepted publickey for ubuntu from 24.125.35.143 port 54011 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 28 17:50:20 ip-10-0-0-14 sshd[10814]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct 28 17:50:20 ip-10-0-0-14 systemd-logind[1133]: New session 445 of user ubuntu.
+Oct 28 17:50:23 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:50:23 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 28 17:50:23 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:50:24 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:50:27 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:50:27 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt full-upgrade
+Oct 28 17:50:27 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:50:43 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:50:54 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:50:54 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ifup eth1
+Oct 28 17:50:54 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:50:54 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:51:02 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:51:02 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/network/interfaces
+Oct 28 17:51:02 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:51:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:51:11 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:51:11 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/network/interfaces.d/50-cloud-init.cfg
+Oct 28 17:51:11 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:51:26 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:51:35 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:51:35 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/network/interfaces.d/60-eth1.cfg
+Oct 28 17:51:35 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:52:33 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:52:38 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:52:38 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ifup eth1
+Oct 28 17:52:38 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:52:38 ip-10-0-0-14 sshd[1136]: Received SIGHUP; restarting.
+Oct 28 17:52:38 ip-10-0-0-14 sshd[1136]: Server listening on 0.0.0.0 port 22.
+Oct 28 17:52:38 ip-10-0-0-14 sshd[1136]: Server listening on :: port 22.
+Oct 28 17:52:38 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:53:47 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:53:47 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route del 10.0.2.0/24 via 10.0.0.231
+Oct 28 17:53:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:53:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:54:39 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:54:39 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route add 10.0.2.0/24 via 10.0.2.10
+Oct 28 17:54:39 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:54:39 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:55:09 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:55:09 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route del 10.0.3.0/24 via 10.0.0.231
+Oct 28 17:55:09 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:55:09 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:55:25 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:55:25 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route add 10.0.3.0/24 via 10.0.2.10
+Oct 28 17:55:25 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:55:25 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:57:31 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:57:31 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 28 17:57:31 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:57:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:57:48 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:57:48 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service httpd restart
+Oct 28 17:57:48 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:57:48 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:57:55 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:57:55 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 28 17:57:55 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:57:58 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:58:03 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:58:03 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 28 17:58:03 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:58:17 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:58:44 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:58:44 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 17:58:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:58:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:58:47 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:58:47 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 17:58:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:58:47 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:59:05 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:59:05 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 17:59:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:59:05 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:59:30 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:59:30 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/apache2/apache2.conf
+Oct 28 17:59:30 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 17:59:45 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 17:59:54 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 17:59:54 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/apache2/sites-enabled/000-default.conf
+Oct 28 17:59:54 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:00:01 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:00:07 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:00:07 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/reboot
+Oct 28 18:00:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:00:07 ip-10-0-0-14 sshd[10814]: pam_unix(sshd:session): session closed for user ubuntu
+Oct 28 18:00:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:00:07 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Oct 28 18:00:07 ip-10-0-0-14 sshd[6218]: pam_unix(sshd:session): session closed for user ubuntu
+Oct 28 18:00:07 ip-10-0-0-14 sshd[6218]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Oct 28 18:01:08 ip-10-0-0-14 sshd[1356]: Server listening on 0.0.0.0 port 22.
+Oct 28 18:01:08 ip-10-0-0-14 sshd[1356]: Server listening on :: port 22.
+Oct 28 18:01:09 ip-10-0-0-14 systemd-logind[1362]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 28 18:01:09 ip-10-0-0-14 systemd-logind[1362]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 28 18:01:09 ip-10-0-0-14 systemd-logind[1362]: New seat seat0.
+Oct 28 18:03:54 ip-10-0-0-14 sshd[1661]: Accepted publickey for ubuntu from 10.0.0.41 port 39858 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 28 18:03:54 ip-10-0-0-14 sshd[1661]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct 28 18:03:54 ip-10-0-0-14 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Oct 28 18:03:54 ip-10-0-0-14 systemd-logind[1362]: New session 1 of user ubuntu.
+Oct 28 18:05:24 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:05:24 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route replace default via 10.0.0.1
+Oct 28 18:05:24 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:05:24 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:05:27 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:05:27 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route
+Oct 28 18:05:27 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:05:27 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:05:35 ip-10-0-0-14 sshd[1744]: Accepted publickey for ubuntu from 24.125.35.143 port 64765 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 28 18:05:35 ip-10-0-0-14 sshd[1744]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Oct 28 18:05:35 ip-10-0-0-14 systemd-logind[1362]: New session 2 of user ubuntu.
+Oct 28 18:06:03 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:06:03 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/ip route add 10.0.3.0/24 via 10.0.2.10
+Oct 28 18:06:03 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:06:03 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:06:26 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:06:26 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 28 18:06:26 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:06:43 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:06:47 ip-10-0-0-14 sshd[1720]: Received disconnect from 10.0.0.41 port 39858:11: disconnected by user
+Oct 28 18:06:47 ip-10-0-0-14 sshd[1720]: Disconnected from 10.0.0.41 port 39858
+Oct 28 18:06:47 ip-10-0-0-14 sshd[1661]: pam_unix(sshd:session): session closed for user ubuntu
+Oct 28 18:06:47 ip-10-0-0-14 systemd-logind[1362]: Removed session 1.
+Oct 28 18:06:56 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:06:56 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:06:56 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:06:56 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:07:14 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:07:14 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/apache2/apache2.conf
+Oct 28 18:07:14 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:07:27 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:07:42 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:07:42 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vim conf-enabled/se
+Oct 28 18:07:42 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:07:44 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:07:46 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:07:46 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vim conf-enabled/security.conf
+Oct 28 18:07:46 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:07:51 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:08:00 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:08:00 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vim sites-enabled/000-default.conf
+Oct 28 18:08:00 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:08:32 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:08:46 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:08:46 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vim ports.conf
+Oct 28 18:08:46 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:08:58 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:09:01 ip-10-0-0-14 CRON[1996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 18:09:01 ip-10-0-0-14 CRON[1996]: pam_unix(cron:session): session closed for user root
+Oct 28 18:09:02 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:09:02 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 28 18:09:02 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:09:04 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:09:09 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:09:09 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:09:09 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:09:09 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:09:27 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:09:27 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 28 18:09:27 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:09:37 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:09:41 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:09:41 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:09:41 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:09:41 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:11:45 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:11:45 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/bin/vim sites-enabled/000-default.conf
+Oct 28 18:11:45 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:11:54 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:12:01 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:12:01 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 28 18:12:01 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:12:03 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:17:01 ip-10-0-0-14 CRON[2174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 18:17:01 ip-10-0-0-14 CRON[2174]: pam_unix(cron:session): session closed for user root
+Oct 28 18:39:01 ip-10-0-0-14 CRON[2200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 18:39:01 ip-10-0-0-14 CRON[2200]: pam_unix(cron:session): session closed for user root
+Oct 28 18:46:07 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:46:07 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/etc/apache2 ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xnn port 80
+Oct 28 18:46:07 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:46:22 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:46:56 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:46:56 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Oct 28 18:46:56 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:46:56 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:47:58 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:47:58 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow port 80
+Oct 28 18:47:58 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:47:58 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:48:06 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:48:06 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow port 80 from any
+Oct 28 18:48:06 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:48:06 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:48:13 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:48:13 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow proto tcp to any port 80
+Oct 28 18:48:13 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:48:14 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:48:16 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:48:16 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow proto tcp to any port 443
+Oct 28 18:48:16 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:48:16 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 18:48:19 ip-10-0-0-14 sudo:   ubuntu : unable to resolve host ip-10-0-0-14
+Oct 28 18:48:19 ip-10-0-0-14 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Oct 28 18:48:19 ip-10-0-0-14 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Oct 28 18:48:19 ip-10-0-0-14 sudo: pam_unix(sudo:session): session closed for user root
+Oct 28 19:09:01 ip-10-0-0-14 CRON[2400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 19:09:01 ip-10-0-0-14 CRON[2400]: pam_unix(cron:session): session closed for user root
+Oct 28 19:17:01 ip-10-0-0-14 CRON[2454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 19:17:01 ip-10-0-0-14 CRON[2454]: pam_unix(cron:session): session closed for user root
+Oct 28 19:39:01 ip-10-0-0-14 CRON[2481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 19:39:01 ip-10-0-0-14 CRON[2481]: pam_unix(cron:session): session closed for user root
+Oct 28 20:09:01 ip-10-0-0-14 CRON[2546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 20:09:01 ip-10-0-0-14 CRON[2546]: pam_unix(cron:session): session closed for user root
+Oct 28 20:17:01 ip-10-0-0-14 CRON[2606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 20:17:01 ip-10-0-0-14 CRON[2606]: pam_unix(cron:session): session closed for user root
+Oct 28 20:39:01 ip-10-0-0-14 CRON[2632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 20:39:01 ip-10-0-0-14 CRON[2632]: pam_unix(cron:session): session closed for user root
+Oct 28 21:09:01 ip-10-0-0-14 CRON[2697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 21:09:01 ip-10-0-0-14 CRON[2697]: pam_unix(cron:session): session closed for user root
+Oct 28 21:17:01 ip-10-0-0-14 CRON[2739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 21:17:01 ip-10-0-0-14 CRON[2739]: pam_unix(cron:session): session closed for user root
+Oct 28 21:39:01 ip-10-0-0-14 CRON[2765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 21:39:01 ip-10-0-0-14 CRON[2765]: pam_unix(cron:session): session closed for user root
+Oct 28 22:09:01 ip-10-0-0-14 CRON[2862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 22:09:01 ip-10-0-0-14 CRON[2862]: pam_unix(cron:session): session closed for user root
+Oct 28 22:17:01 ip-10-0-0-14 CRON[2963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 22:17:01 ip-10-0-0-14 CRON[2963]: pam_unix(cron:session): session closed for user root
+Oct 28 22:39:01 ip-10-0-0-14 CRON[2977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 22:39:02 ip-10-0-0-14 CRON[2977]: pam_unix(cron:session): session closed for user root
+Oct 28 23:09:01 ip-10-0-0-14 CRON[3054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 23:09:01 ip-10-0-0-14 CRON[3054]: pam_unix(cron:session): session closed for user root
+Oct 28 23:17:01 ip-10-0-0-14 CRON[3114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 23:17:01 ip-10-0-0-14 CRON[3114]: pam_unix(cron:session): session closed for user root
+Oct 28 23:39:01 ip-10-0-0-14 CRON[3129]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 23:39:01 ip-10-0-0-14 CRON[3129]: pam_unix(cron:session): session closed for user root
+Oct 29 00:09:01 ip-10-0-0-14 CRON[3194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 00:09:01 ip-10-0-0-14 CRON[3194]: pam_unix(cron:session): session closed for user root
+Oct 29 00:17:01 ip-10-0-0-14 CRON[3247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 00:17:01 ip-10-0-0-14 CRON[3247]: pam_unix(cron:session): session closed for user root
+Oct 29 00:39:01 ip-10-0-0-14 CRON[3273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 00:39:01 ip-10-0-0-14 CRON[3273]: pam_unix(cron:session): session closed for user root
+Oct 29 00:57:01 ip-10-0-0-14 CRON[3327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 00:57:01 ip-10-0-0-14 CRON[3327]: pam_unix(cron:session): session closed for user root
+Oct 29 01:09:01 ip-10-0-0-14 CRON[3341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 01:09:01 ip-10-0-0-14 CRON[3341]: pam_unix(cron:session): session closed for user root
+Oct 29 01:17:01 ip-10-0-0-14 CRON[3395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 01:17:01 ip-10-0-0-14 CRON[3395]: pam_unix(cron:session): session closed for user root
+Oct 29 01:39:01 ip-10-0-0-14 CRON[3409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 01:39:01 ip-10-0-0-14 CRON[3409]: pam_unix(cron:session): session closed for user root
+Oct 29 02:09:01 ip-10-0-0-14 CRON[3487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 02:09:01 ip-10-0-0-14 CRON[3487]: pam_unix(cron:session): session closed for user root
+Oct 29 02:17:01 ip-10-0-0-14 CRON[3529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 02:17:01 ip-10-0-0-14 CRON[3529]: pam_unix(cron:session): session closed for user root
+Oct 29 02:39:01 ip-10-0-0-14 CRON[3556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 02:39:01 ip-10-0-0-14 CRON[3556]: pam_unix(cron:session): session closed for user root
+Oct 29 03:09:01 ip-10-0-0-14 CRON[3621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 03:09:01 ip-10-0-0-14 CRON[3621]: pam_unix(cron:session): session closed for user root
+Oct 29 03:17:01 ip-10-0-0-14 CRON[3674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 03:17:01 ip-10-0-0-14 CRON[3674]: pam_unix(cron:session): session closed for user root
+Oct 29 03:39:01 ip-10-0-0-14 CRON[3689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 03:39:01 ip-10-0-0-14 CRON[3689]: pam_unix(cron:session): session closed for user root
+Oct 29 04:09:01 ip-10-0-0-14 CRON[3777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 04:09:01 ip-10-0-0-14 CRON[3777]: pam_unix(cron:session): session closed for user root
+Oct 29 04:17:01 ip-10-0-0-14 CRON[3819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 04:17:01 ip-10-0-0-14 CRON[3819]: pam_unix(cron:session): session closed for user root
+Oct 29 04:39:01 ip-10-0-0-14 CRON[3845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 04:39:01 ip-10-0-0-14 CRON[3845]: pam_unix(cron:session): session closed for user root
+Oct 29 05:09:01 ip-10-0-0-14 CRON[3910]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 05:09:01 ip-10-0-0-14 CRON[3910]: pam_unix(cron:session): session closed for user root
+Oct 29 05:17:01 ip-10-0-0-14 CRON[3952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 05:17:01 ip-10-0-0-14 CRON[3952]: pam_unix(cron:session): session closed for user root
+Oct 29 05:39:01 ip-10-0-0-14 CRON[3978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 05:39:01 ip-10-0-0-14 CRON[3978]: pam_unix(cron:session): session closed for user root
+Oct 29 06:09:01 ip-10-0-0-14 CRON[4043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 06:09:01 ip-10-0-0-14 CRON[4043]: pam_unix(cron:session): session closed for user root
+Oct 29 06:17:01 ip-10-0-0-14 CRON[4096]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 06:17:01 ip-10-0-0-14 CRON[4096]: pam_unix(cron:session): session closed for user root
+Oct 29 06:25:01 ip-10-0-0-14 CRON[4112]: pam_unix(cron:session): session opened for user root by (uid=0)

@@ -1,0 +1,148 @@
+CS 2200 Spring 2018
+Project 4
+
+Name: Yamin Mousselli
+
+I don't need to do `make && taskset -ac 0-3` to enable 4 cpu cores because their
+simulator handles it. To adjust cpu cores, use taskset. According to my system monitor, I'm running 4 cores
+on my system.
+
+Problem 1B)
+----------
+FIFO
+----------
+1 CPU Core:
+# of Context Switches: 99
+Total execution time: 67.6 s
+Total time spent in READY state: 389.9 s
+
+
+2 CPU Cores:
+# of Context Switches: 113
+Total execution time: 35.8 s
+Total time spent in READY state: 83.1 s
+
+
+4 CPU Cores:
+# of Context Switches: 184
+Total execution time: 33.0 s
+Total time spent in READY state: 0.3 s
+
+Explanation:
+There is not a linear relationship between the number of CPUs and the total
+simulated execution time because the simulated execution time decreases as you
+increase the number of CPU cores. Logically speaking, you should be able to
+execute more processes in parallel. When we increase the CPU cores from 1-2,
+we can see a significant decrease in the simulated execution time. However,
+there is not a significant decrease in the simulated execution time from 2-4 CPU
+cores. This could be because some CPU cores are in IDLE (because you have more
+cores running then there are processes that are READY), there aren't that many
+processes in the ready queue because they have I/O that needs to be serviced or
+or because processes are not in the READY state.
+
+Problem 2B)
+----------
+Round-Robin
+----------
+200ms:
+# of Context Switches: 362
+Total execution time: 67.5 s
+Total time spent in READY state: 285.2 s
+
+400ms:
+# of Context Switches: 203
+Total execution time: 67.6 s
+Total time spent in READY state: 298.8 s
+
+600ms:
+# of Context Switches: 161
+Total execution time: 67.6 s
+Total time spent in READY state: 314.5 s
+
+800ms:
+# of Context Switches: 136
+Total execution time: 67.6 s
+Total time spent in READY state: 325.4 s
+
+Explanation:
+
+The total waiting time does decrease with shorter timeslices. I will show the
+computations for the total waiting time for each time slice. As we know,
+Total Waiting Time = Total Time spent in READY State
+
+Total waiting time for 800ms time_slice:
+257.8 s
+
+Total waiting time for 600ms time_slice:
+246.9 s
+
+Total waiting time for 400ms time_slice:
+231.2 s
+
+Total waiting time for 200ms time_slice:
+217.7 s
+
+The computations above validate my claim. In a real operating system, the
+shortest timeslice possible is usually not the best choice because the scheduler
+could spend more time switching between processes (context switching) than
+actually executing the process. Therefore, it's not feasible because you don't
+want the context switch time to be greater than the computational time the
+processor spends on executing processes.
+
+Problem 3B)
+----------
+SRTF
+----------
+1 CPU Core:
+# of Context Switches: 143
+Total execution time: 67.9 s
+Total time spent in READY state: 133.0 s
+
+2 CPU Cores:
+# of Context Switches: 156
+Total execution time: 36.5 s
+Total time spent in READY state: 31.2 s
+
+4 CPU Cores:
+# of Context Switches: 184
+Total execution time: 33.1 s
+Total time spent in READY state: 0.9 s
+
+Explanation:
+It is almost impossible to implement and SRTF in the real world and is usually
+approximated because SRTF is not deterministic and it not only depends on the
+priority (extrinsic program property), but also intrinsic program properties. In other
+words, the time remaning for a process is determined as the process executes and
+SRTF depends on a process's shortest time. Lastly, this is why SRTF is
+approximated.
+
+I've ran each of the scheduling algorithms once with one core and my findings
+are shown below:
+
+FIFO, 1 CPU Core:
+# of Context Switches: 99
+Total execution time: 67.6 s
+Total time spent in READY state: 389.9 s
+
+Round Robin, 1 CPU Core:
+200ms:
+# of Context Switches: 362
+Total execution time: 67.5 s
+Total time spent in READY state: 285.2 s
+
+800ms:
+# of Context Switches: 136
+Total execution time: 67.6 s
+Total time spent in READY state: 325.4 s
+
+SRTF, 1 CPU Core:
+# of Context Switches: 143
+Total execution time: 67.9 s
+Total time spent in READY state: 133.0 s
+
+It's no surprise that SRTF has the shortest waiting time of all the scheduling
+algorithms that we have analyzed. This is because SRTF is pre-emptive which
+schedules the process with the shortest remaining time, on the processor. We can
+see the two extremes of Round Robin at 200ms and 800ms timeslices. 
+From all the scheduling algorithms, Round Robin with timeslice 200ms is the
+closest to SRTF's waiting time.

@@ -1,0 +1,23 @@
+//inside the for loop
+
+//this is creating the int* that will grab the pixel data
+//you use 4*(r*width + c) becuase each pixel is made of 4 bytes
+unsigned int * bmppixel = (unsigned int *) (data_arr + 0x36 + 4*(r*width + c));
+
+//this pixel short will be where i set the RGB colors for GBA
+//shift the mask to get the proper bits for the color in the pixel
+//then right shift to put them at the end (there are no trailing 0s)
+unsigned short gbapixel = 0;
+unsigned char blue = (*bmppixel & (0xFF));
+unsigned char red = ((*bmppixel) & (0xFF << 8)) >> 8;
+unsigned char green = ((*bmppixel) & (0xFF << 16)) >> 16;
+
+//after getting the individual colors above, I need to shrink them to 5 bits
+blue = blue >> 3;
+red = red >> 3;
+green = green >> 3;
+
+//the shifting below is to get the bits into the proper position
+//packing the colors into the GBA pixel
+gbapixel = gbapixel | ( (unsigned int) (blue<<10)) | ( (unsigned int) (green << 5)) | ( (unsigned int) (red));
+fprintf(outcfile, "0x%x, ", gbapixel);

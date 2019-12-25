@@ -1,0 +1,4 @@
+bob_workstation = 32.2 GB
+web_server = 8.6 GB
+
+Will upload later with git lfs

@@ -1,0 +1,5 @@
+Oct 29 17:33:55 ip-10-0-0-14 kernel: [84775.276742] device eth0 entered promiscuous mode
+Oct 29 17:36:37 ip-10-0-0-14 kernel: [84936.561211] device eth0 left promiscuous mode
+Oct 29 17:36:40 ip-10-0-0-14 kernel: [84939.702651] device eth0 entered promiscuous mode
+Oct 30 12:00:23 ip-10-0-0-14 kernel: [151163.036864] device eth0 left promiscuous mode
+Oct 30 12:05:56 ip-10-0-0-14 kernel: [151496.184146] [UFW BLOCK] IN=eth0 OUT= MAC=0a:2a:3e:83:d5:56:0a:74:90:24:93:16:08:00 SRC=24.125.35.143 DST=10.0.0.14 LEN=88 TOS=0x00 PREC=0x00 TTL=42 ID=0 DF PROTO=TCP SPT=64765 DPT=22 WINDOW=32768 RES=0x00 ACK PSH URGP=0 

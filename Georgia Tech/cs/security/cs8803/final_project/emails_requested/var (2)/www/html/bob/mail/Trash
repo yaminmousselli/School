@@ -1,0 +1,647 @@
+From kjkoza@gmail.com  Wed Oct 25 02:54:47 2017
+Return-Path: <kjkoza@gmail.com>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from mail-vk0-f54.google.com (mail-vk0-f54.google.com [209.85.213.54])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id CF811611E3
+	for <bob@northamericanlumbercoalition.com>; Wed, 25 Oct 2017 02:54:46 +0000 (UTC)
+Received: by mail-vk0-f54.google.com with SMTP id g11so11497577vkd.13
+        for <bob@northamericanlumbercoalition.com>; Tue, 24 Oct 2017 19:54:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:subject:date:references
+         :to:in-reply-to:message-id;
+        bh=WQTR7+nsvLbEeq3pzyF8DtJyoiO0KmNdh87O5euLU/w=;
+        b=Adwldu401AwrqQEEfptQLNxZK2FhzWokY9DXNOwOCgm9O3IGOYMansUjjOHlsdeQJj
+         v5q+qdLPTLIMLslwTxXNxCq48oM0hS+TPyOvgcq24OEzMNuXYGnSoQNLsSapBGiIr0p0
+         +Ktgk53fTlcpos/crKcrUJ2z5/p/rNwL3rCu+7SSFOaRIcm/CWm6AzclXV6HoSADqqUl
+         E5Jxv/nNSUo8j5yLC79rqOvi3m2OvtG5mBNojQFNR4wHSUU4ej0NjU0ETO+8TScPYAkq
+         /qT34L6XwKXQwR7GOTFmjq4W+VJXeIAF/hK5Bmk2foBAr/DsXzz1/WETnxa0Y2/nFz3i
+         HDww==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version
+         :subject:date:references:to:in-reply-to:message-id;
+        bh=WQTR7+nsvLbEeq3pzyF8DtJyoiO0KmNdh87O5euLU/w=;
+        b=ZXtZvkwsR0pPWPYtvWDy9XahYKfcIJJgIb4wCqOfIP1oZOgYHdLbJ4un1UdcdP7hKR
+         L9vuzWMY/5px2VP/5cWy7j0vrj98bJPVvru74EAuNhOYjcWLzZ58Awrkcx9iczVgH07a
+         EQKdORZ7Gh04j0Ddr43t+Vtq3iAyxAOebLxeUHRR/VPTjuOZ8zNyVrIwm4hQlYxu4JYv
+         rDxhrFJypXmVBvKk6GHcjBPovCzjXZ3s6/8RTql7UV0Oei9kjW6ERVkKyTO+OMkaWxPp
+         a9hbpAH7bsJADvjPhrYd+qoZZva4s8ofOJEmxPXMJwR5tmA8iq2XbpXFzIYlNcFTTmrT
+         5fEA==
+X-Gm-Message-State: AMCzsaUWcgh+Vp5GX2m1PSw6xe0kqhhU2MczNZUxjTDfpg86vlF1o6sS
+	iNEsfSnGoem1S46pStsweQ7LPxog
+X-Google-Smtp-Source: ABhQp+RemRiQdyoM0kxcDNxDuRkWZKmJ3Fue4Y93DRfoO9uZXaEja5+8IO3YbBQ5aavWHd5Qzqquqg==
+X-Received: by 10.31.185.198 with SMTP id j189mr507036vkf.172.1508900085953;
+        Tue, 24 Oct 2017 19:54:45 -0700 (PDT)
+Received: from ?IPv6:2601:cc::5c6a:e0e5:6a8:c025:edb8? ([2601:cc:0:5c6a:e0e5:6a8:c025:edb8])
+        by smtp.gmail.com with ESMTPSA id 8sm411513uam.44.2017.10.24.19.54.45
+        for <bob@northamericanlumbercoalition.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 24 Oct 2017 19:54:45 -0700 (PDT)
+From: Kyle Koza <kjkoza@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Mac OS X Mail 11.0 \(3445.1.7\))
+Subject: Re: Test
+Date: Tue, 24 Oct 2017 22:54:43 -0400
+References: <D616810C-2F68-42A4-B458-C0C437EDE786@gmail.com>
+ <299684CC-FA5E-4448-B0E2-75F0D56B24AF@gmail.com>
+ <E9DF20E4-5CDD-4119-9FEA-CA4D102F9FDE@gmail.com>
+To: bob@northamericanlumbercoalition.com
+In-Reply-To: <E9DF20E4-5CDD-4119-9FEA-CA4D102F9FDE@gmail.com>
+Message-Id: <91843593-F48A-49C1-819B-3FAF61AB9773@gmail.com>
+X-Mailer: Apple Mail (2.3445.1.7)
+X-IMAPbase: 1508893343 0000000008
+X-UID: 1
+Status: R
+X-Keywords:                                                                       
+Content-Length: 279
+
+Test again
+
+> On Oct 24, 2017, at 22:33, Kyle Koza <kjkoza@gmail.com> wrote:
+> 
+> Test test
+> 
+>> On Oct 24, 2017, at 22:32, Kyle Koza <kjkoza@gmail.com> wrote:
+>> 
+>> Test
+>> 
+>>> On Oct 24, 2017, at 22:16, Kyle Koza <kjkoza@gmail.com> wrote:
+>>> 
+>>> Testing a message
+>> 
+> 
+
+
+From kjkoza@gmail.com  Wed Oct 25 02:56:11 2017
+Return-Path: <kjkoza@gmail.com>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from mail-yw0-f170.google.com (mail-yw0-f170.google.com [209.85.161.170])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id 302036119E
+	for <bob@northamericanlumbercoalition.com>; Wed, 25 Oct 2017 02:56:11 +0000 (UTC)
+Received: by mail-yw0-f170.google.com with SMTP id l32so16871186ywh.13
+        for <bob@northamericanlumbercoalition.com>; Tue, 24 Oct 2017 19:56:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:subject:date:references
+         :to:in-reply-to:message-id;
+        bh=+4WkaF0FJxx2k7iGZiYsSSE8xaNsVXekkMY1E2Bsj1Y=;
+        b=BjHwhp2nEonkxyY6NFrFRj5SC71lzX0eP4DzsKPI30cSIKyXyZA2Z5aEAA9oybQk3y
+         O/qWWtnFES1XXo6rHH5ZGkpNGde/Pfa3wuwiBZEyEtRM9byGZlEMpmbyxos1jG7iDEzN
+         Zj5ansOV0drPl18NxKAju8LopCimU2Br8XJw3mRihxYR5zg1aAYGwvEghl9Ij63uWyyL
+         9bfB68YIt+5b62a9OYjm2nMMzt92frs7sJ+VeZmkofWrSxLyP96wRT5lompbFdLHTOBt
+         vjM8Erg/6LLg8W3Tk0g1wFks2bqf519Oe5FPLmnFHnnjXZLoEg1sQwyXjI4Xsx2Q2DKX
+         PsCA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version
+         :subject:date:references:to:in-reply-to:message-id;
+        bh=+4WkaF0FJxx2k7iGZiYsSSE8xaNsVXekkMY1E2Bsj1Y=;
+        b=P7qc/toZ8P5xQdKo5zGjn065kkXvMk4J43WjSXWaT4+tCI6OG8l8y6Kt6rLUqKhq4w
+         /cQI1q9BdXXUnIGK+YMc119ZXHxyISm6kGBmMtoOs+ygvtQbLrWUb1dYqHVTNWd8YSeg
+         78fGT7mk4et6Pb8nIvO5TcWpHNTpCK/TxwtBvSFdQC8da7PFf2+TLMhAL+SPga+t8mtG
+         gl789P2FlTyb/ilD71R6CMtcjdHn5N22K4ZRXjaNGvvFJrBA6UPo27DfgcmhgsPdCcIH
+         TiH1zmdeJ+hplKV/OIss4ZWc/MNUUsqDRgkK+nbLLprgNBh6bN01flJwSDzkKAk4UQsY
+         UX3Q==
+X-Gm-Message-State: AMCzsaU1DT4slwXGaTOr9S8fRwd0x2CD9YOCQKx4Y/dgRy+OMrB0+ArR
+	8DV0RnwNL6JoGwYCoLX+639xZ1rE
+X-Google-Smtp-Source: ABhQp+TpWsHL7jiu7EilZJqB5jHnnLz9SpY3z/ZIhZ1U2LFA38oKO7bVVCFaYB08wko8SPnOY7UUBw==
+X-Received: by 10.129.138.1 with SMTP id a1mr12090818ywg.383.1508898767518;
+        Tue, 24 Oct 2017 19:32:47 -0700 (PDT)
+Received: from ?IPv6:2601:cc::5c6a:e0e5:6a8:c025:edb8? ([2601:cc:0:5c6a:e0e5:6a8:c025:edb8])
+        by smtp.gmail.com with ESMTPSA id l19sm959839ywk.57.2017.10.24.19.32.46
+        for <bob@northamericanlumbercoalition.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 24 Oct 2017 19:32:47 -0700 (PDT)
+From: Kyle Koza <kjkoza@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Mac OS X Mail 11.0 \(3445.1.7\))
+Subject: Re: Test
+Date: Tue, 24 Oct 2017 22:32:45 -0400
+References: <D616810C-2F68-42A4-B458-C0C437EDE786@gmail.com>
+To: bob@northamericanlumbercoalition.com
+In-Reply-To: <D616810C-2F68-42A4-B458-C0C437EDE786@gmail.com>
+Message-Id: <299684CC-FA5E-4448-B0E2-75F0D56B24AF@gmail.com>
+X-Mailer: Apple Mail (2.3445.1.7)
+X-UID: 2
+Status: R
+X-Keywords:                                                                        
+Content-Length: 95
+
+Test
+
+> On Oct 24, 2017, at 22:16, Kyle Koza <kjkoza@gmail.com> wrote:
+> 
+> Testing a message
+
+
+From kjkoza@gmail.com  Fri Oct 27 00:36:03 2017
+Return-Path: <kjkoza@gmail.com>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from mail-io0-f169.google.com (mail-io0-f169.google.com [209.85.223.169])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id D9B8A611BB
+	for <bob@northamericanlumbercoalition.com>; Fri, 27 Oct 2017 00:36:02 +0000 (UTC)
+Received: by mail-io0-f169.google.com with SMTP id i38so9242216iod.2
+        for <bob@northamericanlumbercoalition.com>; Thu, 26 Oct 2017 17:36:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=eBnPhmVHpoX52kvXTy0WaGf8NzXbz7l4Xq14unZOpq0=;
+        b=hFeXrWJEL/xM72OkLdO15bWmqJBSfYa2CqA6vx28WCqnxppIVh9rpS7L03PAHig/8N
+         ZJJLBYe3OyI3n0MLuEf3z8EoR3lVE0Ukrkp9Z8zX7udz20/uK4vPFXm1R9kQJxSnQMtj
+         65za0wwfkN1trAlbgrysFxRokvzG6Xjs+hxhz+qX2CN+inicWwrbkG3lE5b4NGEl2s3Y
+         dfV07XcxfgRSAh3Qa469wiuUCMzfnxxIjotbvoZWIY4Ll9F8L0QUegCqX6IG3oaVZj9z
+         tddPEqdJ73y76+qhhaIkvj9WenIw9IxtqRDJaaNFe2QZn/0zDeBcDfWRobPXmtkfmFNG
+         KZHA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=eBnPhmVHpoX52kvXTy0WaGf8NzXbz7l4Xq14unZOpq0=;
+        b=h899KUU220NVEpCQAbOPSSpfVuTC9U3M7SbfzCL1u/cMjdF0jTdW6iA6T5xi1UzHss
+         oCw+Rk8tw2rxOUXq1xFJuCGY9GXD6bcak5ZimH/aZMzSfM//x3LeR4Rf2pruJO9n+iF0
+         hb2LY+6fyKwTIlWkb6pdC40XTpQ97ZPESJNa+kkqPcLxjDuo3zoCxI34POToGxrlS3ny
+         Ofdv/LVXF/lp8verTiEI3LaCAHAEmA7IJ40WsJFDxelLVNJp7dFb/Nwfs8VNSvIZrNLU
+         x/J8jzBb6VZrPA2XpYEw5Z8G2wLL6N9qffGxyQMsZkD1V3ktz48Pd6f1+GlViA8eo5ZK
+         ciOg==
+X-Gm-Message-State: AMCzsaVPKSoNL7GIvIY//67nvPDx6wj35SOt9agBQJlPnfMWmmE3exY7
+	t0NxXn75UdbSUo+uTkyRTIQl7jE4ysjqA33l6TE+kA==
+X-Google-Smtp-Source: ABhQp+RIXgY9K30xyanDLTV0kCDdlCgktPxXQL1l+Vj0Ef+9OL3U8S7HdVZtcd01lc6UVDc9/ma4fdc76TWv59hnz58=
+X-Received: by 10.36.115.144 with SMTP id y138mr1047690itb.89.1509064561995;
+ Thu, 26 Oct 2017 17:36:01 -0700 (PDT)
+MIME-Version: 1.0
+Sender: kjkoza@gmail.com
+Received: by 10.79.122.194 with HTTP; Thu, 26 Oct 2017 17:36:01 -0700 (PDT)
+From: Kyle Koza <kyle.koza@gatech.edu>
+Date: Thu, 26 Oct 2017 20:36:01 -0400
+X-Google-Sender-Auth: KaJubTF_gy2MI4th6hnnUTIefwM
+Message-ID: <CACw+hb_sgEbqWmOzsDM86DZLQseFHD7sBDp_3Kcg6f7rzzpnEg@mail.gmail.com>
+Subject: Test 2035
+To: bob@northamericanlumbercoalition.com
+Content-Type: multipart/alternative; boundary="001a1145bcf42935e5055c7c7995"
+X-UID: 3
+Status: R
+X-Status: A
+X-Keywords:                                                                       
+Content-Length: 213
+
+--001a1145bcf42935e5055c7c7995
+Content-Type: text/plain; charset="UTF-8"
+
+2035
+
+--001a1145bcf42935e5055c7c7995
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">2035</div>
+
+--001a1145bcf42935e5055c7c7995--
+
+From kjkoza@gmail.com  Fri Oct 27 00:37:13 2017
+Return-Path: <kjkoza@gmail.com>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from mail-io0-f178.google.com (mail-io0-f178.google.com [209.85.223.178])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id E2E83611BB
+	for <bob@northamericanlumbercoalition.com>; Fri, 27 Oct 2017 00:37:12 +0000 (UTC)
+Received: by mail-io0-f178.google.com with SMTP id 101so9256319ioj.3
+        for <bob@northamericanlumbercoalition.com>; Thu, 26 Oct 2017 17:37:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:sender:in-reply-to:references:from:date:message-id
+         :subject:to;
+        bh=3R3dLQw3oLUqNEAVefDp++JnwPe1uRCMaE25Rr9YL1A=;
+        b=PyWwxDRpS+VsPaY7/UXcU+1MnB+E+zYsustF200/wVz/vogG1plXEtBo+uE+ADXZol
+         JnzdrLdvUNm7PlJMBEx9zuQimgmS0dFXvuZIjrIy6dXw9TGd0m7kBgfyIvL3oQDdcMGP
+         DWgYxa97OLFexO8fjuOEb39ud67pphEO+z6buU/5jvWca6QQPpP1DYT3/ZJ0F2dBCFzC
+         4xMpbTmiyaq2KAKHUl2OVs16gbF1Ogk6geQZuOtVgtiJiMHpNIF1FCzWd42hzXVvhbR/
+         Kv24d+bZ495zT1ZcSybx+ZQ34XxIGI/PADrhOLoZ8lSVbj0HgZDwJPe3l1ayUfPXjwYk
+         0tfg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:sender:in-reply-to:references:from
+         :date:message-id:subject:to;
+        bh=3R3dLQw3oLUqNEAVefDp++JnwPe1uRCMaE25Rr9YL1A=;
+        b=SiqTKBT887KKt2shStAtvbnmUAt/IntUdw0Yq06NwPWx/TUZJZqcIy43aw1OFqFTLs
+         wBwYcAp1UeoqSZIBWh93JQei0SLngX1L4J8DGewxchqu1WgNAsjAAlUQw98iD1XJEKPV
+         wQ6v/2J4ilkNxntTDTVV6ZkvCu2V5QECJeyyh9y5l5QhuXSlcDZiN7LbecnmJxbqvem+
+         2LZqQtkhPD9CdlubEbSReJiVO4uFJx37xWo9a+wlUxl6OH51m7pJd9KjKfisJAD6Ufwk
+         tCtrNGVG3MRMaQpDqWL67XEeL+N+tEg6RX9zTpWsRIXN6WguGLYXsXlt277IFTP1QND8
+         STNg==
+X-Gm-Message-State: AMCzsaWOqaMCmiWNdY2bPkNr+M3IljxqPksZwIhm+iWhrOgyum4u3pqH
+	g+QT6yY9yelgfJ3eFWVUg/5AbA7xQTib2oFvuR3Lww==
+X-Google-Smtp-Source: ABhQp+TQka0zVknR/dPgezg69Kz0MR+UIFSTNPySXWY66+4eyDzrNk7sp/Rx4isOZ0e9JqEsrcBju1Y48QBOE5+4vs0=
+X-Received: by 10.107.114.25 with SMTP id n25mr32971040ioc.84.1509064632327;
+ Thu, 26 Oct 2017 17:37:12 -0700 (PDT)
+MIME-Version: 1.0
+Sender: kjkoza@gmail.com
+Received: by 10.79.122.194 with HTTP; Thu, 26 Oct 2017 17:37:11 -0700 (PDT)
+In-Reply-To: <848ef798c72c02a065dd926d6c26cac4.squirrel@mail.northamericanlumbercoalition.com>
+References: <CACw+hb_sgEbqWmOzsDM86DZLQseFHD7sBDp_3Kcg6f7rzzpnEg@mail.gmail.com>
+ <848ef798c72c02a065dd926d6c26cac4.squirrel@mail.northamericanlumbercoalition.com>
+From: Kyle Koza <kyle.koza@gatech.edu>
+Date: Thu, 26 Oct 2017 20:37:11 -0400
+X-Google-Sender-Auth: C6ewylUEMVldZBXENR1OOZyYDKk
+Message-ID: <CACw+hb_nootH8h3hsy8BcyU-P8+3iJxNb3pRAtdSQr=8Rs6oHQ@mail.gmail.com>
+Subject: Re: Test 2035
+To: bob@northamericanlumbercoalition.com
+Content-Type: multipart/alternative; boundary="089e0825d5045a62f5055c7c7db4"
+X-UID: 4
+Status: R
+X-Keywords:                                                                       
+Content-Length: 848
+
+--089e0825d5045a62f5055c7c7db4
+Content-Type: text/plain; charset="UTF-8"
+
+It sure did.
+
+On Thu, Oct 26, 2017 at 8:36 PM, <bob@northamericanlumbercoalition.com>
+wrote:
+
+> Does this work?
+>
+> > 2035
+> >
+>
+>
+>
+
+--089e0825d5045a62f5055c7c7db4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">It sure did.</div><div class=3D"gmail_extra"><br><div clas=
+s=3D"gmail_quote">On Thu, Oct 26, 2017 at 8:36 PM,  <span dir=3D"ltr">&lt;<=
+a href=3D"mailto:bob@northamericanlumbercoalition.com" target=3D"_blank">bo=
+b@northamericanlumbercoalition.com</a>&gt;</span> wrote:<br><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;pa=
+dding-left:1ex">Does this work?<br>
+<br>
+&gt; 2035<br>
+&gt;<br>
+<br>
+<br>
+</blockquote></div><br></div>
+
+--089e0825d5045a62f5055c7c7db4--
+
+From kyle.koza@security.gatech.edu  Fri Oct 27 00:42:46 2017
+Return-Path: <kyle.koza@security.gatech.edu>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from NAM01-BN3-obe.outbound.protection.outlook.com (mail-bn3nam01on0105.outbound.protection.outlook.com [104.47.33.105])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id CAAD861258
+	for <bob@northamericanlumbercoalition.com>; Fri, 27 Oct 2017 00:42:45 +0000 (UTC)
+Received: from DM5PR07MB3417.namprd07.prod.outlook.com (10.164.146.14) by
+ DM5PR07MB3418.namprd07.prod.outlook.com (10.164.146.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.178.6; Thu, 26 Oct 2017 16:17:27 +0000
+Received: from DM5PR07MB3417.namprd07.prod.outlook.com ([10.164.146.14]) by
+ DM5PR07MB3417.namprd07.prod.outlook.com ([10.164.146.14]) with mapi id
+ 15.20.0178.007; Thu, 26 Oct 2017 16:17:27 +0000
+From: "Koza, Kyle J" <kyle.koza@security.gatech.edu>
+To: "bob@northamericanlumbercoalition.com"
+	<bob@northamericanlumbercoalition.com>
+Subject: Test
+Thread-Topic: Test
+Thread-Index: AQHTTnXqWjCcfxzMFEW6cDHRqOHIkA==
+Date: Thu, 26 Oct 2017 16:17:27 +0000
+Message-ID: <66593543-417F-4402-AE72-D823EE2F1F37@security.gatech.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=kyle.koza@security.gatech.edu; 
+x-originating-ip: [2610:148:1f01:aac0::17d]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM5PR07MB3418;6:zLdsJapUEWV2y4AaWULIB6pqxvB6Zq1ajqy1fHvb3le1s6A035otRabcdYhTO7xwIUppmw1dsKT6/r3b5EZKybWjE2YR/ER5bN0w7PQ87QA6hlCWZUilwFmevUZy9TlpK3GYyjU0xKWclKtUndYRdS5iOMDJRYaLj151hkrh8GNT4GMvIYyQgAqN1cVMTW8xY+vUuv9CRYPh+rLzUq0XYqoISVwtkQ32fC4Ww9UxlYoB2Vv/nTNcvGng2aK90cSE;5:SuOU6YY5iqvKtDI1xzp7jHe108f98P3Rhjxp79VTbUkeF956vRTjyZRFfdBYEjD0Db1n6BTe4v0gdHqURh5SAoBjl6qCUTqvSpYrO2Q6au0MCpZF4VTrUNw93emQm7dm2x4XEKbHj5pllq+rQ21riLHHS/hR8g6TLrey6dMS6M4=;24:AzAUvr+wZr8q/MZ/Tg4A1iwkmXbtq3y7NM3Az+tcHJEEpHCsTS6GmbFqz4pE9psIuFqPXv8hlvNuGDRePTnPpCrKvfWt/dY3+pDrRpPHiFo=;7:u/8zxFtSo4Ti/jrbLVEVRlisAdO/t2rBx5nJUbM2LxRhDfjRkET3TdEtgtU3LOYVsbAayqjXmaH9rIy293DFSjPrwjqPr8f8M7y3EtDNGBdBT8bxuEFYRcZTYMUZVML2icakT4yVwbiuTZxF68TKGjiXkRXn5MMdCQ6f5QRUhzsoY5Os3UFfWaghAOnjdCeDLzs412hsvOSwtgDhhA+hcu7VOAjAc5XHt8Baq9A956X9czt9pYJ9y/wxfKvH4qFv
+x-ms-exchange-antispam-srfa-diagnostics: SSOS;
+x-ms-office365-filtering-correlation-id: c4db6a97-cca7-4882-6c01-08d51c8d0cc7
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4627075)(201703031133081)(201702281549075)(2017052603199)(49563074);SRVR:DM5PR07MB3418;
+x-ms-traffictypediagnostic: DM5PR07MB3418:
+x-exchange-antispam-report-test: UriScan:;
+x-microsoft-antispam-prvs: <DM5PR07MB3418C2FCFC3F4E854A5866C0AE450@DM5PR07MB3418.namprd07.prod.outlook.com>
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(102415395)(6040450)(2401047)(8121501046)(5005006)(93006095)(93001095)(100000703101)(100105400095)(3002001)(3231020)(10201501046)(6041248)(20161123558100)(201703131423075)(201702281529075)(201702281528075)(201703061421075)(201703061406153)(20161123564025)(20161123560025)(20161123555025)(20161123562025)(6072148)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:DM5PR07MB3418;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DM5PR07MB3418;
+x-forefront-prvs: 04724A515E
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(6009001)(39830400002)(346002)(376002)(189002)(199003)(2351001)(81166006)(68736007)(81156014)(555874004)(82746002)(588024002)(7116003)(8936002)(3480700004)(6916009)(33656002)(53936002)(42882006)(75432002)(221733001)(7736002)(2900100001)(551214005)(8676002)(88552002)(2906002)(786003)(25786009)(6486002)(6116002)(102836003)(77096006)(19618925003)(50986999)(54356999)(1730700003)(478600001)(86362001)(97736004)(558084003)(305945005)(316002)(106356001)(101416001)(2501003)(5640700003)(3280700002)(99286003)(6512007)(6436002)(6506006)(105586002)(83716003)(99936001)(3660700001)(14454004)(558944008)(15288005002)(19559445001);DIR:OUT;SFP:1102;SCL:1;SRVR:DM5PR07MB3418;H:DM5PR07MB3417.namprd07.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: security.gatech.edu does not
+ designate permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_75CCD103-9BB5-4C95-B213-D80772BFBF9E";
+	protocol="application/pgp-signature";
+	micalg=pgp-sha512
+MIME-Version: 1.0
+X-OriginatorOrg: security.gatech.edu
+X-MS-Exchange-CrossTenant-Network-Message-Id: c4db6a97-cca7-4882-6c01-08d51c8d0cc7
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Oct 2017 16:17:27.1749
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 482198bb-ae7b-4b25-8b7a-6d7f32faa083
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM5PR07MB3418
+X-UID: 5
+Status: 
+X-Keywords:                                                                      
+Content-Length: 1272
+
+--Apple-Mail=_75CCD103-9BB5-4C95-B213-D80772BFBF9E
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+Test
+
+--Apple-Mail=_75CCD103-9BB5-4C95-B213-D80772BFBF9E
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename=signature.asc
+Content-Type: application/pgp-signature;
+	name=signature.asc
+Content-Description: Message signed with OpenPGP
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEAG+J01SV+zCk9LOVYjOjYX6hUu8FAlnyCpUACgkQYjOjYX6h
+Uu/S6A/9EboXcNp17OAcRx3LjFbWyG7hZkvufWhK4p/kYOB4aBjjVUiOhfw5k13J
+EOKZlparzhojCDUzjj7neE+VriXv2vvs9P1+JcrRZnf4kUd4QbxQQ4wK3Yvgr1cH
+oTTMFw9csDhJvrli69t/KRV25b07tlriurzLwnqLg3cpAdiYoD4ZWrEtu+O8S6/k
+MSSH6bBo49gC38/9dcj6Tf9Vf1E9uxqDzDJug5/RKIruSe8Z56dR395eAHYJZWA0
+RgUbeuBMgrzCSYm0G/DxA4Sbx7XFSfYZJmiv2MKwoMHaCzSROZatsgI7Z8G12pPV
+FUfRvoeMffjJgl29O0dU4danZijp4x+DY33sV+nsieY9GQ+aUFAFj9WfWoyalM8Y
+5twL4x4ToDiVWOrr3WSlzqOSwgvIRtSI1RYaCXMYIgK0BQVJp4I6fYG8jr+KTbAE
+M81OFSMDuvQCGt29PmciVJLckYbVbGKs31SR7gzesdPDBTOiSICEgKCdgniHvL+k
+SuO/s/Y/8UQudaj/pOM3l+KF42j9ib+po86pUb2UDb2NOmitYSl/hepJ3ssue8Ks
+eQbnqu4E8bvcc8oX8kXPv5x1RFOI7Yh3L24ogeHk6P/6MGVYklWS7DDMfOTmYJDJ
+c9K3KaTPwQvIl66bcOr1Z2ZDJTl+PFuzDuVlfVqS4s/IHDkqCfs=
+=STl+
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_75CCD103-9BB5-4C95-B213-D80772BFBF9E--
+
+From kyle.koza@security.gatech.edu  Fri Oct 27 00:42:46 2017
+Return-Path: <kyle.koza@security.gatech.edu>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from NAM01-BN3-obe.outbound.protection.outlook.com (mail-bn3nam01on0105.outbound.protection.outlook.com [104.47.33.105])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id 4625A61258
+	for <bob@northamericanlumbercoalition.com>; Fri, 27 Oct 2017 00:42:46 +0000 (UTC)
+Received: from DM5PR07MB3417.namprd07.prod.outlook.com (10.164.146.14) by
+ DM5PR07MB3418.namprd07.prod.outlook.com (10.164.146.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.178.6; Fri, 27 Oct 2017 00:33:19 +0000
+Received: from DM5PR07MB3417.namprd07.prod.outlook.com ([10.164.146.14]) by
+ DM5PR07MB3417.namprd07.prod.outlook.com ([10.164.146.14]) with mapi id
+ 15.20.0178.007; Fri, 27 Oct 2017 00:33:19 +0000
+From: "Koza, Kyle J" <kyle.koza@security.gatech.edu>
+To: "bob@northamericanlumbercoalition.com"
+	<bob@northamericanlumbercoalition.com>
+Subject: test
+Thread-Topic: test
+Thread-Index: AQHTTrswsdF5tss380qkjySw7X+NQA==
+Date: Fri, 27 Oct 2017 00:33:19 +0000
+Message-ID: <0564E29F-3AB5-4277-B9C5-69CA4CB0B2B3@security.gatech.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=kyle.koza@security.gatech.edu; 
+x-originating-ip: [2601:cc:0:5c6a:8469:6f6d:db52:4e95]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: 1;DM5PR07MB3418;6:yVeGZRrICMXvhXQL2wQi+DNSCfy4GPTqO5zliIKaBRE81lI/3q0B9lHBojyBm/Owpg4HysqMcPcb9gCqPS5xRxQYtroONQhGNTF39BF0AF3K7Axis9hHFQ9QtMx81EmhC1s9ryBRL5KHnjKcMo8MZJbZf2xEpNRyed6gGfSiZt162J8kvw39Q/fHcUTmxUFEfXvNJFxVM/PTNhXyAOe+pmfpkOIdr8QwxbvfA554rJ0ks31S/WEvBywwqdkJATiJ;5:9/87jJ7hgMh+ILbm+kuGpIPuJVbjnmJQyydkdEjUT4gH+nR3wX8b5ACwkKm6ta4aJ53fkflXE+HkXjTcBmAjydOmN8NbJe4/c+bCF5ubnjB9kmZNVr11u+9wbJu9zT6eeJuVkxVQpVZ4ouqHTsJgBV/cE/gBFaiYu9n9U73EmUs=;24:jZDackJ267PZBG6LJWR+YDuHE18vRQ3vfOMfT1NDFI4CS3z6SxUpqvjnO4hBHTRaBiL7rA40Dv5WFonVhxwLIRrttnr0A54q8wAZosDgTS0=;7:ie92qJC333Rmepota1TrMCEIWJMTX1XSpSkQKSAc7aGcweSUZZOtP2zhjQGqsfAfUNC9Sai+qqrDG5RlA43ihgO9YoFg8Gx4WhlQEoURuQGKni2JSF+auLLfroEf4sDOvbIfTpAmiLEYXcQpvUUQOQjf3BxAgdnc2wY4ZkHnXgVwOimBOv+kPxDCtzUmsPlGOTk1gUnsMtUpM8/enXY+pKwYeI2tQy30C5KCwog7QZ83ZN4IBctEOMi6cRPhvqzJ
+x-ms-exchange-antispam-srfa-diagnostics: SSOS;
+x-ms-office365-filtering-correlation-id: 9121dfb9-06ac-4c70-18e6-08d51cd252ad
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(4534020)(4602075)(4627075)(201703031133081)(201702281549075)(2017052603199)(49563074);SRVR:DM5PR07MB3418;
+x-ms-traffictypediagnostic: DM5PR07MB3418:
+x-exchange-antispam-report-test: UriScan:;
+x-microsoft-antispam-prvs: <DM5PR07MB3418E573BB36F481AF636685AE5A0@DM5PR07MB3418.namprd07.prod.outlook.com>
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(100000700101)(100105000095)(100000701101)(100105300095)(100000702101)(100105100095)(102415395)(6040450)(2401047)(5005006)(8121501046)(3231020)(3002001)(10201501046)(100000703101)(100105400095)(93006095)(93001095)(6041248)(20161123562025)(20161123558100)(20161123564025)(20161123560025)(201703131423075)(201702281529075)(201702281528075)(201703061421075)(201703061406153)(20161123555025)(6072148)(201708071742011)(100000704101)(100105200095)(100000705101)(100105500095);SRVR:DM5PR07MB3418;BCL:0;PCL:0;RULEID:(100000800101)(100110000095)(100000801101)(100110300095)(100000802101)(100110100095)(100000803101)(100110400095)(100000804101)(100110200095)(100000805101)(100110500095);SRVR:DM5PR07MB3418;
+x-forefront-prvs: 0473A03F3F
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(6009001)(346002)(376002)(189002)(199003)(86362001)(316002)(1730700003)(54356999)(478600001)(50986999)(97736004)(305945005)(558084003)(8676002)(19618925003)(2906002)(2900100001)(6116002)(88552002)(77096006)(25786009)(6486002)(786003)(102836003)(105586002)(83716003)(3660700001)(14454004)(6436002)(101416001)(99286003)(106356001)(6506006)(6512007)(99936001)(2501003)(5640700003)(3280700002)(555874004)(588024002)(7116003)(81156014)(81166006)(2351001)(68736007)(82746002)(221733001)(75432002)(6916009)(4270600006)(33656002)(8936002)(3480700004)(42882006)(7736002)(53936002)(220243001)(217283001);DIR:OUT;SFP:1102;SCL:1;SRVR:DM5PR07MB3418;H:DM5PR07MB3417.namprd07.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: security.gatech.edu does not
+ designate permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_2C57224B-2052-4D47-AABF-B725641CA6B5";
+	protocol="application/pgp-signature";
+	micalg=pgp-sha512
+MIME-Version: 1.0
+X-OriginatorOrg: security.gatech.edu
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9121dfb9-06ac-4c70-18e6-08d51cd252ad
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Oct 2017 00:33:19.7641
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 482198bb-ae7b-4b25-8b7a-6d7f32faa083
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM5PR07MB3418
+X-UID: 6
+Status: 
+X-Keywords:                                                                      
+Content-Length: 1277
+
+--Apple-Mail=_2C57224B-2052-4D47-AABF-B725641CA6B5
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+Test test
+
+--Apple-Mail=_2C57224B-2052-4D47-AABF-B725641CA6B5
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename=signature.asc
+Content-Type: application/pgp-signature;
+	name=signature.asc
+Content-Description: Message signed with OpenPGP
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEAG+J01SV+zCk9LOVYjOjYX6hUu8FAlnyfs4ACgkQYjOjYX6h
+Uu99XxAAlIkQOZVWPXsWuABPsFw0cVaeQGDtdOISv6I5C9ooW/9G/vX4MBesHxsx
++zzalqIgqiIcv5Dt2S7MHPd+jlvN2TXPVPc0X+unI7Y0VL2TcqiRtdyswNuLh8zn
+BDgLMMI7euxJvx8mQfDecyxwd4BnA7oXSSayZeeAwwAx6Oz5ef/UtSI1+joaGmwl
+zcU5ry6zcXBqyeWZDW5sAoePz2LVrkcLGrBN8hEIwEqzkvAmC3l9IltDtcnlJvq2
+3oX/qRoTs7sJ/3lm3Uv8QZ89pHoVbE6GkmnUK8oUJLOWo+xnyT0S0qe3PwppHigA
+ZkMqKLRpgn4uv9iikjsNfqGXUGoA8yRmOxEQJWfDOUNGhScT35DGLTql/mORKxfq
+boayLDYlHo/53MsxjTS7r6XjKq6ULB6N/VY1jDQzRcDDM1KkdxP52nHYMRgsvuS/
+X3kzZAFWqViLgGJKphsWtkcSaln9YsNaZV0mm9VgAiNjOj24hft3WJpoWln/3/FF
+2sMnnfAoVSgE2AmgtUBlGk73u/rDveUruLMFlwppeRq2BIcSxzwpOQfk8AT52yK5
+SmJb8snuC8jIwW4c4W6ch8IY12KtDEFCLVEwxH4tlm/er9nvVCr/ixFRPXNPMHUw
+5LXjk1CRzh2dAA48vlYVDMHxKWqnnrbFTtCpYxppvlFPc5SZfjg=
+=GAQu
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_2C57224B-2052-4D47-AABF-B725641CA6B5--
+
+From kjkoza@gmail.com  Fri Oct 27 01:00:58 2017
+Return-Path: <kjkoza@gmail.com>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from mail-vk0-f45.google.com (mail-vk0-f45.google.com [209.85.213.45])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id 16F3A61258
+	for <bob@northamericanlumbercoalition.com>; Fri, 27 Oct 2017 01:00:58 +0000 (UTC)
+Received: by mail-vk0-f45.google.com with SMTP id n184so3265471vka.7
+        for <bob@northamericanlumbercoalition.com>; Thu, 26 Oct 2017 18:00:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:subject:message-id:date
+         :to;
+        bh=C/vtPO5L88A4DbG0DeUIQSP8cpIJ497GEmrclqgEdcY=;
+        b=V0xKHnh19TUFEhZW7VUz/011lWNBV5HBEjqPdn3SJWGQdp3eemCMz4fAPnja+fkYdd
+         Smq1NT2gmC7WbpffVsTbrUE3V3CVWHm6akEjf0YqGUaqn/I59o1X8jG4joU4ZslWaLTB
+         ysBlUuKoMMKnZNRL+vIrzz5yaTF2G0/BzwTRmbT2uooBQ4o2RCKv9xcP/ur6lRt3JURL
+         aK3rN5CCv82tncxSlI4KAQY4lDmyWu/vMLkk5IEVmc4YAx7bgemEuyCtXt2kcvo1WKzK
+         B1m7T9bjlZJ8j2DuGAAqyCw/kG4v43cs+mFW6Y4W+0orz4wHNs650ZZCGIQJ8W48VP3m
+         oSBA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version
+         :subject:message-id:date:to;
+        bh=C/vtPO5L88A4DbG0DeUIQSP8cpIJ497GEmrclqgEdcY=;
+        b=Tip8y0+4DuRqO+f6p0kZNelDNQ6zvHfTF+sLjyKIjwJtO3d3QuzVPzl9JLl6avjQuF
+         ksVrPOyw9ENrnJ20E33Zk1WA4j6So52m6MTeX/m+HZCBZ7PkhK6DG4M/8tFn/91t9ZJl
+         v1feac6hlykdIPEU2gZv0oucuew/DJboWgGGL/ERoQPZNGYV6vZXBA8OUTON1chqqlcv
+         yoCdcuLUni14j+GfPQDjotuqT8Fjt2IBUVDAq+YByaQNnxKf7RMCud6jO3JnBy4rEfu2
+         kD5/MFta/4/NZ3Qqyj++R/ZY1YRyVqp1x2kFSIE0Q56dIlH5t9t9LCrjqKwNExCSw74r
+         fU+w==
+X-Gm-Message-State: AMCzsaWaxGdM0GX9RkuinSbsFk69aXkaVGNHCnAwgdvIZtCYRjg7Xv02
+	nF3AORfYp8aCzO2GSfSxVWsSV9u3
+X-Google-Smtp-Source: ABhQp+QU2mHhPPGP2T77/tKW9w+Nu7siBRTWwsyoSI+PatIGbzbYoSZ9iJiv5iHITqxrpOJ5Vo2yAw==
+X-Received: by 10.31.191.133 with SMTP id p127mr485339vkf.90.1508897776834;
+        Tue, 24 Oct 2017 19:16:16 -0700 (PDT)
+Received: from ?IPv6:2601:cc::5c6a:e0e5:6a8:c025:edb8? ([2601:cc:0:5c6a:e0e5:6a8:c025:edb8])
+        by smtp.gmail.com with ESMTPSA id m195sm814411vkf.40.2017.10.24.19.16.15
+        for <bob@northamericanlumbercoalition.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 24 Oct 2017 19:16:15 -0700 (PDT)
+From: Kyle Koza <kjkoza@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Mac OS X Mail 11.0 \(3445.1.7\))
+Subject: Test
+Message-Id: <D616810C-2F68-42A4-B458-C0C437EDE786@gmail.com>
+Date: Tue, 24 Oct 2017 22:16:14 -0400
+To: bob@northamericanlumbercoalition.com
+X-Mailer: Apple Mail (2.3445.1.7)
+X-UID: 7
+Status: 
+X-Keywords:                                                                        
+Content-Length: 18
+
+Testing a message
+
+From kjkoza@gmail.com  Fri Oct 27 03:07:54 2017
+Return-Path: <kjkoza@gmail.com>
+X-Original-To: bob@northamericanlumbercoalition.com
+Delivered-To: bob@northamericanlumbercoalition.com
+Received: from mail-yw0-f179.google.com (mail-yw0-f179.google.com [209.85.161.179])
+	by mail.northamericanlumbercoalition.com (Postfix) with ESMTP id 358F0611E1
+	for <bob@northamericanlumbercoalition.com>; Fri, 27 Oct 2017 03:07:54 +0000 (UTC)
+Received: by mail-yw0-f179.google.com with SMTP id i198so4655022ywe.7
+        for <bob@northamericanlumbercoalition.com>; Thu, 26 Oct 2017 20:07:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:mime-version:subject:date:references:to:in-reply-to:message-id;
+        bh=o3btdHsSrVkVCqJ7DYWACHLaYU1RnpV5Fw4Ue3wyAfE=;
+        b=lSwlKZ/jqIGj9yit3WytbUlRqOtCwydYNG3ImNI2q1Y7zWYMSguFVh/KZw6wiVVynE
+         eYOkmCtXVujaGliwPi4daxQIszNndRGfibxenTH5nPwa9Zu2gafnJMRNQgIU98YQaHyZ
+         uEMaGTU+qsRg7nlGXI+TGz+UnM/8QXEYaAypHwJjfKVWR44GaR04YDJ7pTxaNWHLCf9o
+         CdJ/J7xvjsr9yekbbK8Hl4m8LScWMfIVqoNdvXA+lK5LSnmCwxW3SPB5KhdQLRcqzv3G
+         I6d9N/s+Yn549dLOHjW3QH1MNVBEjBfC4H+MDuRIPTjwyeYgyYpzhkTBEErMtgAj21/g
+         PR9Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:subject:date:references:to
+         :in-reply-to:message-id;
+        bh=o3btdHsSrVkVCqJ7DYWACHLaYU1RnpV5Fw4Ue3wyAfE=;
+        b=lrNXRXa8P+aUNfBpLpx3ZhOw61vvAYLSedeIJqiWtroFsdV6i4CyEJKfTD8dtF+gAe
+         7m8z7OUPbl6zlHq9Jo9FanMRPBRBUVjDSuEpQKrgD269Cq3rBDHXkVwKA+0h5KvinBxL
+         Tmkq9M+SgGfpCcSF3tnSVeDZa83NwWOtyBCxMSk6s2mn8JcrJV50J3f2Qph5bNEDuj/8
+         OetdVx+Y1zO4ejXr/QbQ6kIQB7/UN/9Z1pJrqis4ecHnFpCL5Du+2rZasvJSs7rlGhG8
+         SoKa2Hd6wkhD/lhMZoHg+Whi2LkF3wk9i8lza/m+fwVprqT60jnM1lhSJ33LhaOV4Qre
+         9cjQ==
+X-Gm-Message-State: AMCzsaWOxrEpbhmZiWXrVBdynr57v/UJW34oKNCX8L1oodWIS4nFs2gZ
+	3x9r2M9p2hLVihc/PFDgLvdR6pxX
+X-Google-Smtp-Source: ABhQp+SiFtql0zaQymEosBhoKPfVJ6BvTrNGHXLxIrJADtJcNoNwfUFXX3fK63WonwWVidHFO5tPgg==
+X-Received: by 10.37.59.18 with SMTP id i18mr412726yba.396.1508898798995;
+        Tue, 24 Oct 2017 19:33:18 -0700 (PDT)
+Received: from ?IPv6:2601:cc::5c6a:e0e5:6a8:c025:edb8? ([2601:cc:0:5c6a:e0e5:6a8:c025:edb8])
+        by smtp.gmail.com with ESMTPSA id l19sm959839ywk.57.2017.10.24.19.33.18
+        for <bob@northamericanlumbercoalition.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 24 Oct 2017 19:33:18 -0700 (PDT)
+From: Kyle Koza <kjkoza@gmail.com>
+Content-Type: multipart/signed;
+	boundary="Apple-Mail=_43A3347D-FBF9-4C10-B609-47C2578A6560";
+	protocol="application/pgp-signature";
+	micalg=pgp-sha512
+Mime-Version: 1.0 (Mac OS X Mail 11.0 \(3445.1.7\))
+Subject: Re: Test
+Date: Tue, 24 Oct 2017 22:33:16 -0400
+References: <D616810C-2F68-42A4-B458-C0C437EDE786@gmail.com>
+ <299684CC-FA5E-4448-B0E2-75F0D56B24AF@gmail.com>
+To: bob@northamericanlumbercoalition.com
+In-Reply-To: <299684CC-FA5E-4448-B0E2-75F0D56B24AF@gmail.com>
+Message-Id: <E9DF20E4-5CDD-4119-9FEA-CA4D102F9FDE@gmail.com>
+X-Mailer: Apple Mail (2.3445.1.7)
+X-UID: 8
+Status: 
+X-Keywords:                                                                      
+Content-Length: 1452
+
+
+--Apple-Mail=_43A3347D-FBF9-4C10-B609-47C2578A6560
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+Test test
+
+> On Oct 24, 2017, at 22:32, Kyle Koza <kjkoza@gmail.com> wrote:
+> 
+> Test
+> 
+>> On Oct 24, 2017, at 22:16, Kyle Koza <kjkoza@gmail.com> wrote:
+>> 
+>> Testing a message
+> 
+
+
+--Apple-Mail=_43A3347D-FBF9-4C10-B609-47C2578A6560
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename=signature.asc
+Content-Type: application/pgp-signature;
+	name=signature.asc
+Content-Description: Message signed with OpenPGP
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEAG+J01SV+zCk9LOVYjOjYX6hUu8FAlnv9+wACgkQYjOjYX6h
+Uu8iHg//eOw2+HIOSb6nAWcsqC8x2a+SiLnQMrDtHdQlTTvhaJInIGSSKNOZXuTj
+L8BwIkI+Hjm+IdRkfIIxmFDJJNODI5AQtXskgwB6ZDS4ZdHxArukoIJ9nqMw9iwS
+oK9nACqizNVLg2OCsOKaR9PBBoZQuVLHNtF5NUOrmqmoGpkki9gkkqWujcDTh9CN
+8HKQeuQrmjdFV3xOlpOOxz0slNPmpyazSWRe4mBrepkeTKcl/m24vjVrJ4uKjggt
+NqsQlQP+9QJkoVjdEhOV5lQvDxyM/NQB19488mYf/LmeiLw/G/Ya5kb3gdbB2m4/
+JgNATk7mdmnygm4gRhKd39Mmj68zPK0tZLtZs/o9RcGr0DoVAh50Z3ByeMaXBuQD
+YydSSs3K9ROyR+6pMl/Vdy4QjGvrVmvHi62k0HrsQRm3Fv5aobST02fqIGTAe8i2
+0itKnHup3X5+GeVeKiEEIyt9TOZep2j/wUK/cHoZ93VhGktZ6MtlyM7JASJI0yZE
+2Tvu8K8dhsDS1+CDP3sLgXIy0xsHg6ynuSuUqu/iXQmW/oo/3Ecpf7vUf4Zd9jhY
+zG0d1lcsvNATN2kM1OAFevjCaLFYJsStTqZD+8PnCgQtzOQPyPI2Cxkl93U+VTUq
+BMcDvEsdG90Gbxj1ddK6f6dmYaHkGCxGRcSiXgZEndakyaJYAac=
+=Azuh
+-----END PGP SIGNATURE-----
+
+--Apple-Mail=_43A3347D-FBF9-4C10-B609-47C2578A6560--
+

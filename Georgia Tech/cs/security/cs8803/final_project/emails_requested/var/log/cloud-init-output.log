@@ -1,0 +1,151 @@
+Cloud-init v. 0.7.6 running 'init-local' at Tue, 24 Oct 2017 23:52:34 +0000. Up 6.38 seconds.
+Cloud-init v. 0.7.6 running 'init' at Tue, 24 Oct 2017 23:52:34 +0000. Up 6.56 seconds.
+ci-info: ++++++++++++++++++++++Net device info+++++++++++++++++++++++
+ci-info:  Device    Up    Address        Mask          Hw-Address    
+ci-info:    lo     True  127.0.0.1    255.0.0.0            .         
+ci-info:   eth1   False      .            .        0a:25:d2:7f:6a:0e 
+ci-info:   eth0    True  10.0.0.41  255.255.255.0  0a:3e:b0:fe:78:b4 
+ci-info: +++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++
+ci-info:  Route    Destination    Gateway       Genmask      Interface  Flags 
+ci-info:    0        0.0.0.0      10.0.0.1      0.0.0.0         eth0      UG  
+ci-info:    1        10.0.0.0     0.0.0.0    255.255.255.0      eth0      U   
+ci-info:    2    169.254.169.254  0.0.0.0   255.255.255.255     eth0      UH  
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:aNWwHP+RMcTGascMNrwfBcmToWflxbN5k0UZMJg5DeI root@ip-10-0-0-41
+The key's randomart image is:
++---[RSA 2048]----+
+|        oo *%Bo+=|
+|       ..***OBo+o|
+|        +E+O*o. *|
+|       o  ++=. =.|
+|      o S. o..  o|
+|     .      .    |
+|                 |
+|                 |
+|                 |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:Wr20YePw7cJi+nksbggs1yswD6vLSAP/SF48Nnwt9R0 root@ip-10-0-0-41
+The key's randomart image is:
++---[DSA 1024]----+
+|                 |
+|                 |
+|                 |
+|         .       |
+|.  . .  S * E    |
+|..=o+ .= B B .   |
+| ooOB.+o.o* o    |
+|+oo=o+o.=.=.     |
+|++o ...*++ ..    |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:eQRcQz58R/S8WB/6akAcd22ORYbaU2i0dcgsJyTaeFU root@ip-10-0-0-41
+The key's randomart image is:
++---[ECDSA 256]---+
+|       ..o=.o*E=*|
+|        .B =ooOB*|
+|        o O +B+Oo|
+|         + =..B =|
+|        S o  o o.|
+|         . .  .  |
+|            .  . |
+|             ..  |
+|            ..   |
++----[SHA256]-----+
+Cloud-init v. 0.7.6 running 'modules:config' at Tue, 24 Oct 2017 23:52:35 +0000. Up 7.85 seconds.
+Loaded plugins: priorities, update-motd, upgrade-helper
+
+
+ One of the configured repositories failed (Unknown),
+ and yum doesn't have enough cached data to continue. At this point the only
+ safe thing yum can do is fail. There are a few ways to work "fix" this:
+
+     1. Contact the upstream for the repository and get them to fix the problem.
+
+     2. Reconfigure the baseurl/etc. for the repository, to point to a working
+        upstream. This is most often useful if you are using a newer
+        distribution release than is supported by the repository (and the
+        packages for the previous distribution release still work).
+
+     3. Disable the repository, so yum won't use it by default. Yum will then
+        just ignore the repository until you permanently enable it again or use
+        --enablerepo for temporary usage:
+
+            yum-config-manager --disable <repoid>
+
+     4. Configure the failing repository to be skipped, if it is unavailable.
+        Note that yum will try to contact the repo. when it runs most commands,
+        so will have to try and fail each time (and thus. yum will be be much
+        slower). If it is a very temporary problem though, this is often a nice
+        compromise:
+
+            yum-config-manager --save --setopt=<repoid>.skip_if_unavailable=true
+
+Cannot find a valid baseurl for repo: amzn-main/latest
+Could not retrieve mirrorlist http://repo.us-west-2.amazonaws.com/latest/main/mirror.list error was
+12: Timeout on http://repo.us-west-2.amazonaws.com/latest/main/mirror.list: (28, 'Connection timed out after 5001 milliseconds')
+Oct 24 23:52:51 cloud-init[2710]: util.py[WARNING]: Package upgrade failed
+Oct 24 23:52:51 cloud-init[2710]: cc_package_update_upgrade_install.py[WARNING]: 1 failed with exceptions, re-raising the last one
+Oct 24 23:52:51 cloud-init[2710]: util.py[WARNING]: Running module package-update-upgrade-install (<module 'cloudinit.config.cc_package_update_upgrade_install' from '/usr/lib/python2.7/dist-packages/cloudinit/config/cc_package_update_upgrade_install.pyc'>) failed
+Cloud-init v. 0.7.6 running 'modules:final' at Tue, 24 Oct 2017 23:52:51 +0000. Up 24.03 seconds.
+Cloud-init v. 0.7.6 finished at Tue, 24 Oct 2017 23:52:51 +0000. Datasource DataSourceEc2.  Up 24.17 seconds
+Cloud-init v. 0.7.6 running 'init-local' at Wed, 25 Oct 2017 02:53:37 +0000. Up 7.44 seconds.
+Cloud-init v. 0.7.6 running 'init' at Wed, 25 Oct 2017 02:53:37 +0000. Up 7.64 seconds.
+ci-info: ++++++++++++++++++++++Net device info+++++++++++++++++++++++
+ci-info:  Device   Up    Address         Mask          Hw-Address    
+ci-info:    lo    True  127.0.0.1     255.0.0.0            .         
+ci-info:   eth2   True  10.0.2.125  255.255.255.0  0a:eb:c7:0f:1c:e0 
+ci-info:   eth0   True  10.0.0.41   255.255.255.0  0a:3e:b0:fe:78:b4 
+ci-info: +++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++
+ci-info:  Route    Destination    Gateway       Genmask      Interface  Flags 
+ci-info:    0        0.0.0.0      10.0.0.1      0.0.0.0         eth0      UG  
+ci-info:    1        0.0.0.0      10.0.2.1      0.0.0.0         eth2      UG  
+ci-info:    2        10.0.0.0     0.0.0.0    255.255.255.0      eth0      U   
+ci-info:    3        10.0.2.0     0.0.0.0    255.255.255.0      eth2      U   
+ci-info:    4    169.254.169.254  0.0.0.0   255.255.255.255     eth0      UH  
+Cloud-init v. 0.7.6 running 'modules:config' at Wed, 25 Oct 2017 02:53:38 +0000. Up 8.29 seconds.
+Cloud-init v. 0.7.6 running 'modules:final' at Wed, 25 Oct 2017 02:53:42 +0000. Up 12.14 seconds.
+Cloud-init v. 0.7.6 finished at Wed, 25 Oct 2017 02:53:42 +0000. Datasource DataSourceEc2.  Up 12.36 seconds
+Cloud-init v. 0.7.6 running 'init-local' at Wed, 25 Oct 2017 02:57:18 +0000. Up 7.85 seconds.
+Cloud-init v. 0.7.6 running 'init' at Wed, 25 Oct 2017 02:57:19 +0000. Up 8.04 seconds.
+ci-info: ++++++++++++++++++++++Net device info+++++++++++++++++++++++
+ci-info:  Device   Up    Address         Mask          Hw-Address    
+ci-info:    lo    True  127.0.0.1     255.0.0.0            .         
+ci-info:   eth2   True  10.0.2.125  255.255.255.0  0a:eb:c7:0f:1c:e0 
+ci-info:   eth0   True  10.0.0.41   255.255.255.0  0a:3e:b0:fe:78:b4 
+ci-info: +++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++
+ci-info:  Route    Destination    Gateway       Genmask      Interface  Flags 
+ci-info:    0        0.0.0.0      10.0.0.1      0.0.0.0         eth0      UG  
+ci-info:    1        0.0.0.0      10.0.2.1      0.0.0.0         eth2      UG  
+ci-info:    2        10.0.0.0     0.0.0.0    255.255.255.0      eth0      U   
+ci-info:    3        10.0.2.0     0.0.0.0    255.255.255.0      eth2      U   
+ci-info:    4    169.254.169.254  0.0.0.0   255.255.255.255     eth0      UH  
+Cloud-init v. 0.7.6 running 'modules:config' at Wed, 25 Oct 2017 02:57:19 +0000. Up 8.69 seconds.
+Cloud-init v. 0.7.6 running 'modules:final' at Wed, 25 Oct 2017 02:57:23 +0000. Up 12.33 seconds.
+Cloud-init v. 0.7.6 finished at Wed, 25 Oct 2017 02:57:23 +0000. Datasource DataSourceEc2.  Up 12.50 seconds
+Cloud-init v. 0.7.6 running 'init-local' at Thu, 26 Oct 2017 16:25:57 +0000. Up 8.19 seconds.
+Cloud-init v. 0.7.6 running 'init' at Thu, 26 Oct 2017 16:25:57 +0000. Up 8.37 seconds.
+ci-info: ++++++++++++++++++++++Net device info+++++++++++++++++++++++
+ci-info:  Device   Up    Address         Mask          Hw-Address    
+ci-info:    lo    True  127.0.0.1     255.0.0.0            .         
+ci-info:   eth2   True  10.0.2.125  255.255.255.0  0a:eb:c7:0f:1c:e0 
+ci-info:   eth0   True  10.0.0.41   255.255.255.0  0a:3e:b0:fe:78:b4 
+ci-info: +++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++
+ci-info:  Route    Destination    Gateway       Genmask      Interface  Flags 
+ci-info:    0        0.0.0.0      10.0.0.1      0.0.0.0         eth0      UG  
+ci-info:    1        0.0.0.0      10.0.2.1      0.0.0.0         eth2      UG  
+ci-info:    2        10.0.0.0     0.0.0.0    255.255.255.0      eth0      U   
+ci-info:    3        10.0.2.0     0.0.0.0    255.255.255.0      eth2      U   
+ci-info:    4    169.254.169.254  0.0.0.0   255.255.255.255     eth0      UH  
+Cloud-init v. 0.7.6 running 'modules:config' at Thu, 26 Oct 2017 16:25:58 +0000. Up 9.19 seconds.
+Cloud-init v. 0.7.6 running 'modules:final' at Thu, 26 Oct 2017 16:26:02 +0000. Up 13.17 seconds.
+Cloud-init v. 0.7.6 finished at Thu, 26 Oct 2017 16:26:02 +0000. Datasource DataSourceEc2.  Up 13.38 seconds

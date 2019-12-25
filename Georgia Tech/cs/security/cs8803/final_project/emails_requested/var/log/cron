@@ -1,0 +1,133 @@
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20144]: finished logrotate
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20117]: starting man-db.cron
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20163]: finished man-db.cron
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20117]: starting squirrelmail.cron
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20170]: finished squirrelmail.cron
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20117]: starting tmpwatch
+Oct 29 03:32:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[20196]: finished tmpwatch
+Oct 29 03:32:01 ip-10-0-0-41 anacron[20048]: Job `cron.daily' terminated
+Oct 29 03:32:01 ip-10-0-0-41 anacron[20048]: Normal exit (1 job run)
+Oct 29 04:01:01 ip-10-0-0-41 CROND[20263]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 04:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20263]: starting 0anacron
+Oct 29 04:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20272]: finished 0anacron
+Oct 29 05:01:01 ip-10-0-0-41 CROND[20441]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 05:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20441]: starting 0anacron
+Oct 29 05:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20450]: finished 0anacron
+Oct 29 05:30:01 ip-10-0-0-41 CROND[20512]: (root) CMD (/sbin/start --quiet update-motd)
+Oct 29 06:01:01 ip-10-0-0-41 CROND[20611]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 06:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20611]: starting 0anacron
+Oct 29 06:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20620]: finished 0anacron
+Oct 29 07:01:01 ip-10-0-0-41 CROND[20748]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 07:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20748]: starting 0anacron
+Oct 29 07:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20757]: finished 0anacron
+Oct 29 08:01:01 ip-10-0-0-41 CROND[20928]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 08:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20928]: starting 0anacron
+Oct 29 08:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[20937]: finished 0anacron
+Oct 29 09:01:01 ip-10-0-0-41 CROND[21070]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 09:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21070]: starting 0anacron
+Oct 29 09:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21079]: finished 0anacron
+Oct 29 10:01:01 ip-10-0-0-41 CROND[21213]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 10:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21213]: starting 0anacron
+Oct 29 10:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21222]: finished 0anacron
+Oct 29 11:01:01 ip-10-0-0-41 CROND[21391]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 11:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21391]: starting 0anacron
+Oct 29 11:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21400]: finished 0anacron
+Oct 29 12:01:01 ip-10-0-0-41 CROND[21533]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 12:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21533]: starting 0anacron
+Oct 29 12:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21542]: finished 0anacron
+Oct 29 13:01:01 ip-10-0-0-41 CROND[21671]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 13:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21671]: starting 0anacron
+Oct 29 13:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21680]: finished 0anacron
+Oct 29 14:01:01 ip-10-0-0-41 CROND[21813]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 14:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21813]: starting 0anacron
+Oct 29 14:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21822]: finished 0anacron
+Oct 29 15:01:01 ip-10-0-0-41 CROND[21991]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 15:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[21991]: starting 0anacron
+Oct 29 15:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22000]: finished 0anacron
+Oct 29 16:01:01 ip-10-0-0-41 CROND[22134]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 16:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22134]: starting 0anacron
+Oct 29 16:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22143]: finished 0anacron
+Oct 29 17:01:01 ip-10-0-0-41 CROND[22276]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 17:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22276]: starting 0anacron
+Oct 29 17:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22285]: finished 0anacron
+Oct 29 18:01:01 ip-10-0-0-41 CROND[22489]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 18:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22489]: starting 0anacron
+Oct 29 18:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22498]: finished 0anacron
+Oct 29 19:01:01 ip-10-0-0-41 CROND[22676]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 19:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22676]: starting 0anacron
+Oct 29 19:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22685]: finished 0anacron
+Oct 29 20:01:01 ip-10-0-0-41 CROND[22819]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 20:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22819]: starting 0anacron
+Oct 29 20:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22828]: finished 0anacron
+Oct 29 21:01:01 ip-10-0-0-41 CROND[22959]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 21:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22959]: starting 0anacron
+Oct 29 21:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[22968]: finished 0anacron
+Oct 29 22:01:01 ip-10-0-0-41 CROND[23136]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 22:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23136]: starting 0anacron
+Oct 29 22:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23145]: finished 0anacron
+Oct 29 23:01:01 ip-10-0-0-41 CROND[23279]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 23:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23279]: starting 0anacron
+Oct 29 23:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23288]: finished 0anacron
+Oct 30 00:01:01 ip-10-0-0-41 CROND[23424]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 00:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23424]: starting 0anacron
+Oct 30 00:01:01 ip-10-0-0-41 anacron[23433]: Anacron started on 2017-10-30
+Oct 30 00:01:01 ip-10-0-0-41 anacron[23433]: Jobs will be executed sequentially
+Oct 30 00:01:01 ip-10-0-0-41 anacron[23433]: Normal exit (0 jobs run)
+Oct 30 00:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23435]: finished 0anacron
+Oct 30 01:01:01 ip-10-0-0-41 CROND[23569]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 01:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23569]: starting 0anacron
+Oct 30 01:01:01 ip-10-0-0-41 anacron[23578]: Anacron started on 2017-10-30
+Oct 30 01:01:01 ip-10-0-0-41 anacron[23578]: Jobs will be executed sequentially
+Oct 30 01:01:01 ip-10-0-0-41 anacron[23578]: Normal exit (0 jobs run)
+Oct 30 01:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23580]: finished 0anacron
+Oct 30 02:01:01 ip-10-0-0-41 CROND[23714]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 02:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23714]: starting 0anacron
+Oct 30 02:01:01 ip-10-0-0-41 anacron[23723]: Anacron started on 2017-10-30
+Oct 30 02:01:01 ip-10-0-0-41 anacron[23723]: Jobs will be executed sequentially
+Oct 30 02:01:01 ip-10-0-0-41 anacron[23723]: Normal exit (0 jobs run)
+Oct 30 02:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23725]: finished 0anacron
+Oct 30 03:01:01 ip-10-0-0-41 CROND[23890]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 03:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23890]: starting 0anacron
+Oct 30 03:01:01 ip-10-0-0-41 anacron[23899]: Anacron started on 2017-10-30
+Oct 30 03:01:01 ip-10-0-0-41 anacron[23899]: Will run job `cron.daily' in 10 min.
+Oct 30 03:01:01 ip-10-0-0-41 anacron[23899]: Jobs will be executed sequentially
+Oct 30 03:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[23901]: finished 0anacron
+Oct 30 03:11:01 ip-10-0-0-41 anacron[23899]: Job `cron.daily' started
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23912]: starting logrotate
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23920]: finished logrotate
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23912]: starting man-db.cron
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23931]: finished man-db.cron
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23912]: starting squirrelmail.cron
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23938]: finished squirrelmail.cron
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23912]: starting tmpwatch
+Oct 30 03:11:01 ip-10-0-0-41 run-parts(/etc/cron.daily)[23964]: finished tmpwatch
+Oct 30 03:11:01 ip-10-0-0-41 anacron[23899]: Job `cron.daily' terminated
+Oct 30 03:11:01 ip-10-0-0-41 anacron[23899]: Normal exit (1 job run)
+Oct 30 04:01:01 ip-10-0-0-41 CROND[24088]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 04:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24088]: starting 0anacron
+Oct 30 04:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24097]: finished 0anacron
+Oct 30 05:01:01 ip-10-0-0-41 CROND[24230]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 05:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24230]: starting 0anacron
+Oct 30 05:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24239]: finished 0anacron
+Oct 30 05:30:01 ip-10-0-0-41 CROND[24307]: (root) CMD (/sbin/start --quiet update-motd)
+Oct 30 06:01:01 ip-10-0-0-41 CROND[24434]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 06:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24434]: starting 0anacron
+Oct 30 06:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24443]: finished 0anacron
+Oct 30 07:01:01 ip-10-0-0-41 CROND[24579]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 07:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24579]: starting 0anacron
+Oct 30 07:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24588]: finished 0anacron
+Oct 30 08:01:01 ip-10-0-0-41 CROND[24721]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 08:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24721]: starting 0anacron
+Oct 30 08:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24730]: finished 0anacron
+Oct 30 09:01:01 ip-10-0-0-41 CROND[24870]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 09:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24870]: starting 0anacron
+Oct 30 09:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24879]: finished 0anacron
+Oct 30 10:01:01 ip-10-0-0-41 CROND[24964]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 10:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24964]: starting 0anacron
+Oct 30 10:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[24973]: finished 0anacron
+Oct 30 11:01:01 ip-10-0-0-41 CROND[25059]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 11:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[25059]: starting 0anacron
+Oct 30 11:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[25068]: finished 0anacron
+Oct 30 12:01:01 ip-10-0-0-41 CROND[25189]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 12:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[25189]: starting 0anacron
+Oct 30 12:01:01 ip-10-0-0-41 run-parts(/etc/cron.hourly)[25198]: finished 0anacron

@@ -1,0 +1,6 @@
+Oct 29 17:34:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 29 17:34:46 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -i eth0 -w mailserver.pcap
+Oct 29 17:36:34 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -i eth0 -w mailserver.pcap not port 22
+Oct 29 17:44:39 ip-10-0-0-41 sshd[22455]: Did not receive identification string from 10.0.3.15 port 1668
+Oct 30 12:03:51 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/chown ec2-user:ec2-user mailserver.pcap
+Oct 30 12:44:56 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/tar cvzf mail_server_logs.tar.gz /var/log/

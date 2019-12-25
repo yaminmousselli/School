@@ -1,0 +1,66 @@
+#main {
+    padding: 10px;
+}
+
+.tooltip {
+    opacity: 1;
+}
+
+.tooltip .tooltip-inner {
+    background-color: #999;
+}
+
+.slider-handle.round {
+    background-image: linear-gradient(to bottom,#979797 0,#707070 100%);
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    padding: 2px;
+}
+
+.legend circle {
+    stroke: #555;
+}
+
+.legend text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    fill: #555;
+}
+.tick line {
+    stroke-dasharray: 5 5;
+    stroke-width: .3
+    /* opacity: .5 --> This screws everything up. stroke-width is a work around*/
+}
+/*
+.d3-tip {
+      line-height: 1;
+      padding: 6px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 12px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+/* .d3-tip:after {
+     box-sizing: border-box;
+     display: inline;
+     font-size: 10px;
+     width: 100%;
+     line-height: 1;
+     color: rgba(0, 0, 0, 0.8);
+     content: "\25BC";
+     position: absolute;
+     text-align: center;
+} */
+
+/* Style northward tooltips specifically */
+/* .d3-tip.n:after {
+     margin: -2px 0 0 0;
+     top: 100%;
+     left: 0;
+} */

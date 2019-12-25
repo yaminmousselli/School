@@ -1,0 +1,16 @@
+2017/10/27 - Jimmy and Kyle
+17:00 - Bill reported workstation b47 compromised
+17:20 - Confirmed using IDS logs that system has been making malware callbacks
+17:25 - Captured memory using LiME to USB stick tagged asset 1
+17:30 - made decision to shutdown system (asset 2), and removed boot drive (asset 2A)
+18:30 - completed disk image using standard procedure for Falcon imagers.  Created working copy (asset 2A1)
+
+2017/10/31 - Jimmy and Chris
+10:00 - loaded memory capture in Redline
+10:05 - found malware:
+           - pid 517, named "sysmon" and started by explorer.exe pid 128 owned by user AD\bill
+	   - process started 2017/10/15 3:57 from C:\Windows\sysmon.exe
+10:30 - mounted asset 2A1 on forensic workstation using Tableau writeblocker, began timeline
+12:45 - dumped timeline between 2017/10/15 3:00 and 4:00
+           - found that registry entry HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnceEx modified at 3:55
+	   

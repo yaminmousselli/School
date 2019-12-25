@@ -1,0 +1,97 @@
+Yamin Mousselli
+CS 4235/6035: Introduction to Information Security 
+
+Other helpful links:
+https://fileinfo.com/filetypes/executable
+https://www.symantec.com/connect/articles/most-common-registry-key-check-while-dealing-virus-issue
+Copying Files (U): https://docs.microsoft.com/en-us/windows/desktop/api/winbase/nf-winbase-copyfilew
+
+If the VM doesn't show up and you have a black screen (might be b/c you have a 4k screen), try changing display/resolution or resizing the window away 
+from full screen. 
+
+API/System call sequence portions == Behavior Summary 
+
+Getting the address of a function does count as an attempted behavior 
+
+Hello world dialog does not count as taunting the user 
+
+Clarifications for Malware 10-11: 
+- One them will BOTH correct and incorrect.
+- One of them will ONLY say incorrect. This one is definitely incorrect.  
+
+--------------
+PHASE 1
+--------------
+- Reports Submitted Online 
+
+-------------
+PHASE 2
+-------------
+Note: I did not see any Mutexes in the mutexes section of my malware 1-4 reports
+
+MALWARE 1
+Behaviors attempted (success or failure)
+- B
+- C
+- Q
+
+MALWARE 2
+Behaviors attempted (success or failure)
+-A 
+-B 
+-D
+-E
+-H
+-L
+-U
+
+MALWARE 3
+Behaviors attempted (success or failure) 
+-A
+-K
+-L
+-P
+-U
+
+MALWARE 4
+Behaviors attempted (success or failure)
+-P
+-U
+
+--------------
+PHASE 3
+--------------
+python ./cuckoo/utils/submit,py --timeout 180 --clock "03-01-2004 14:00:00" ./malware/phase3/malware8.exe
+Screenshots will show the correct time. 
+
+MALWARE 8 
+- 6 (Most activity is on 6 March 2004)
+
+MALWARE 9
+-183240 milliseconds 
+
+MALWARE 10 & 11
+1. malware10.exe has the propper trigger name 
+2. Windefender.exe is the extra file dropped by malware10.exe 
+3. The window dialog displays the message "Error! Error! Filename is wrong!"
+
+-----------
+PHASE 4
+-----------
+For email forwarding, make sure you are looking at the right table. THere are 3 tables within `iptables-save` and they are *nat, *filter, *mangle. 
+If you use the command `iptables -L` you have to put the table in like so, `iptables -t nat -L" or else it will just show the *filter table by default. 
+
+1. CIDRs that our malware cannot communicate with:
+- 130.0.0.0/8
+- 143.215.0.0/16
+- 128.0.0.0/8
+
+2. We can use grep to retrieve this information (iptables-143.215.130.30
+
+3. Yes 
+
+4. Yes
+
+5. B
+- Think SMB
+- Think Worms 

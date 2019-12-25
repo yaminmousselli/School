@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Page Template</title>
+        <script type="text/javascript" src="../d3.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            d3.select("body").append("p").text("New paragraph!");
+
+            /*
+                You can save an excel file as a csv and then use it for D3. Also there is a handy csv (d3.csv) function in D3 and it uses an anonymous function which takes in the result of the loaded and parsed CSV file. You can name the argument that you pass to the anonymous function whatever you'd like.
+
+                The csv function is technically a callback function/higher-order function whcih is function that is passed to another function. Remember that JavaScript is a functional programming language!!!
+
+                The first argument is a string that represents the path of the CSV file to load.
+
+                If you goto window within console, you can see the contents of the CSV file. __proto__ is a third propertythat has to do with how JavaScript handles objects
+            */
+
+            /*d3.csv("food.csv", function(data) {
+                console.log(data);
+            });
+            */
+            /*
+            Moreover, d3.csv is an aynchronous method and same with d3.json and other functions that load external resources.
+
+            use a variable to store the loaded data so you won't have trouble using it on subsequent functions because of the aynchronity of d3's callback function. The proper way to do it is shown below.
+
+            Also you can have a paramater, error, which shows the error set returned by the web server, if one occurs. If the file loads successfully and there is no error, then error will be null.
+            */
+            var dataset;
+            d3.csv("food.csv", function(error, data) {
+                if (error) { //if error is not null
+                    console.log(error); //log the error
+                } else {
+                    console.log(data); //log the data
+                }
+                //once loaded, copy to dataset
+                dataset = data;
+                //call all other functions that use the data
+                generateVis();
+                hideLoadingMsg();
+            });
+
+            //There is d3.tsv() and d3.json() which work the same way.
+
+        </script>
+    </body>
+</html>

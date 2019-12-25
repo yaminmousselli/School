@@ -1,0 +1,34 @@
+    graph = Graph()
+    #This is my edge set
+    Edge_Set = createEdgeSet()
+
+    #this is the matrix to fill with paths
+    all_shortest = [[0 for x in range(1,151)] for y in range(1,151)]
+
+    #this is adding the edges from my edge set TO the Graphs edge set
+    for i in Edge_Set:
+        print i[0]
+        print i[1]
+        print i[2]
+        graph.add_edge(i[0],i[1],i[2])
+
+    #this is creating a Vertex Set
+    for i in range(1,151):
+        graph.add_node(i)
+
+    i = 1
+    j = 1
+
+    #This is finding the shortest path FROM ALL i TO ALL j vertices
+    while i <= 150:
+       #print i
+        while j <= 150:
+            print str(i) + " " + str(j)
+            path = find_path(graph, i, j)
+            all_shortest[i-1][j-1] = path
+
+            j+=1
+        i+=1
+    print all_shortest
+
+

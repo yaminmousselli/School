@@ -1,0 +1,312 @@
+Oct 24 23:52:34 ip-10-0-0-41 useradd[2501]: new group: name=ec2-user, GID=500
+Oct 24 23:52:34 ip-10-0-0-41 useradd[2501]: new user: name=ec2-user, UID=500, GID=500, home=/home/ec2-user, shell=/bin/bash
+Oct 24 23:52:34 ip-10-0-0-41 useradd[2501]: add 'ec2-user' to group 'wheel'
+Oct 24 23:52:34 ip-10-0-0-41 useradd[2501]: add 'ec2-user' to shadow group 'wheel'
+Oct 24 23:52:51 ip-10-0-0-41 sshd[2824]: Server listening on 0.0.0.0 port 22.
+Oct 24 23:52:51 ip-10-0-0-41 sshd[2824]: Server listening on :: port 22.
+Oct 24 23:57:42 ip-10-0-0-41 sshd[2955]: Invalid user ubuntu from 174.49.73.207 port 48159
+Oct 24 23:57:42 ip-10-0-0-41 sshd[2955]: input_userauth_request: invalid user ubuntu [preauth]
+Oct 24 23:57:42 ip-10-0-0-41 sshd[2955]: Connection closed by 174.49.73.207 port 48159 [preauth]
+Oct 24 23:57:48 ip-10-0-0-41 sshd[2957]: Root login accepted for forced command.
+Oct 24 23:57:48 ip-10-0-0-41 sshd[2957]: Accepted publickey for root from 174.49.73.207 port 48922 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 24 23:57:48 ip-10-0-0-41 sshd[2957]: Root login accepted for forced command. [preauth]
+Oct 24 23:57:48 ip-10-0-0-41 sshd[2957]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct 24 23:57:55 ip-10-0-0-41 sshd[2967]: Accepted publickey for ec2-user from 174.49.73.207 port 36446 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 24 23:57:55 ip-10-0-0-41 sshd[2967]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 24 23:58:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum update
+Oct 25 00:00:55 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install httpd php
+Oct 25 00:00:58 ip-10-0-0-41 groupadd[3624]: group added to /etc/group: name=apache, GID=48
+Oct 25 00:00:58 ip-10-0-0-41 groupadd[3624]: group added to /etc/gshadow: name=apache
+Oct 25 00:00:58 ip-10-0-0-41 groupadd[3624]: new group: name=apache, GID=48
+Oct 25 00:00:58 ip-10-0-0-41 useradd[3629]: new user: name=apache, UID=48, GID=48, home=/var/www, shell=/sbin/nologin
+Oct 25 00:01:05 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install postfix
+Oct 25 00:01:07 ip-10-0-0-41 groupadd[3694]: group added to /etc/group: name=postdrop, GID=90
+Oct 25 00:01:07 ip-10-0-0-41 groupadd[3694]: group added to /etc/gshadow: name=postdrop
+Oct 25 00:01:07 ip-10-0-0-41 groupadd[3694]: new group: name=postdrop, GID=90
+Oct 25 00:01:07 ip-10-0-0-41 groupadd[3698]: group added to /etc/group: name=postfix, GID=89
+Oct 25 00:01:07 ip-10-0-0-41 groupadd[3698]: group added to /etc/gshadow: name=postfix
+Oct 25 00:01:07 ip-10-0-0-41 groupadd[3698]: new group: name=postfix, GID=89
+Oct 25 00:01:07 ip-10-0-0-41 useradd[3703]: new user: name=postfix, UID=89, GID=89, home=/var/spool/postfix, shell=/sbin/nologin
+Oct 25 00:01:07 ip-10-0-0-41 useradd[3703]: add 'postfix' to group 'mail'
+Oct 25 00:01:07 ip-10-0-0-41 useradd[3703]: add 'postfix' to shadow group 'mail'
+Oct 25 00:01:57 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 00:06:27 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/start postfix
+Oct 25 00:06:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service postfix start
+Oct 25 00:06:44 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install dovecot
+Oct 25 00:06:49 ip-10-0-0-41 groupadd[4263]: group added to /etc/group: name=dovecot, GID=97
+Oct 25 00:06:49 ip-10-0-0-41 groupadd[4263]: group added to /etc/gshadow: name=dovecot
+Oct 25 00:06:49 ip-10-0-0-41 groupadd[4263]: new group: name=dovecot, GID=97
+Oct 25 00:06:49 ip-10-0-0-41 useradd[4268]: new user: name=dovecot, UID=97, GID=97, home=/usr/libexec/dovecot, shell=/sbin/nologin
+Oct 25 00:06:49 ip-10-0-0-41 groupadd[4274]: group added to /etc/group: name=dovenull, GID=497
+Oct 25 00:06:49 ip-10-0-0-41 groupadd[4274]: group added to /etc/gshadow: name=dovenull
+Oct 25 00:06:49 ip-10-0-0-41 groupadd[4274]: new group: name=dovenull, GID=497
+Oct 25 00:06:49 ip-10-0-0-41 useradd[4279]: new user: name=dovenull, UID=498, GID=497, home=/usr/libexec/dovecot, shell=/sbin/nologin
+Oct 25 00:08:46 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service dovecot start
+Oct 25 00:09:04 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install squirrelmail
+Oct 25 00:09:47 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum --enablerepo=epel
+Oct 25 00:10:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum --enablerepo=epel search squirrelmail
+Oct 25 00:11:00 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/yum.repos.d/epel.repo
+Oct 25 00:11:16 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install squirrelmail
+Oct 25 00:11:30 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum update
+Oct 25 00:13:37 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/share/squirrelmail/config/conf.pl
+Oct 25 00:17:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/less /etc/squirrelmail/config.php
+Oct 25 00:18:42 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/httpd/conf.d/squirrelmail.conf
+Oct 25 00:19:51 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service httpd start
+Oct 25 00:20:48 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install krb5
+Oct 25 00:20:52 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install krb5-workstation
+Oct 25 00:21:35 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/hosts
+Oct 25 00:22:40 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/useradd kyle
+Oct 25 00:22:40 ip-10-0-0-41 useradd[4539]: new group: name=kyle, GID=501
+Oct 25 00:22:40 ip-10-0-0-41 useradd[4539]: new user: name=kyle, UID=501, GID=501, home=/home/kyle, shell=/bin/bash
+Oct 25 00:22:49 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/userdel kyle
+Oct 25 00:22:49 ip-10-0-0-41 userdel[4545]: delete user 'kyle'
+Oct 25 00:22:49 ip-10-0-0-41 userdel[4545]: removed group 'kyle' owned by 'kyle'
+Oct 25 00:22:52 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser kyle
+Oct 25 00:22:52 ip-10-0-0-41 useradd[4551]: new group: name=kyle, GID=501
+Oct 25 00:22:52 ip-10-0-0-41 useradd[4551]: new user: name=kyle, UID=501, GID=501, home=/home/kyle, shell=/bin/bash
+Oct 25 00:22:59 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser job
+Oct 25 00:22:59 ip-10-0-0-41 useradd[4557]: new group: name=job, GID=502
+Oct 25 00:22:59 ip-10-0-0-41 useradd[4557]: new user: name=job, UID=502, GID=502, home=/home/job, shell=/bin/bash
+Oct 25 00:23:18 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/userdel job
+Oct 25 00:23:18 ip-10-0-0-41 userdel[4564]: delete user 'job'
+Oct 25 00:23:18 ip-10-0-0-41 userdel[4564]: removed group 'job' owned by 'job'
+Oct 25 00:23:22 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser joe
+Oct 25 00:23:22 ip-10-0-0-41 useradd[4570]: new group: name=joe, GID=502
+Oct 25 00:23:22 ip-10-0-0-41 useradd[4570]: new user: name=joe, UID=502, GID=502, home=/home/joe, shell=/bin/bash
+Oct 25 00:23:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser annie
+Oct 25 00:23:25 ip-10-0-0-41 useradd[4576]: new group: name=annie, GID=503
+Oct 25 00:23:25 ip-10-0-0-41 useradd[4576]: new user: name=annie, UID=503, GID=503, home=/home/annie, shell=/bin/bash
+Oct 25 00:23:30 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser bob
+Oct 25 00:23:30 ip-10-0-0-41 useradd[4582]: new group: name=bob, GID=504
+Oct 25 00:23:30 ip-10-0-0-41 useradd[4582]: new user: name=bob, UID=504, GID=504, home=/home/bob, shell=/bin/bash
+Oct 25 00:24:07 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/passwd kyle
+Oct 25 00:24:09 ip-10-0-0-41 passwd: pam_unix(passwd:chauthtok): password changed for kyle
+Oct 25 00:25:10 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/mkdir kyle
+Oct 25 00:25:33 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/chown kyle:kyle kyle
+Oct 25 00:25:44 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/kyle/
+Oct 25 00:25:49 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/kyle kyle
+Oct 25 00:25:49 ip-10-0-0-41 usermod[4603]: change user 'kyle' home from '/home/kyle' to '/var/www/html/kyle'
+Oct 25 00:25:56 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/rm kyle
+Oct 25 00:26:02 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/rm -r kyle
+Oct 25 00:26:04 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/kyle kyle
+Oct 25 00:26:19 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/mkdir kyle
+Oct 25 00:26:22 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/chown kyle:kyle kyle
+Oct 25 00:27:52 ip-10-0-0-41 sshd[2957]: Received disconnect from 174.49.73.207 port 48922:11: disconnected by user
+Oct 25 00:27:52 ip-10-0-0-41 sshd[2957]: Disconnected from 174.49.73.207 port 48922
+Oct 25 00:27:52 ip-10-0-0-41 sshd[2957]: pam_unix(sshd:session): session closed for user root
+Oct 25 00:28:52 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/less etc/squirrelmail/config.php
+Oct 25 00:29:30 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/su kyle
+Oct 25 00:29:30 ip-10-0-0-41 su: pam_unix(su:session): session opened for user kyle by ec2-user(uid=0)
+Oct 25 00:30:22 ip-10-0-0-41 su: pam_unix(su:session): session closed for user kyle
+Oct 25 00:36:02 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/less /var/log/messages
+Oct 25 00:36:10 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/messages
+Oct 25 00:36:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 25 00:37:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less mail/statistics
+Oct 25 00:37:37 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/usr/share/squirrelmail ; USER=root ; COMMAND=/usr/bin/less config/config.php
+Oct 25 00:38:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/bin/mkdir mail
+Oct 25 00:38:10 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/bin/chown kyle:kyle mail
+Oct 25 00:38:17 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/bin/rm mail
+Oct 25 00:38:20 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/bin/rm -r mail
+Oct 25 00:38:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/usr/bin/less /var/log/mail
+Oct 25 00:38:32 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/usr/bin/less /var/log/maillog
+Oct 25 00:39:28 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/usr/bin/vim /etc/dovecot/dovecot.conf
+Oct 25 00:40:33 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/etc/dovecot/conf.d ; USER=root ; COMMAND=/usr/bin/vim 10-
+Oct 25 00:40:38 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/etc/dovecot/conf.d ; USER=root ; COMMAND=/usr/bin/vim 10-auth.conf
+Oct 25 00:40:54 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/etc/dovecot/conf.d ; USER=root ; COMMAND=/usr/bin/vim 15-mailboxes.conf
+Oct 25 00:42:32 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/etc/dovecot/conf.d ; USER=root ; COMMAND=/usr/bin/vim 10-mail.conf
+Oct 25 00:43:38 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/etc/dovecot/conf.d ; USER=root ; COMMAND=/sbin/service dovecot restart
+Oct 25 00:44:33 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/spool/mail ; USER=root ; COMMAND=/usr/bin/less kyle
+Oct 25 00:49:16 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/bin/su - kyle
+Oct 25 00:49:16 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user kyle by ec2-user(uid=0)
+Oct 25 00:54:26 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user kyle
+Oct 25 00:54:35 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/usr/bin/less /var/log/mail/statistics
+Oct 25 00:54:45 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/usr/bin/less /var/log/maillog
+Oct 25 00:55:28 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/www/html/kyle ; USER=root ; COMMAND=/bin/su - kyle
+Oct 25 00:55:28 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user kyle by ec2-user(uid=0)
+Oct 25 00:56:10 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user kyle
+Oct 25 00:56:42 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser joe
+Oct 25 00:56:42 ip-10-0-0-41 useradd[5073]: failed adding user 'joe', data deleted
+Oct 25 00:56:52 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/joe joe
+Oct 25 00:56:52 ip-10-0-0-41 usermod[5075]: change user 'joe' home from '/home/joe' to '/var/www/html/joe'
+Oct 25 00:57:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/annie annie
+Oct 25 00:57:01 ip-10-0-0-41 usermod[5081]: change user 'annie' home from '/home/annie' to '/var/www/html/annie'
+Oct 25 00:57:11 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/grace grace
+Oct 25 00:57:24 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/adduser grace
+Oct 25 00:57:24 ip-10-0-0-41 useradd[5089]: new group: name=grace, GID=505
+Oct 25 00:57:24 ip-10-0-0-41 useradd[5089]: new user: name=grace, UID=505, GID=505, home=/home/grace, shell=/bin/bash
+Oct 25 00:57:32 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/grace grace
+Oct 25 00:57:32 ip-10-0-0-41 usermod[5096]: change user 'grace' home from '/home/grace' to '/var/www/html/grace'
+Oct 25 00:57:43 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/usermod -m -d /var/www/html/bob bob
+Oct 25 00:57:43 ip-10-0-0-41 usermod[5102]: change user 'bob' home from '/home/bob' to '/var/www/html/bob'
+Oct 25 00:58:11 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/passwd joe
+Oct 25 00:58:16 ip-10-0-0-41 passwd: pam_unix(passwd:chauthtok): password changed for joe
+Oct 25 00:58:27 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/passwd joe
+Oct 25 00:58:29 ip-10-0-0-41 passwd: pam_unix(passwd:chauthtok): password changed for joe
+Oct 25 00:59:17 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/passwd grace
+Oct 25 00:59:19 ip-10-0-0-41 passwd: pam_unix(passwd:chauthtok): password changed for grace
+Oct 25 00:59:29 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/passwd annie
+Oct 25 00:59:53 ip-10-0-0-41 passwd: pam_unix(passwd:chauthtok): password changed for annie
+Oct 25 00:59:58 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/passwd bob
+Oct 25 01:00:21 ip-10-0-0-41 passwd: pam_unix(passwd:chauthtok): password changed for bob
+Oct 25 01:01:49 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su - annie
+Oct 25 01:01:49 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user annie by ec2-user(uid=0)
+Oct 25 01:02:14 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user annie
+Oct 25 01:02:27 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su - bob
+Oct 25 01:02:27 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user bob by ec2-user(uid=0)
+Oct 25 01:02:51 ip-10-0-0-41 sudo: pam_unix(sudo:auth): conversation failed
+Oct 25 01:02:51 ip-10-0-0-41 sudo: pam_unix(sudo:auth): auth could not identify password for [bob]
+Oct 25 01:02:53 ip-10-0-0-41 sudo:      bob : user NOT in sudoers ; TTY=pts/0 ; PWD=/var/www/html/bob ; USER=root ; COMMAND=/bin/su - grace
+Oct 25 01:02:56 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user bob
+Oct 25 01:02:58 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su - grace
+Oct 25 01:02:58 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user grace by ec2-user(uid=0)
+Oct 25 01:03:38 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user grace
+Oct 25 01:03:39 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su - joe
+Oct 25 01:03:39 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user joe by ec2-user(uid=0)
+Oct 25 01:03:49 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user joe
+Oct 25 01:03:58 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/chkconfig httpd start
+Oct 25 01:04:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/chkconfig httpd on
+Oct 25 01:04:05 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/chkconfig dovecot on
+Oct 25 01:04:10 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/chkconfig postfix on
+Oct 25 01:11:13 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ip route replace default via 10.0.2.10 dev eth2 metric 10002
+Oct 25 01:12:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/yum install tcpdump
+Oct 25 01:12:04 ip-10-0-0-41 groupadd[5349]: group added to /etc/group: name=tcpdump, GID=72
+Oct 25 01:12:04 ip-10-0-0-41 groupadd[5349]: group added to /etc/gshadow: name=tcpdump
+Oct 25 01:12:04 ip-10-0-0-41 groupadd[5349]: new group: name=tcpdump, GID=72
+Oct 25 01:12:04 ip-10-0-0-41 useradd[5353]: new user: name=tcpdump, UID=72, GID=72, home=/, shell=/sbin/nologin
+Oct 25 01:12:06 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn -i eth1
+Oct 25 01:12:16 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn -i eth2
+Oct 25 01:28:51 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/yum -y localinstall splunkforwarder-7.0.0-c8a78efdd40f-linux-2.6-x86_64.rpm
+Oct 25 01:28:52 ip-10-0-0-41 groupadd[5491]: group added to /etc/group: name=splunk, GID=506
+Oct 25 01:28:52 ip-10-0-0-41 groupadd[5491]: group added to /etc/gshadow: name=splunk
+Oct 25 01:28:52 ip-10-0-0-41 groupadd[5491]: new group: name=splunk, GID=506
+Oct 25 01:28:52 ip-10-0-0-41 useradd[5496]: new user: name=splunk, UID=506, GID=506, home=/opt/splunkforwarder, shell=/bin/bash
+Oct 25 01:29:17 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk enable boot-start
+Oct 25 01:29:33 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su
+Oct 25 01:29:33 ip-10-0-0-41 su: pam_unix(su:session): session opened for user root by ec2-user(uid=0)
+Oct 25 01:29:36 ip-10-0-0-41 su: pam_unix(su:session): session closed for user root
+Oct 25 01:30:02 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/opt/splunkforwarder/bin/splunk enable boot-start
+Oct 25 01:30:14 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/bin/su - splunk
+Oct 25 01:30:14 ip-10-0-0-41 su: pam_unix(su-l:session): session opened for user splunk by ec2-user(uid=0)
+Oct 25 01:31:58 ip-10-0-0-41 su: pam_unix(su-l:session): session closed for user splunk
+Oct 25 01:32:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/sbin/service splunk start
+Oct 25 02:02:56 ip-10-0-0-41 sshd[2969]: Received disconnect from 174.49.73.207 port 36446:11: disconnected by user
+Oct 25 02:02:56 ip-10-0-0-41 sshd[2969]: Disconnected from 174.49.73.207 port 36446
+Oct 25 02:02:56 ip-10-0-0-41 sshd[2967]: pam_unix(sshd:session): session closed for user ec2-user
+Oct 25 02:06:45 ip-10-0-0-41 sshd[5865]: Accepted publickey for ec2-user from 174.49.73.207 port 47667 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 25 02:06:45 ip-10-0-0-41 sshd[5865]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 25 02:07:59 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/su
+Oct 25 02:07:59 ip-10-0-0-41 su: pam_unix(su:session): session opened for user root by ec2-user(uid=0)
+Oct 25 02:08:26 ip-10-0-0-41 su: pam_unix(su:session): session closed for user root
+Oct 25 02:10:58 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service splunk restart
+Oct 25 02:22:02 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 25 02:23:07 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/squirrelmail/config.php
+Oct 25 02:23:20 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/squirrelmail/config.php
+Oct 25 02:23:33 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/yum install sendmail
+Oct 25 02:23:42 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 25 02:24:05 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/squirrelmail/config.php
+Oct 25 02:24:19 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/squirrelmail/config.php
+Oct 25 02:25:45 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 25 02:26:17 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/hostname mail.northamericanlumbercoalition.com
+Oct 25 02:26:41 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix status
+Oct 25 02:26:46 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:27:00 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:27:03 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:27:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:29:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:33:03 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 25
+Oct 25 02:38:44 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:40:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:41:53 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:42:14 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:42:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:42:41 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:42:46 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:42:56 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 25 02:44:21 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less messages
+Oct 25 02:50:41 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/etc/postfix ; USER=root ; COMMAND=/usr/bin/yum install telnet
+Oct 25 02:52:43 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/etc/postfix ; USER=root ; COMMAND=/usr/bin/vim /etc/rc.local
+Oct 25 02:52:50 ip-10-0-0-41 sudo: ec2-user : TTY=pts/1 ; PWD=/etc/postfix ; USER=root ; COMMAND=/sbin/reboot
+Oct 25 02:52:50 ip-10-0-0-41 sshd[2824]: Received signal 15; terminating.
+Oct 25 02:52:50 ip-10-0-0-41 sshd[5865]: pam_unix(sshd:session): session closed for user ec2-user
+Oct 25 02:53:38 ip-10-0-0-41 sshd[2802]: Server listening on 0.0.0.0 port 22.
+Oct 25 02:53:38 ip-10-0-0-41 sshd[2802]: Server listening on :: port 22.
+Oct 25 02:53:57 ip-10-0-0-41 sshd[3147]: Accepted publickey for ec2-user from 174.49.73.207 port 44016 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 25 02:53:57 ip-10-0-0-41 sshd[3147]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 25 02:55:32 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:56:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 25 02:56:30 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/reboot
+Oct 25 02:56:31 ip-10-0-0-41 sshd[2802]: Received signal 15; terminating.
+Oct 25 02:56:31 ip-10-0-0-41 sshd[3147]: pam_unix(sshd:session): session closed for user ec2-user
+Oct 25 02:57:19 ip-10-0-0-41 sshd[2818]: Server listening on 0.0.0.0 port 22.
+Oct 25 02:57:19 ip-10-0-0-41 sshd[2818]: Server listening on :: port 22.
+Oct 25 02:57:24 ip-10-0-0-41 sshd[3105]: Accepted publickey for ec2-user from 174.49.73.207 port 48239 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 25 02:57:24 ip-10-0-0-41 sshd[3105]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 25 02:58:48 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service dovecot status
+Oct 25 02:58:54 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service httpd status
+Oct 25 02:59:01 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service postfix status
+Oct 25 03:54:42 ip-10-0-0-41 sshd[3155]: Received disconnect from 174.49.73.207 port 48239:11: disconnected by user
+Oct 25 03:54:42 ip-10-0-0-41 sshd[3155]: Disconnected from 174.49.73.207 port 48239
+Oct 25 03:54:42 ip-10-0-0-41 sshd[3105]: pam_unix(sshd:session): session closed for user ec2-user
+Oct 26 16:02:40 ip-10-0-0-41 sshd[2807]: Connection closed by 130.207.170.237 port 58125 [preauth]
+Oct 26 16:03:52 ip-10-0-0-41 sshd[2810]: Connection closed by 130.207.170.237 port 58132 [preauth]
+Oct 26 16:04:15 ip-10-0-0-41 sshd[2813]: Connection closed by 130.207.170.237 port 58139 [preauth]
+Oct 26 16:04:47 ip-10-0-0-41 sshd[2816]: Invalid user ec2_user from 130.207.170.237 port 58145
+Oct 26 16:04:47 ip-10-0-0-41 sshd[2816]: input_userauth_request: invalid user ec2_user [preauth]
+Oct 26 16:04:47 ip-10-0-0-41 sshd[2816]: Connection closed by 130.207.170.237 port 58145 [preauth]
+Oct 26 16:07:23 ip-10-0-0-41 auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=grace rhost=127.0.0.1  user=grace
+Oct 26 16:15:06 ip-10-0-0-41 auth: pam_unix(dovecot:auth): check pass; user unknown
+Oct 26 16:15:06 ip-10-0-0-41 auth: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=enamel-backpack52nuncio rhost=127.0.0.1 
+Oct 26 16:23:06 ip-10-0-0-41 sshd[3030]: Connection closed by 130.207.170.237 port 58358 [preauth]
+Oct 26 16:23:37 ip-10-0-0-41 sshd[3033]: Connection closed by 130.207.170.237 port 58363 [preauth]
+Oct 26 16:23:44 ip-10-0-0-41 sshd[3036]: Connection closed by 130.207.170.237 port 58366 [preauth]
+Oct 26 16:23:48 ip-10-0-0-41 sshd[3038]: Connection closed by 130.207.170.237 port 58367 [preauth]
+Oct 26 16:25:15 ip-10-0-0-41 sshd[2818]: Received signal 15; terminating.
+Oct 26 16:25:58 ip-10-0-0-41 sshd[2834]: Server listening on 0.0.0.0 port 22.
+Oct 26 16:25:58 ip-10-0-0-41 sshd[2834]: Server listening on :: port 22.
+Oct 27 00:19:06 ip-10-0-0-41 sshd[6143]: Accepted publickey for ec2-user from 174.49.73.207 port 46991 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 27 00:19:06 ip-10-0-0-41 sshd[6143]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 27 00:20:10 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 27 00:20:32 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 27 00:20:49 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix status
+Oct 27 00:20:53 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 27 00:21:56 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log/mail ; USER=root ; COMMAND=/usr/bin/less statistics
+Oct 27 00:22:12 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log/mail ; USER=root ; COMMAND=/usr/bin/less mes
+Oct 27 00:22:17 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less messages
+Oct 27 00:24:34 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 27 00:26:07 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 27 00:29:27 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 27 00:29:31 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 27 00:30:08 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 27 00:31:41 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/vim /etc/postfix/main.cf
+Oct 27 00:32:44 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/service postfix restart
+Oct 27 00:33:52 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/less maillog
+Oct 27 00:34:11 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f mail
+Oct 27 00:34:12 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f maillog
+Oct 27 01:50:18 ip-10-0-0-41 sshd[6145]: Received disconnect from 174.49.73.207 port 46991:11: disconnected by user
+Oct 27 01:50:18 ip-10-0-0-41 sshd[6145]: Disconnected from 174.49.73.207 port 46991
+Oct 27 01:50:18 ip-10-0-0-41 sshd[6143]: pam_unix(sshd:session): session closed for user ec2-user
+Oct 27 14:52:07 ip-10-0-0-41 sshd[11562]: Accepted publickey for ec2-user from 130.207.170.237 port 49314 ssh2: RSA SHA256:TOVzuQO1Yunizb3CdxxkfemNdd2f8Nn55UjkLqp7/9Y
+Oct 27 14:52:07 ip-10-0-0-41 sshd[11562]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 27 15:48:59 ip-10-0-0-41 sshd[11564]: Received disconnect from 130.207.170.237 port 49314:11: disconnected by user
+Oct 27 15:48:59 ip-10-0-0-41 sshd[11564]: Disconnected from 130.207.170.237 port 49314
+Oct 27 15:48:59 ip-10-0-0-41 sshd[11562]: pam_unix(sshd:session): session closed for user ec2-user
+Oct 28 18:03:34 ip-10-0-0-41 sshd[18317]: Accepted publickey for ec2-user from 24.125.35.143 port 10097 ssh2: RSA SHA256:/4YSOPZ5zIycGjLCcHhVJwCv20raPoYcBkNJXd8Viis
+Oct 28 18:03:34 ip-10-0-0-41 sshd[18317]: pam_unix(sshd:session): session opened for user ec2-user by (uid=0)
+Oct 28 18:33:39 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ip route add 10.0.3.0/24 via 10.0.2.10
+Oct 28 18:33:42 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ip route
+Oct 28 18:34:57 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:35:44 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service httpd status
+Oct 28 18:35:49 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service httpd restart
+Oct 28 18:35:59 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:36:15 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/bin/vim /etc/httpd/conf/httpd.conf
+Oct 28 18:36:51 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/service httpd restart
+Oct 28 18:36:56 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:37:20 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/netstat -anp
+Oct 28 18:49:42 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/iptables -L -n
+Oct 28 18:50:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn port 80
+Oct 28 18:51:25 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn host 10.0.3.15
+Oct 28 18:52:09 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/usr/sbin/tcpdump -Xn host 10.0.3.15
+Oct 28 18:55:06 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ifdown eth2
+Oct 28 18:55:11 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ip route
+Oct 28 18:55:29 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ip route add 10.0.3.0/24 via 10.0.0.231
+Oct 28 18:55:33 ip-10-0-0-41 sudo: ec2-user : TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/sbin/ip route

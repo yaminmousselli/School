@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<test-suite>
+
+    <test-case>
+        <name>multiple(25, 5)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>10000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>A</address><value>25</value></test-value>
+            <test-value><address>B</address><value>5</value></test-value>
+            <test-value><address>ANSWER</address><value>-50</value></test-value>
+        </input>
+        <output>
+            <test-value condition="equals" points="5">
+              <address>ANSWER</address><value>1</value>
+            </test-value>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>multiple(5, 25)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>10000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>A</address><value>5</value></test-value>
+            <test-value><address>B</address><value>25</value></test-value>
+            <test-value><address>ANSWER</address><value>50</value></test-value>
+        </input>
+        <output>
+            <test-value condition="equals" points="5">
+              <address>ANSWER</address><value>0</value>
+            </test-value>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>multiple(17, 3)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>10000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>A</address><value>17</value></test-value>
+            <test-value><address>B</address><value>3</value></test-value>
+            <test-value><address>ANSWER</address><value>-25</value></test-value>
+        </input>
+        <output>
+            <test-value condition="equals" points="5">
+              <address>ANSWER</address><value>0</value>
+            </test-value>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>multiple(512, 8)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>10000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>A</address><value>512</value></test-value>
+            <test-value><address>B</address><value>8</value></test-value>
+            <test-value><address>ANSWER</address><value>25</value></test-value>
+        </input>
+        <output>
+            <test-value condition="equals" points="5">
+              <address>ANSWER</address><value>1</value>
+            </test-value>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>multiple(513, 8)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>10000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>A</address><value>513</value></test-value>
+            <test-value><address>B</address><value>8</value></test-value>
+            <test-value><address>ANSWER</address><value>-125</value></test-value>
+        </input>
+        <output>
+            <test-value condition="equals" points="5">
+              <address>ANSWER</address><value>0</value>
+            </test-value>
+        </output>
+    </test-case>
+
+</test-suite>

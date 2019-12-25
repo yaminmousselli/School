@@ -1,0 +1,100 @@
+Oct 30 06:32:40 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 06:32:40 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 06:32:40 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1686 seconds.
+Oct 30 06:33:44 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 06:33:44 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 06:33:44 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1626 seconds.
+Oct 30 06:39:01 ip-10-0-0-14 CRON[10198]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 07:00:46 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 07:00:46 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 07:00:46 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1526 seconds.
+Oct 30 07:00:50 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 07:00:50 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 07:00:50 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1706 seconds.
+Oct 30 07:09:01 ip-10-0-0-14 CRON[10263]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 07:17:01 ip-10-0-0-14 CRON[10305]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 30 07:26:12 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 07:26:12 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 07:26:12 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1758 seconds.
+Oct 30 07:29:16 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 07:29:16 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 07:29:16 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1483 seconds.
+Oct 30 07:39:01 ip-10-0-0-14 CRON[10331]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 07:53:59 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 07:53:59 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 07:53:59 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1719 seconds.
+Oct 30 07:55:30 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 07:55:30 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 07:55:30 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1756 seconds.
+Oct 30 08:09:01 ip-10-0-0-14 CRON[10396]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 08:17:01 ip-10-0-0-14 CRON[10438]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 30 08:22:38 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 08:22:38 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 08:22:38 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1679 seconds.
+Oct 30 08:24:46 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 08:24:46 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 08:24:46 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1622 seconds.
+Oct 30 08:39:01 ip-10-0-0-14 CRON[10464]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 08:50:38 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 08:50:38 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 08:50:38 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1484 seconds.
+Oct 30 08:51:48 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 08:51:48 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 08:51:48 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1746 seconds.
+Oct 30 09:09:01 ip-10-0-0-14 CRON[10529]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 09:15:22 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 09:15:22 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 09:15:22 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1490 seconds.
+Oct 30 09:17:01 ip-10-0-0-14 CRON[10583]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 30 09:20:54 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 09:20:54 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 09:20:54 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1721 seconds.
+Oct 30 09:39:01 ip-10-0-0-14 CRON[10597]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 09:40:12 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 09:40:12 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 09:40:12 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1686 seconds.
+Oct 30 09:49:35 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 09:49:35 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 09:49:35 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1639 seconds.
+Oct 30 10:08:18 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 10:08:18 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 10:08:18 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1709 seconds.
+Oct 30 10:09:01 ip-10-0-0-14 CRON[10674]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 10:16:54 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 10:16:54 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 10:16:54 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1588 seconds.
+Oct 30 10:17:01 ip-10-0-0-14 CRON[10727]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 30 10:36:47 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 10:36:47 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 10:36:47 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1381 seconds.
+Oct 30 10:39:01 ip-10-0-0-14 CRON[10742]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 10:43:22 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 10:43:22 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 10:43:22 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1764 seconds.
+Oct 30 10:59:48 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 10:59:48 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 10:59:48 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1679 seconds.
+Oct 30 11:08:59 ip-10-0-0-14 systemd[1]: Starting Automatically fetch and run repair assertions...
+Oct 30 11:08:59 ip-10-0-0-14 snap-repair[10806]: error: cannot use snap-repair on a classic system
+Oct 30 11:08:59 ip-10-0-0-14 systemd[1]: Started Automatically fetch and run repair assertions.
+Oct 30 11:09:01 ip-10-0-0-14 CRON[10814]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 11:12:46 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 11:12:46 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 11:12:46 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1426 seconds.
+Oct 30 11:17:01 ip-10-0-0-14 CRON[10867]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 30 11:27:47 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 11:27:47 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 11:27:47 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1478 seconds.
+Oct 30 11:36:32 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 11:36:32 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 11:36:32 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1499 seconds.
+Oct 30 11:39:01 ip-10-0-0-14 CRON[10893]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Oct 30 11:52:25 ip-10-0-0-14 dhclient[1069]: DHCPREQUEST of 10.0.0.14 on eth0 to 10.0.0.1 port 67 (xid=0x34daf461)
+Oct 30 11:52:25 ip-10-0-0-14 dhclient[1069]: DHCPACK of 10.0.0.14 from 10.0.0.1
+Oct 30 11:52:25 ip-10-0-0-14 dhclient[1069]: bound to 10.0.0.14 -- renewal in 1360 seconds.
+Oct 30 12:00:23 ip-10-0-0-14 kernel: [151163.036864] device eth0 left promiscuous mode
+Oct 30 12:01:31 ip-10-0-0-14 dhclient[1068]: DHCPREQUEST of 10.0.2.244 on eth1 to 10.0.2.1 port 67 (xid=0x4c6113aa)
+Oct 30 12:01:31 ip-10-0-0-14 dhclient[1068]: DHCPACK of 10.0.2.244 from 10.0.2.1
+Oct 30 12:01:31 ip-10-0-0-14 dhclient[1068]: bound to 10.0.2.244 -- renewal in 1636 seconds.
+Oct 30 12:05:56 ip-10-0-0-14 kernel: [151496.184146] [UFW BLOCK] IN=eth0 OUT= MAC=0a:2a:3e:83:d5:56:0a:74:90:24:93:16:08:00 SRC=24.125.35.143 DST=10.0.0.14 LEN=88 TOS=0x00 PREC=0x00 TTL=42 ID=0 DF PROTO=TCP SPT=64765 DPT=22 WINDOW=32768 RES=0x00 ACK PSH URGP=0 
+Oct 30 12:09:01 ip-10-0-0-14 CRON[10967]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)

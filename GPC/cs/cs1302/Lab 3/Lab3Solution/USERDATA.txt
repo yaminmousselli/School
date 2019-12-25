@@ -1,0 +1,5 @@
+CharlieBrown,Doggie2016,9000002
+Snoopy,Human2016,9000004
+Linus,Argh2016,9000005
+PeppermintPatty,Candy2016,9000006
+Lucy,Doctor2016,9000007

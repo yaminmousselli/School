@@ -1,0 +1,50 @@
+Notes
+
+A. HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
+   HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices
+   HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce
+   HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+   HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+   HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
+B: ComputerName or ActiveComputerName
+
+C: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Associations
+
+D: Screenshots
+
+E: Outlook.Application
+
+F: WinVBS.vbs
+
+G: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System
+It's not necessarily malicious if the registry key is there. You have to check if the malware or threat actor changes a value within the reg key
+For G, you need to see if the malware attempts to change the DisableRegistryValue
+ 
+H: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+
+I: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System
+
+J: HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System
+
+K: Look for malware opening all drive letters
+
+L: LookupPrivilegeValue
+
+M: Look up the following: WH_KEYBOARD, WH_KEYBOARD_LL
+
+N: WH_MOUSE, WH_MOUSE_LL
+
+O: WH_CALLWNDPROC
+
+P: GetUserName or GetUserNameEx
+
+Q: 
+
+R:
+
+S:
+
+T: smtp or smtp.*
+
+U: CopyFile, CopyFileEx, CopyFileTransacted, CopyFileW

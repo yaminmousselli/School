@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<test-suite>
+
+    <test-case>
+        <name>timeline(1)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>1000000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>N</address><value>1</value></test-value>
+            <test-value><address>MAX</address><value>14</value></test-value>
+        </input>
+        <output>
+            <test-stdout condition="equals" points = "10">
+                <value>Nothing happened before 1607\nAnd in the years after 1607...\nThe Declaration of Independence was signed in 1776\nThe Constitution was ratified in 1788\nThe Civil War began in 1861\nThomas Edison invented the lightbulb in 1879\nThe Georgia Institute of Technology was founded in 1885\nYosemite National Park was created in 1890\nThe US entered WWI in 1917\nJapan attacked Pearl Harbor in 1941\nThe Civil Rights movement began in 1955\nThe Vietnam War began in 1961\nApollo 11 landed on the moon in 1969\nBill Gates founded Microsoft Corporation in 1975\nSuper Mario Bros. debuted in 1985\nThe Cold War formally ended in 1991\n</value>
+            </test-stdout>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>timeline(3)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>1000000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>N</address><value>3</value></test-value>
+            <test-value><address>MAX</address><value>14</value></test-value>
+        </input>
+        <output>
+            <test-stdout condition="equals" points = "10">
+                <value>In the years before 1788...\nThe Declaration of Independence was signed in 1776\nJohn Smith founded Jamestown in 1607\nAnd in the years after 1788...\nThe Civil War began in 1861\nThomas Edison invented the lightbulb in 1879\nThe Georgia Institute of Technology was founded in 1885\nYosemite National Park was created in 1890\nThe US entered WWI in 1917\nJapan attacked Pearl Harbor in 1941\nThe Civil Rights movement began in 1955\nThe Vietnam War began in 1961\nApollo 11 landed on the moon in 1969\nBill Gates founded Microsoft Corporation in 1975\nSuper Mario Bros. debuted in 1985\nThe Cold War formally ended in 1991\n</value>
+            </test-stdout>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>timeline(7)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>1000000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>N</address><value>7</value></test-value>
+            <test-value><address>MAX</address><value>14</value></test-value>
+        </input>
+        <output>
+            <test-stdout condition="equals" points = "10">
+                <value>In the years before 1890...\nThe Georgia Institute of Technology was founded in 1885\nThomas Edison invented the lightbulb in 1879\nThe Civil War began in 1861\nThe Constitution was ratified in 1788\nThe Declaration of Independence was signed in 1776\nJohn Smith founded Jamestown in 1607\nAnd in the years after 1890...\nThe US entered WWI in 1917\nJapan attacked Pearl Harbor in 1941\nThe Civil Rights movement began in 1955\nThe Vietnam War began in 1961\nApollo 11 landed on the moon in 1969\nBill Gates founded Microsoft Corporation in 1975\nSuper Mario Bros. debuted in 1985\nThe Cold War formally ended in 1991\n</value>
+            </test-stdout>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>timeline(9)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>1000000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>N</address><value>9</value></test-value>
+            <test-value><address>MAX</address><value>14</value></test-value>
+        </input>
+        <output>
+            <test-stdout condition="equals" points = "10">
+                <value>In the years before 1941...\nThe US entered WWI in 1917\nYosemite National Park was created in 1890\nThe Georgia Institute of Technology was founded in 1885\nThomas Edison invented the lightbulb in 1879\nThe Civil War began in 1861\nThe Constitution was ratified in 1788\nThe Declaration of Independence was signed in 1776\nJohn Smith founded Jamestown in 1607\nAnd in the years after 1941...\nThe Civil Rights movement began in 1955\nThe Vietnam War began in 1961\nApollo 11 landed on the moon in 1969\nBill Gates founded Microsoft Corporation in 1975\nSuper Mario Bros. debuted in 1985\nThe Cold War formally ended in 1991\n</value>
+            </test-stdout>
+        </output>
+    </test-case>
+
+    <test-case>
+        <name>timeline(14)</name>
+        <has-max-executions>1</has-max-executions>
+        <max-executions>1000000</max-executions>
+        <randomize>1</randomize>
+        <input>
+            <test-value><address>N</address><value>14</value></test-value>
+            <test-value><address>MAX</address><value>14</value></test-value>
+        </input>
+        <output>
+            <test-stdout condition="equals" points = "10">
+                <value>In the years before 1985...\nBill Gates founded Microsoft Corporation in 1975\nApollo 11 landed on the moon in 1969\nThe Vietnam War began in 1961\nThe Civil Rights movement began in 1955\nJapan attacked Pearl Harbor in 1941\nThe US entered WWI in 1917\nYosemite National Park was created in 1890\nThe Georgia Institute of Technology was founded in 1885\nThomas Edison invented the lightbulb in 1879\nThe Civil War began in 1861\nThe Constitution was ratified in 1788\nThe Declaration of Independence was signed in 1776\nJohn Smith founded Jamestown in 1607\nAnd in the years after 1985...\nThe Cold War formally ended in 1991\n</value>
+            </test-stdout>
+        </output>
+    </test-case>
+
+</test-suite>

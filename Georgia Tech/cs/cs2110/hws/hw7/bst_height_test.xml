@@ -1,0 +1,263 @@
+<test-suite>
+	<test-case>
+		<name>HEIGHT 0 (empty tree) = 0</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>0</answer>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+		            <calls>1</calls>
+		            <read-answer>0</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+	<test-case>
+		<name>HEIGHT 1 (single element tree) = 1</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,1,0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>1</answer>
+				<locals>0,0</locals>
+				<calls>
+					<call><name>HEIGHT</name><params>x6000, 2</params></call>
+					<call><name>HEIGHT</name><params>x6000, 3</params></call>
+				</calls>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+					<locals>1</locals>
+		            <calls>1</calls>
+		            <read-answer>1</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+	<test-case>
+		<name>HEIGHT 1,1,0 (root with left child) = 2</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,1,1,0,0,0,0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>2</answer>
+				<locals>1,0</locals>
+				<calls>
+					<call><name>HEIGHT</name><params>x6000, 2</params></call>
+					<call><name>HEIGHT</name><params>x6000, 3</params></call>
+				</calls>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+					<locals>1</locals>
+		            <calls>1</calls>
+		            <read-answer>1</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+
+	<test-case>
+		<name>HEIGHT 1,0,1 (root with right child) = 2</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,1,0,1,0,0,0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>2</answer>
+				<locals>0,1</locals>
+				<calls>
+					<call><name>HEIGHT</name><params>x6000, 2</params></call>
+					<call><name>HEIGHT</name><params>x6000, 3</params></call>
+				</calls>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+					<locals>1</locals>
+		            <calls>1</calls>
+		            <read-answer>1</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+	<test-case>
+		<name>HEIGHT 1,0,1 (root with left and right child) = 2</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,1,1,1,0,0,0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>2</answer>
+				<locals>1,1</locals>
+				<calls>
+					<call><name>HEIGHT</name><params>x6000, 2</params></call>
+					<call><name>HEIGHT</name><params>x6000, 3</params></call>
+				</calls>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+					<locals>1</locals>
+		            <calls>1</calls>
+		            <read-answer>1</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+	<test-case>
+		<name>HEIGHT 0,-1,-1,0,-1,0,0,0,-1 = 4</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,-1,-1,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>4</answer>
+				<locals>3,0</locals>
+				<calls>
+					<call><name>HEIGHT</name><params>x6000, 2</params></call>
+					<call><name>HEIGHT</name><params>x6000, 3</params></call>
+				</calls>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+					<locals>1</locals>
+		            <calls>1</calls>
+		            <read-answer>1</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+	<test-case>
+		<name>HEIGHT 1,1,4,8,9,0,5,-1,10,-15,8,9,4,5,5 = 4</name>
+		<has-max-executions>1</has-max-executions>
+		<max-executions>1000000</max-executions>
+		<randomize>1</randomize>
+		<input>
+			<test-array><address>ARRAY</address><value>0,1,1,4,8,9,0,5,-1,10,-15,8,9,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</value></test-array>
+			<test-subr>
+				<name>HEIGHT</name>
+				<stack>xF000</stack>
+				<r7>x5000</r7>
+				<r5>xCAFE</r5>
+				<params>x6000, 1</params>
+			</test-subr>
+		</input>
+		<output>
+			<test-subr>
+				<answer>4</answer>
+				<locals>3,3</locals>
+				<calls>
+					<call><name>HEIGHT</name><params>x6000, 2</params></call>
+					<call><name>HEIGHT</name><params>x6000, 3</params></call>
+				</calls>
+				<points>
+					<answer>1</answer>
+					<params>1</params>
+					<r7>1</r7>
+					<r6>1</r6>
+					<r5>1</r5>
+					<locals>1</locals>
+		            <calls>1</calls>
+		            <read-answer>1</read-answer>
+				</points>
+				<deductions-per-mistake>1</deductions-per-mistake>
+			</test-subr>
+		</output>
+	</test-case>
+
+</test-suite>

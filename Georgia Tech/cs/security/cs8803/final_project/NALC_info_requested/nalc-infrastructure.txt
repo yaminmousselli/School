@@ -1,0 +1,33 @@
+users
+bob
+joe
+annie
+grace
+
+IPs
+Internal:External:Description
+10.0.3.15::Bob's Workstation (Server 2003)
+10.0.3.7::Joe's Workstation
+10.0.3.108::Grace's Workstation
+10.0.3.96::Annie's Workstation
+
+10.0.2.172::intranet
+10.0.2.195::Domain Controller and primary DNS
+10.0.0.41,10.0.2.125:34.210.204.182:MTA and webmail (mail.northamericanlumbercoalition.com)
+10.0.0.20:35.161.156.167:Read-Only Domain Controller
+10.0.2.11::File Server (files.ad.northamericanlumbercoalition.com)
+10.0.0.14,10.0.2.244:52.42.17.137:www.northamericanlumbercoalition.com
+
+
+10.0.0.0/24 - external network, mostly unroutable from internal
+10.0.1.0/24 - DMZ that doesn't work
+10.0.2.0/24 - internal services, routeable from workstations
+10.0.3.0/24 - workstation network
+
+
+Important links:
+mail.northamericanlumbercoalition.com: resolves to different IPs internal and external, both will work. This is webmail and the MTA
+http://mail.northamericanlumbercoalition.com/webmail: webmail
+www.northamericanlumbercoalition.com: resolves to different IPs internal and external, both will work. This is the main website.
+\\files.ad.northamericanlumbercoalition.com\NALC: this is the file share
+

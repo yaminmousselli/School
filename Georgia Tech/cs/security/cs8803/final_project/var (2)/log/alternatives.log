@@ -1,0 +1,25 @@
+update-alternatives 2017-10-09 22:50:40: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth 50
+update-alternatives 2017-10-09 22:50:45: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth 50
+update-alternatives 2017-10-09 22:51:28: run with --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth 50
+update-alternatives 2017-10-22 19:14:17: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2017-10-22 19:14:17: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2017-10-22 19:14:19: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mysql.cnf 200
+update-alternatives 2017-10-22 19:14:19: link group my.cnf updated to point to /etc/mysql/mysql.cnf
+update-alternatives 2017-10-22 19:16:10: run with --install /usr/bin/php php /usr/bin/php7.0 70 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php7.0.1.gz
+update-alternatives 2017-10-22 19:16:10: link group php updated to point to /usr/bin/php7.0
+update-alternatives 2017-10-22 19:16:10: run with --install /usr/bin/phar phar /usr/bin/phar7.0 70 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar7.0.1.gz
+update-alternatives 2017-10-22 19:16:10: link group phar updated to point to /usr/bin/phar7.0
+update-alternatives 2017-10-22 19:16:10: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar7.0 70 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar7.0.1.gz
+update-alternatives 2017-10-22 19:16:10: link group phar.phar updated to point to /usr/bin/phar.phar7.0
+update-alternatives 2017-10-24 06:50:56: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2017-10-24 06:51:01: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mysql.cnf 200
+update-alternatives 2017-10-27 18:22:59: run with --install /usr/bin/traceroute traceroute /usr/bin/traceroute.db 100 --slave /usr/sbin/traceroute traceroute.sbin /usr/bin/traceroute.db --slave /usr/share/man/man1/traceroute.1.gz traceroute.1.gz /usr/share/man/man1/traceroute.db.1.gz
+update-alternatives 2017-10-27 18:22:59: link group traceroute updated to point to /usr/bin/traceroute.db
+update-alternatives 2017-10-27 18:22:59: run with --install /usr/bin/traceroute6 traceroute6 /usr/bin/traceroute6.db 100 --slave /usr/share/man/man1/traceroute6.1.gz traceroute6.1.gz /usr/share/man/man1/traceroute6.db.1.gz
+update-alternatives 2017-10-27 18:22:59: run with --install /usr/bin/lft lft /usr/bin/lft.db 100 --slave /usr/share/man/man1/lft.1.gz lft.1.gz /usr/share/man/man1/lft.db.1.gz
+update-alternatives 2017-10-27 18:22:59: link group lft updated to point to /usr/bin/lft.db
+update-alternatives 2017-10-27 18:22:59: run with --install /usr/bin/traceproto traceproto /usr/bin/traceproto.db 100 --slave /usr/share/man/man1/traceproto.1.gz traceproto.1.gz /usr/share/man/man1/traceproto.db.1.gz
+update-alternatives 2017-10-27 18:22:59: link group traceproto updated to point to /usr/bin/traceproto.db
+update-alternatives 2017-10-27 18:22:59: run with --install /usr/sbin/tcptraceroute tcptraceroute /usr/sbin/tcptraceroute.db 100 --slave /usr/share/man/man8/tcptraceroute.8.gz tcptraceroute.8.gz /usr/share/man/man8/tcptraceroute.db.8.gz
+update-alternatives 2017-10-27 18:22:59: link group tcptraceroute updated to point to /usr/sbin/tcptraceroute.db
+update-alternatives 2017-10-29 18:34:50: run with --install /bin/nc nc /bin/nc.traditional 10 --slave /bin/netcat netcat /bin/nc.traditional --slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc.traditional.1.gz --slave /usr/share/man/man1/netcat.1.gz netcat.1.gz /usr/share/man/man1/nc.traditional.1.gz
